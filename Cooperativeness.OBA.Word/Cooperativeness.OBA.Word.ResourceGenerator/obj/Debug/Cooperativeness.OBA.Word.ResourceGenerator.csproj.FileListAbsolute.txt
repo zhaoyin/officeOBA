@@ -1,0 +1,9 @@
+D:\U8Zhaoyin\OBA\Cooperativeness.OBA.Word\Cooperativeness.OBA.Word.ResourceGenerator\bin\Debug\Cooperativeness.OBA.Word.ResourceGenerator.dll
+D:\U8Zhaoyin\OBA\Cooperativeness.OBA.Word\Cooperativeness.OBA.Word.ResourceGenerator\bin\Debug\Cooperativeness.OBA.Word.ResourceGenerator.pdb
+D:\U8Zhaoyin\OBA\Cooperativeness.OBA.Word\Cooperativeness.OBA.Word.ResourceGenerator\bin\Debug\Cooperativeness.OBA.Word.Tools.dll
+D:\U8Zhaoyin\OBA\Cooperativeness.OBA.Word\Cooperativeness.OBA.Word.ResourceGenerator\bin\Debug\Cooperativeness.OBA.Word.Tools.pdb
+D:\U8Zhaoyin\OBA\Cooperativeness.OBA.Word\Bin\Cooperativeness.OBA.Word.ResourceGenerator.dll
+D:\U8Zhaoyin\OBA\Cooperativeness.OBA.Word\Bin\Cooperativeness.OBA.Word.ResourceGenerator.pdb
+D:\U8Zhaoyin\OBA\Cooperativeness.OBA.Word\Cooperativeness.OBA.Word.ResourceGenerator\obj\Debug\ResolveAssemblyReference.cache
+D:\U8Zhaoyin\OBA\Cooperativeness.OBA.Word\Cooperativeness.OBA.Word.ResourceGenerator\obj\Debug\Cooperativeness.OBA.Word.ResourceGenerator.dll
+D:\U8Zhaoyin\OBA\Cooperativeness.OBA.Word\Cooperativeness.OBA.Word.ResourceGenerator\obj\Debug\Cooperativeness.OBA.Word.ResourceGenerator.pdb

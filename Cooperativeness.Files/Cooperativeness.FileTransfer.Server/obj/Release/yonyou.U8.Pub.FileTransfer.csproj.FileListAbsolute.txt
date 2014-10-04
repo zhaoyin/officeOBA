@@ -1,0 +1,7 @@
+F:\U8V12.0_Code\U8_PUBLIC1_VOB\U861_PUBLIC_UI\单据控件\单据控件相关\文件传输\yonyou.U8.Pub.FileTransfer\yonyou.U8.Pub.FileTransfer\bin\yonyou.U8.Pub.FileTransfer.Server.dll
+F:\U8V12.0_Code\U8_PUBLIC1_VOB\U861_PUBLIC_UI\单据控件\单据控件相关\文件传输\yonyou.U8.Pub.FileTransfer\yonyou.U8.Pub.FileTransfer\bin\yonyou.U8.Pub.FileTransfer.Server.pdb
+F:\U8V12.0_Code\U8_PUBLIC1_VOB\U861_PUBLIC_UI\单据控件\单据控件相关\文件传输\yonyou.U8.Pub.FileTransfer\yonyou.U8.Pub.FileTransfer\bin\yonyou.U8.Pub.FileTransfer.Core.dll
+F:\U8V12.0_Code\U8_PUBLIC1_VOB\U861_PUBLIC_UI\单据控件\单据控件相关\文件传输\yonyou.U8.Pub.FileTransfer\yonyou.U8.Pub.FileTransfer\bin\yonyou.U8.Pub.FileTransfer.Core.pdb
+F:\U8V12.0_Code\U8_PUBLIC1_VOB\U861_PUBLIC_UI\单据控件\单据控件相关\文件传输\yonyou.U8.Pub.FileTransfer\yonyou.U8.Pub.FileTransfer\obj\Release\ResolveAssemblyReference.cache
+F:\U8V12.0_Code\U8_PUBLIC1_VOB\U861_PUBLIC_UI\单据控件\单据控件相关\文件传输\yonyou.U8.Pub.FileTransfer\yonyou.U8.Pub.FileTransfer\obj\Release\yonyou.U8.Pub.FileTransfer.Server.dll
+F:\U8V12.0_Code\U8_PUBLIC1_VOB\U861_PUBLIC_UI\单据控件\单据控件相关\文件传输\yonyou.U8.Pub.FileTransfer\yonyou.U8.Pub.FileTransfer\obj\Release\yonyou.U8.Pub.FileTransfer.Server.pdb

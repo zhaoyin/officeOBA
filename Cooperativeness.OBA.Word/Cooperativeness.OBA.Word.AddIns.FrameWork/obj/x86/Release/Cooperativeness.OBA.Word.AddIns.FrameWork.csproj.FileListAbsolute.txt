@@ -1,0 +1,6 @@
+F:\OBA\Cooperativeness\Cooperativeness.OBA.Word\Cooperativeness.OBA.Word.Addins.FrameWork\bin\x86\Release\META-INF\MANIFEST.MF
+F:\OBA\Cooperativeness\Cooperativeness.OBA.Word\Cooperativeness.OBA.Word.Addins.FrameWork\bin\x86\Release\Cooperativeness.OBA.Word.AddIns.FrameWork.dll
+F:\OBA\Cooperativeness\Cooperativeness.OBA.Word\Cooperativeness.OBA.Word.Addins.FrameWork\bin\x86\Release\Cooperativeness.OBA.Word.AddIns.FrameWork.pdb
+F:\OBA\Cooperativeness\Cooperativeness.OBA.Word\Cooperativeness.OBA.Word.Addins.FrameWork\obj\x86\Release\ResolveAssemblyReference.cache
+F:\OBA\Cooperativeness\Cooperativeness.OBA.Word\Cooperativeness.OBA.Word.Addins.FrameWork\obj\x86\Release\Cooperativeness.OBA.Word.AddIns.FrameWork.dll
+F:\OBA\Cooperativeness\Cooperativeness.OBA.Word\Cooperativeness.OBA.Word.Addins.FrameWork\obj\x86\Release\Cooperativeness.OBA.Word.AddIns.FrameWork.pdb

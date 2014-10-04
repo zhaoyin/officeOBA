@@ -1,0 +1,39 @@
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.0\.NET 4.0\Samples\Binaries\Fluent.Sample.Galleries.exe
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.0\.NET 4.0\Samples\Binaries\Fluent.Sample.Galleries.pdb
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.0\.NET 4.0\Samples\Galleries\obj\Debug\Fluent.Sample.Galleries.csprojResolveAssemblyReference.cache
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.0\.NET 4.0\Samples\Galleries\obj\Debug\Window.baml
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.0\.NET 4.0\Samples\Galleries\obj\Debug\Application.baml
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.0\.NET 4.0\Samples\Galleries\obj\Debug\Window.g.cs
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.0\.NET 4.0\Samples\Galleries\obj\Debug\Application.g.cs
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.0\.NET 4.0\Samples\Galleries\obj\Debug\Fluent.Sample.Galleries_MarkupCompile.cache
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.0\.NET 4.0\Samples\Galleries\obj\Debug\Fluent.Sample.Galleries.g.resources
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.0\.NET 4.0\Samples\Galleries\obj\Debug\Fluent.Sample.Galleries.Properties.Resources.resources
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.0\.NET 4.0\Samples\Galleries\obj\Debug\Fluent.Sample.Galleries.csproj.GenerateResource.Cache
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.0\.NET 4.0\Samples\Galleries\obj\Debug\Fluent.Sample.Galleries.exe
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.0\.NET 4.0\Samples\Galleries\obj\Debug\Fluent.Sample.Galleries.pdb
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.1.0 Prerelease g\.NET 4.0\Samples\Binaries\Fluent.Sample.Galleries.exe
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.1.0 Prerelease g\.NET 4.0\Samples\Binaries\Fluent.Sample.Galleries.pdb
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.1.0 Prerelease g\.NET 4.0\Samples\Galleries\obj\Debug\Fluent.Sample.Galleries.csprojResolveAssemblyReference.cache
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.1.0 Prerelease g\.NET 4.0\Samples\Galleries\obj\Debug\Window.baml
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.1.0 Prerelease g\.NET 4.0\Samples\Galleries\obj\Debug\Application.baml
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.1.0 Prerelease g\.NET 4.0\Samples\Galleries\obj\Debug\Window.g.cs
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.1.0 Prerelease g\.NET 4.0\Samples\Galleries\obj\Debug\Application.g.cs
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.1.0 Prerelease g\.NET 4.0\Samples\Galleries\obj\Debug\Fluent.Sample.Galleries_MarkupCompile.cache
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.1.0 Prerelease g\.NET 4.0\Samples\Galleries\obj\Debug\Fluent.Sample.Galleries.g.resources
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.1.0 Prerelease g\.NET 4.0\Samples\Galleries\obj\Debug\Fluent.Sample.Galleries.Properties.Resources.resources
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.1.0 Prerelease g\.NET 4.0\Samples\Galleries\obj\Debug\Fluent.Sample.Galleries.csproj.GenerateResource.Cache
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.1.0 Prerelease g\.NET 4.0\Samples\Galleries\obj\Debug\Fluent.Sample.Galleries.exe
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.1.0 Prerelease g\.NET 4.0\Samples\Galleries\obj\Debug\Fluent.Sample.Galleries.pdb
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.1.0 Prerelease i\.NET 4.0\Samples\Binaries\Fluent.Sample.Galleries.exe
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.1.0 Prerelease i\.NET 4.0\Samples\Binaries\Fluent.Sample.Galleries.pdb
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.1.0 Prerelease i\.NET 4.0\Samples\Galleries\obj\Debug\Fluent.Sample.Galleries.csprojResolveAssemblyReference.cache
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.1.0 Prerelease i\.NET 4.0\Samples\Galleries\obj\Debug\Window.baml
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.1.0 Prerelease i\.NET 4.0\Samples\Galleries\obj\Debug\Application.baml
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.1.0 Prerelease i\.NET 4.0\Samples\Galleries\obj\Debug\Window.g.cs
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.1.0 Prerelease i\.NET 4.0\Samples\Galleries\obj\Debug\Application.g.cs
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.1.0 Prerelease i\.NET 4.0\Samples\Galleries\obj\Debug\Fluent.Sample.Galleries_MarkupCompile.cache
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.1.0 Prerelease i\.NET 4.0\Samples\Galleries\obj\Debug\Fluent.Sample.Galleries.g.resources
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.1.0 Prerelease i\.NET 4.0\Samples\Galleries\obj\Debug\Fluent.Sample.Galleries.Properties.Resources.resources
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.1.0 Prerelease i\.NET 4.0\Samples\Galleries\obj\Debug\Fluent.Sample.Galleries.csproj.GenerateResource.Cache
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.1.0 Prerelease i\.NET 4.0\Samples\Galleries\obj\Debug\Fluent.Sample.Galleries.exe
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.1.0 Prerelease i\.NET 4.0\Samples\Galleries\obj\Debug\Fluent.Sample.Galleries.pdb

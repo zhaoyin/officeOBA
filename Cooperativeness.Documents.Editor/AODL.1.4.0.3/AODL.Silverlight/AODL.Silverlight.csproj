@@ -1,0 +1,795 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{07525436-1542-4B52-B451-835E562F2F0D}</ProjectGuid>
+    <ProjectTypeGuids>{A1591282-1198-4647-A2B1-27E5FF5F6F3B};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AODL.Silverlight</RootNamespace>
+    <AssemblyName>AODL.Silverlight</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <SilverlightApplication>false</SilverlightApplication>
+    <ValidateXaml>true</ValidateXaml>
+    <ThrowErrorsInValidation>true</ThrowErrorsInValidation>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;TRACE;SILVERLIGHT</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Bin\Release</OutputPath>
+    <DefineConstants>TRACE;SILVERLIGHT</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Silverlight.SharpZipLib, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\libs\Silverlight.SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows" />
+    <Reference Include="mscorlib" />
+    <Reference Include="system" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Net" />
+    <Reference Include="System.Windows.Browser" />
+    <Reference Include="System.Xml.Linq, Version=2.0.5.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\AODL\Document\Collection\CollectionWithEvents.cs">
+      <Link>Document\Collection\CollectionWithEvents.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\Content\Charts\AxisCollection.cs">
+      <Link>Document\Content\Charts\AxisCollection.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\Content\Charts\CellPos.cs">
+      <Link>Document\Content\Charts\CellPos.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\Content\Charts\CellRanges.cs">
+      <Link>Document\Content\Charts\CellRanges.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\Content\Charts\Chart.cs">
+      <Link>Document\Content\Charts\Chart.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\Content\Charts\ChartAxis.cs">
+      <Link>Document\Content\Charts\ChartAxis.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\Content\Charts\ChartBuilder.cs">
+      <Link>Document\Content\Charts\ChartBuilder.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\Content\Charts\ChartBuilderHelper.cs">
+      <Link>Document\Content\Charts\ChartBuilderHelper.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\Content\Charts\ChartCategories.cs">
+      <Link>Document\Content\Charts\ChartCategories.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\Content\Charts\ChartDataPoint.cs">
+      <Link>Document\Content\Charts\ChartDataPoint.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\Content\Charts\ChartDomain.cs">
+      <Link>Document\Content\Charts\ChartDomain.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\Content\Charts\ChartExporter.cs">
+      <Link>Document\Content\Charts\ChartExporter.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\Content\Charts\ChartFloor.cs">
+      <Link>Document\Content\Charts\ChartFloor.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\Content\Charts\ChartGrid.cs">
+      <Link>Document\Content\Charts\ChartGrid.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\Content\Charts\ChartImporter.cs">
+      <Link>Document\Content\Charts\ChartImporter.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\Content\Charts\ChartLegend.cs">
+      <Link>Document\Content\Charts\ChartLegend.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\Content\Charts\ChartPlotArea.cs">
+      <Link>Document\Content\Charts\ChartPlotArea.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\Content\Charts\ChartSeries.cs">
+      <Link>Document\Content\Charts\ChartSeries.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\Content\Charts\ChartStyleProcessor.cs">
+      <Link>Document\Content\Charts\ChartStyleProcessor.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\Content\Charts\ChartTitle.cs">
+      <Link>Document\Content\Charts\ChartTitle.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\Content\Charts\ChartTypes.cs">
+      <Link>Document\Content\Charts\ChartTypes.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\Content\Charts\ChartWall.cs">
+      <Link>Document\Content\Charts\ChartWall.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\Content\Charts\DataPointCollection.cs">
+      <Link>Document\Content\Charts\DataPointCollection.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\Content\Charts\Dr3dLight.cs">
+      <Link>Document\Content\Charts\Dr3dLight.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\Content\Charts\Dr3dLightCollection.cs">
+      <Link>Document\Content\Charts\Dr3dLightCollection.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\Content\Charts\SeriesCollection.cs">
+      <Link>Document\Content\Charts\SeriesCollection.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\Content\Draw\DrawArea.cs">
+      <Link>Document\Content\Draw\DrawArea.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\Content\Draw\DrawTextBox.cs">
+      <Link>Document\Content\Draw\DrawTextBox.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\Content\Draw\Frame.cs">
+      <Link>Document\Content\Draw\Frame.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\Content\Draw\FrameBuilder.cs">
+      <Link>Document\Content\Draw\FrameBuilder.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\Content\Draw\Graphic.cs">
+      <Link>Document\Content\Draw\Graphic.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\Content\Draw\ImageMap.cs">
+      <Link>Document\Content\Draw\ImageMap.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\Content\EmbedObjects\EmbedObject.cs">
+      <Link>Document\Content\EmbedObjects\EmbedObject.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\Content\EmbedObjects\EmbedObjectHandler.cs">
+      <Link>Document\Content\EmbedObjects\EmbedObjectHandler.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\Content\Fields\DateField.cs">
+      <Link>Document\Content\Fields\DateField.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\Content\Fields\Field.cs">
+      <Link>Document\Content\Fields\Field.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\Content\Fields\FieldsCollection.cs">
+      <Link>Document\Content\Fields\FieldsCollection.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\Content\Fields\PageNumber.cs">
+      <Link>Document\Content\Fields\PageNumber.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\Content\Fields\Placeholder.cs">
+      <Link>Document\Content\Fields\Placeholder.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\Content\Fields\TextInput.cs">
+      <Link>Document\Content\Fields\TextInput.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\Content\Fields\VariableDecl.cs">
+      <Link>Document\Content\Fields\VariableDecl.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\Content\Fields\VariableDeclCollection.cs">
+      <Link>Document\Content\Fields\VariableDeclCollection.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\Content\Fields\VariableSet.cs">
+      <Link>Document\Content\Fields\VariableSet.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\Content\IContent.cs">
+      <Link>Document\Content\IContent.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\Content\IContentCollection.cs">
+      <Link>Document\Content\IContentCollection.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\Content\IContentContainer.cs">
+      <Link>Document\Content\IContentContainer.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\Content\IHtml.cs">
+      <Link>Document\Content\IHtml.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\Content\OfficeEvents\EventListener.cs">
+      <Link>Document\Content\OfficeEvents\EventListener.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\Content\OfficeEvents\EventListeners.cs">
+      <Link>Document\Content\OfficeEvents\EventListeners.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\Content\Tables\Cell.cs">
+      <Link>Document\Content\Tables\Cell.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\Content\Tables\CellCollection.cs">
+      <Link>Document\Content\Tables\CellCollection.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\Content\Tables\CellSpan.cs">
+      <Link>Document\Content\Tables\CellSpan.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\Content\Tables\CellSpanCollection.cs">
+      <Link>Document\Content\Tables\CellSpanCollection.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\Content\Tables\Column.cs">
+      <Link>Document\Content\Tables\Column.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\Content\Tables\ColumnCollection.cs">
+      <Link>Document\Content\Tables\ColumnCollection.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\Content\Tables\Row.cs">
+      <Link>Document\Content\Tables\Row.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\Content\Tables\RowCollection.cs">
+      <Link>Document\Content\Tables\RowCollection.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\Content\Tables\RowHeader.cs">
+      <Link>Document\Content\Tables\RowHeader.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\Content\Tables\Table.cs">
+      <Link>Document\Content\Tables\Table.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\Content\Tables\TableBuilder.cs">
+      <Link>Document\Content\Tables\TableBuilder.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\Content\Tables\TableCollection.cs">
+      <Link>Document\Content\Tables\TableCollection.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\Content\Text\Footnote.cs">
+      <Link>Document\Content\Text\Footnote.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\Content\Text\FormatedText.cs">
+      <Link>Document\Content\Text\FormatedText.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\Content\Text\Header.cs">
+      <Link>Document\Content\Text\Header.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\Content\Text\Indexes\Bookmark.cs">
+      <Link>Document\Content\Text\Indexes\Bookmark.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\Content\Text\Indexes\TableOfContents.cs">
+      <Link>Document\Content\Text\Indexes\TableOfContents.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\Content\Text\Indexes\TableOfContentsIndexTemplate.cs">
+      <Link>Document\Content\Text\Indexes\TableOfContentsIndexTemplate.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\Content\Text\Indexes\TableOfContentsIndexTemplateCollection.cs">
+      <Link>Document\Content\Text\Indexes\TableOfContentsIndexTemplateCollection.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\Content\Text\Indexes\TableOfContentsSource.cs">
+      <Link>Document\Content\Text\Indexes\TableOfContentsSource.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\Content\Text\Indexes\TextSequence.cs">
+      <Link>Document\Content\Text\Indexes\TextSequence.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\Content\Text\IText.cs">
+      <Link>Document\Content\Text\IText.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\Content\Text\ITextCollection.cs">
+      <Link>Document\Content\Text\ITextCollection.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\Content\Text\ITextContainer.cs">
+      <Link>Document\Content\Text\ITextContainer.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\Content\Text\List.cs">
+      <Link>Document\Content\Text\List.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\Content\Text\ListItem.cs">
+      <Link>Document\Content\Text\ListItem.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\Content\Text\Paragraph.cs">
+      <Link>Document\Content\Text\Paragraph.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\Content\Text\ParagraphBuilder.cs">
+      <Link>Document\Content\Text\ParagraphBuilder.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\Content\Text\ParagraphCollection.cs">
+      <Link>Document\Content\Text\ParagraphCollection.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\Content\Text\SimpleText.cs">
+      <Link>Document\Content\Text\SimpleText.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\Content\Text\TextBuilder.cs">
+      <Link>Document\Content\Text\TextBuilder.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\Content\Text\TextControl\LineBreak.cs">
+      <Link>Document\Content\Text\TextControl\LineBreak.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\Content\Text\TextControl\TabStop.cs">
+      <Link>Document\Content\Text\TextControl\TabStop.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\Content\Text\TextControl\WhiteSpace.cs">
+      <Link>Document\Content\Text\TextControl\WhiteSpace.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\Content\Text\UnknownTextContent.cs">
+      <Link>Document\Content\Text\UnknownTextContent.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\Content\Text\XLink.cs">
+      <Link>Document\Content\Text\XLink.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\Content\UnknownContent.cs">
+      <Link>Document\Content\UnknownContent.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\Custom\CustomFileCollection.cs">
+      <Link>Document\Custom\CustomFileCollection.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\Custom\ICustomFile.cs">
+      <Link>Document\Custom\ICustomFile.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\Custom\PackageCustomFile.cs">
+      <Link>Document\Custom\PackageCustomFile.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\Exceptions\AODLException.cs">
+      <Link>Document\Exceptions\AODLException.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\Exceptions\AODLWarning.cs">
+      <Link>Document\Exceptions\AODLWarning.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\Export\Html\HTMLContentBuilder.cs">
+      <Link>Document\Export\Html\HTMLContentBuilder.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\Export\Html\HTMLStyleBuilder.cs">
+      <Link>Document\Export\Html\HTMLStyleBuilder.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\Export\Html\OpenDocumentHtmlExporter.cs">
+      <Link>Document\Export\Html\OpenDocumentHtmlExporter.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\Export\IExporter.cs">
+      <Link>Document\Export\IExporter.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\Export\OpenDocument\OpenDocumentTextExporter.cs">
+      <Link>Document\Export\OpenDocument\OpenDocumentTextExporter.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\Forms\CommonEnums.cs">
+      <Link>Document\Forms\CommonEnums.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\Forms\Controls\ODFButton.cs">
+      <Link>Document\Forms\Controls\ODFButton.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\Forms\Controls\ODFCheckBox.cs">
+      <Link>Document\Forms\Controls\ODFCheckBox.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\Forms\Controls\ODFComboBox.cs">
+      <Link>Document\Forms\Controls\ODFComboBox.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\Forms\Controls\ODFControlRef.cs">
+      <Link>Document\Forms\Controls\ODFControlRef.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\Forms\Controls\ODFControlsCollection.cs">
+      <Link>Document\Forms\Controls\ODFControlsCollection.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\Forms\Controls\ODFDate.cs">
+      <Link>Document\Forms\Controls\ODFDate.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\Forms\Controls\ODFFile.cs">
+      <Link>Document\Forms\Controls\ODFFile.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\Forms\Controls\ODFFixedText.cs">
+      <Link>Document\Forms\Controls\ODFFixedText.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\Forms\Controls\ODFFormattedText.cs">
+      <Link>Document\Forms\Controls\ODFFormattedText.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\Forms\Controls\ODFFormControl.cs">
+      <Link>Document\Forms\Controls\ODFFormControl.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\Forms\Controls\ODFFrame.cs">
+      <Link>Document\Forms\Controls\ODFFrame.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\Forms\Controls\ODFGenericControl.cs">
+      <Link>Document\Forms\Controls\ODFGenericControl.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\Forms\Controls\ODFGrid.cs">
+      <Link>Document\Forms\Controls\ODFGrid.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\Forms\Controls\ODFGridColumn.cs">
+      <Link>Document\Forms\Controls\ODFGridColumn.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\Forms\Controls\ODFGridColumnCollection.cs">
+      <Link>Document\Forms\Controls\ODFGridColumnCollection.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\Forms\Controls\ODFHidden.cs">
+      <Link>Document\Forms\Controls\ODFHidden.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\Forms\Controls\ODFImage.cs">
+      <Link>Document\Forms\Controls\ODFImage.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\Forms\Controls\ODFImageFrame.cs">
+      <Link>Document\Forms\Controls\ODFImageFrame.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\Forms\Controls\ODFItem.cs">
+      <Link>Document\Forms\Controls\ODFItem.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\Forms\Controls\ODFItemCollection.cs">
+      <Link>Document\Forms\Controls\ODFItemCollection.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\Forms\Controls\ODFListBox.cs">
+      <Link>Document\Forms\Controls\ODFListBox.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\Forms\Controls\ODFNumber.cs">
+      <Link>Document\Forms\Controls\ODFNumber.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\Forms\Controls\ODFOption.cs">
+      <Link>Document\Forms\Controls\ODFOption.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\Forms\Controls\ODFOptionCollection.cs">
+      <Link>Document\Forms\Controls\ODFOptionCollection.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\Forms\Controls\ODFRadioButton.cs">
+      <Link>Document\Forms\Controls\ODFRadioButton.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\Forms\Controls\ODFText.cs">
+      <Link>Document\Forms\Controls\ODFText.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\Forms\Controls\ODFTextArea.cs">
+      <Link>Document\Forms\Controls\ODFTextArea.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\Forms\Controls\ODFTime.cs">
+      <Link>Document\Forms\Controls\ODFTime.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\Forms\Controls\ODFValueRange.cs">
+      <Link>Document\Forms\Controls\ODFValueRange.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\Forms\FormProperties.cs">
+      <Link>Document\Forms\FormProperties.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\Forms\FormPropertyCollection.cs">
+      <Link>Document\Forms\FormPropertyCollection.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\Forms\ListFormPropertyElemCollection.cs">
+      <Link>Document\Forms\ListFormPropertyElemCollection.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\Forms\ODFForm.cs">
+      <Link>Document\Forms\ODFForm.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\Forms\ODFFormCollection.cs">
+      <Link>Document\Forms\ODFFormCollection.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\Helper\SizeConverter.cs">
+      <Link>Document\Helper\SizeConverter.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\IDocument.cs">
+      <Link>Document\IDocument.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\Import\IImporter.cs">
+      <Link>Document\Import\IImporter.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\Import\OpenDocument\NodeProcessors\FormsProcessor.cs">
+      <Link>Document\Import\OpenDocument\NodeProcessors\FormsProcessor.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\Import\OpenDocument\NodeProcessors\LocalStyleProcessor.cs">
+      <Link>Document\Import\OpenDocument\NodeProcessors\LocalStyleProcessor.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\Import\OpenDocument\NodeProcessors\MainContentProcessor.cs">
+      <Link>Document\Import\OpenDocument\NodeProcessors\MainContentProcessor.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\Import\OpenDocument\NodeProcessors\TextContentProcessor.cs">
+      <Link>Document\Import\OpenDocument\NodeProcessors\TextContentProcessor.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\Import\OpenDocument\OpenDocumentImporter.cs">
+      <Link>Document\Import\OpenDocument\OpenDocumentImporter.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\Import\PlainText\CsvImporter.cs">
+      <Link>Document\Import\PlainText\CsvImporter.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\Import\PlainText\PlainTextImporter.cs">
+      <Link>Document\Import\PlainText\PlainTextImporter.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\Ns.cs">
+      <Link>Document\Ns.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\SpreadsheetDocuments\DocumentManifest.cs">
+      <Link>Document\SpreadsheetDocuments\DocumentManifest.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\SpreadsheetDocuments\DocumentSetting.cs">
+      <Link>Document\SpreadsheetDocuments\DocumentSetting.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\SpreadsheetDocuments\DocumentStyles.cs">
+      <Link>Document\SpreadsheetDocuments\DocumentStyles.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\SpreadsheetDocuments\SpreadsheetDocument.cs">
+      <Link>Document\SpreadsheetDocuments\SpreadsheetDocument.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\Styles\AxesStyle.cs">
+      <Link>Document\Styles\AxesStyle.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\Styles\CellStyle.cs">
+      <Link>Document\Styles\CellStyle.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\Styles\ChartStyle.cs">
+      <Link>Document\Styles\ChartStyle.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\Styles\ChartStyles.cs">
+      <Link>Document\Styles\ChartStyles.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\Styles\ColumnStyle.cs">
+      <Link>Document\Styles\ColumnStyle.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\Styles\DataPointStyle.cs">
+      <Link>Document\Styles\DataPointStyle.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\Styles\FamiliyStyles.cs">
+      <Link>Document\Styles\FamiliyStyles.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\Styles\FloorStyle.cs">
+      <Link>Document\Styles\FloorStyle.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\Styles\FontFamily.cs">
+      <Link>Document\Styles\FontFamily.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\Styles\FrameStyle.cs">
+      <Link>Document\Styles\FrameStyle.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\Styles\GridStyle.cs">
+      <Link>Document\Styles\GridStyle.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\Styles\IHtmlStyle.cs">
+      <Link>Document\Styles\IHtmlStyle.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\Styles\IStyle.cs">
+      <Link>Document\Styles\IStyle.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\Styles\IStyleCollection.cs">
+      <Link>Document\Styles\IStyleCollection.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\Styles\LegendStyle.cs">
+      <Link>Document\Styles\LegendStyle.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\Styles\LineStyles.cs">
+      <Link>Document\Styles\LineStyles.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\Styles\ListLevelStyle.cs">
+      <Link>Document\Styles\ListLevelStyle.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\Styles\ListLevelStyleCollection.cs">
+      <Link>Document\Styles\ListLevelStyleCollection.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\Styles\ListStyle.cs">
+      <Link>Document\Styles\ListStyle.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\Styles\MasterStyles\MasterPageFactory.cs">
+      <Link>Document\Styles\MasterStyles\MasterPageFactory.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\Styles\MasterStyles\TextMasterPage.cs">
+      <Link>Document\Styles\MasterStyles\TextMasterPage.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\Styles\MasterStyles\TextMasterPageCollection.cs">
+      <Link>Document\Styles\MasterStyles\TextMasterPageCollection.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\Styles\MasterStyles\TextPageFooter.cs">
+      <Link>Document\Styles\MasterStyles\TextPageFooter.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\Styles\MasterStyles\TextPageHeader.cs">
+      <Link>Document\Styles\MasterStyles\TextPageHeader.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\Styles\MasterStyles\TextPageHeaderFooterBase.cs">
+      <Link>Document\Styles\MasterStyles\TextPageHeaderFooterBase.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\Styles\MasterStyles\TextPageLayout.cs">
+      <Link>Document\Styles\MasterStyles\TextPageLayout.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\Styles\OfficeValueTypes.cs">
+      <Link>Document\Styles\OfficeValueTypes.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\Styles\ParagraphStyle.cs">
+      <Link>Document\Styles\ParagraphStyle.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\Styles\ParentStyles.cs">
+      <Link>Document\Styles\ParentStyles.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\Styles\PlotAreaStyle.cs">
+      <Link>Document\Styles\PlotAreaStyle.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\Styles\Properties\AxesProperties.cs">
+      <Link>Document\Styles\Properties\AxesProperties.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\Styles\Properties\CellProperties.cs">
+      <Link>Document\Styles\Properties\CellProperties.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\Styles\Properties\ChartGraphicProperties.cs">
+      <Link>Document\Styles\Properties\ChartGraphicProperties.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\Styles\Properties\ChartProperties.cs">
+      <Link>Document\Styles\Properties\ChartProperties.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\Styles\Properties\ColumnProperties.cs">
+      <Link>Document\Styles\Properties\ColumnProperties.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\Styles\Properties\GraphicProperties.cs">
+      <Link>Document\Styles\Properties\GraphicProperties.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\Styles\Properties\IProperty.cs">
+      <Link>Document\Styles\Properties\IProperty.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\Styles\Properties\IPropertyCollection.cs">
+      <Link>Document\Styles\Properties\IPropertyCollection.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\Styles\Properties\ListLevelProperties.cs">
+      <Link>Document\Styles\Properties\ListLevelProperties.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\Styles\Properties\ParagraphProperties.cs">
+      <Link>Document\Styles\Properties\ParagraphProperties.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\Styles\Properties\PlotAreaProperties.cs">
+      <Link>Document\Styles\Properties\PlotAreaProperties.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\Styles\Properties\RowProperties.cs">
+      <Link>Document\Styles\Properties\RowProperties.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\Styles\Properties\SectionProperties.cs">
+      <Link>Document\Styles\Properties\SectionProperties.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\Styles\Properties\TableProperties.cs">
+      <Link>Document\Styles\Properties\TableProperties.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\Styles\Properties\TextAlignments.cs">
+      <Link>Document\Styles\Properties\TextAlignments.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\Styles\Properties\TextProperties.cs">
+      <Link>Document\Styles\Properties\TextProperties.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\Styles\Properties\UnknownProperty.cs">
+      <Link>Document\Styles\Properties\UnknownProperty.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\Styles\RowStyle.cs">
+      <Link>Document\Styles\RowStyle.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\Styles\SectionStyle.cs">
+      <Link>Document\Styles\SectionStyle.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\Styles\SeriesStyle.cs">
+      <Link>Document\Styles\SeriesStyle.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\Styles\TableStyle.cs">
+      <Link>Document\Styles\TableStyle.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\Styles\TabStopLeaderStyles.cs">
+      <Link>Document\Styles\TabStopLeaderStyles.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\Styles\TabStopStyle.cs">
+      <Link>Document\Styles\TabStopStyle.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\Styles\TabStopStyleCollection.cs">
+      <Link>Document\Styles\TabStopStyleCollection.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\Styles\TextStyle.cs">
+      <Link>Document\Styles\TextStyle.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\Styles\TitleStyle.cs">
+      <Link>Document\Styles\TitleStyle.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\Styles\UnknownStyle.cs">
+      <Link>Document\Styles\UnknownStyle.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\Styles\WallStyle.cs">
+      <Link>Document\Styles\WallStyle.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\TextDocuments\DocumentConfiguration2.cs">
+      <Link>Document\TextDocuments\DocumentConfiguration2.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\TextDocuments\DocumentManifest.cs">
+      <Link>Document\TextDocuments\DocumentManifest.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\TextDocuments\DocumentMetadata.cs">
+      <Link>Document\TextDocuments\DocumentMetadata.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\TextDocuments\DocumentPicture.cs">
+      <Link>Document\TextDocuments\DocumentPicture.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\TextDocuments\DocumentPictureCollection.cs">
+      <Link>Document\TextDocuments\DocumentPictureCollection.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\TextDocuments\DocumentSetting.cs">
+      <Link>Document\TextDocuments\DocumentSetting.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\TextDocuments\DocumentStyles.cs">
+      <Link>Document\TextDocuments\DocumentStyles.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\TextDocuments\TextDocument.cs">
+      <Link>Document\TextDocuments\TextDocument.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Document\TextDocuments\TextDocumentHelper.cs">
+      <Link>Document\TextDocuments\TextDocumentHelper.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\ICloneable.cs">
+      <Link>ICloneable.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\IO\IFile.cs">
+      <Link>IO\IFile.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\IO\InMemoryFile.cs">
+      <Link>IO\InMemoryFile.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\IO\InMemoryPackageReader.cs">
+      <Link>IO\InMemoryPackageReader.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\IO\InMemoryPackageWriter.cs">
+      <Link>IO\InMemoryPackageWriter.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\IO\IPackageReader.cs">
+      <Link>IO\IPackageReader.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\IO\IPackageWriter.cs">
+      <Link>IO\IPackageWriter.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Package\ODFMemoryStream.cs">
+      <Link>Package\ODFMemoryStream.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Package\ODFPackage.cs">
+      <Link>Package\ODFPackage.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Utils\ContentMocker.cs">
+      <Link>Utils\ContentMocker.cs</Link>
+    </Compile>
+    <Compile Include="..\AODL\Utils\ContentMockerException.cs">
+      <Link>Utils\ContentMockerException.cs</Link>
+    </Compile>
+    <Compile Include="Document\Content\Draw\ImageInfo.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="..\AODL\Resources\OD\Blank.odt">
+      <Link>Resources\OD\Blank.odt</Link>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="..\AODL\Resources\OD\chartcontent.xml">
+      <Link>Resources\OD\chartcontent.xml</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\AODL\Resources\OD\chartstyle.xml">
+      <Link>Resources\OD\chartstyle.xml</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\AODL\Resources\OD\content.xml">
+      <Link>Resources\OD\content.xml</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\AODL\Resources\OD\fonts.xml">
+      <Link>Resources\OD\fonts.xml</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\AODL\Resources\OD\htmltemplate.html">
+      <Link>Resources\OD\htmltemplate.html</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\AODL\Resources\OD\manifest.xml">
+      <Link>Resources\OD\manifest.xml</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\AODL\Resources\OD\meta.xml">
+      <Link>Resources\OD\meta.xml</Link>
+    </EmbeddedResource>
+    <None Include="..\AODL\Resources\OD\mimetype.txt">
+      <Link>Resources\OD\mimetype.txt</Link>
+    </None>
+    <EmbeddedResource Include="..\AODL\Resources\OD\settings.xml">
+      <Link>Resources\OD\settings.xml</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\AODL\Resources\OD\spreadsheetcontent.xml">
+      <Link>Resources\OD\spreadsheetcontent.xml</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\AODL\Resources\OD\spreadsheetmanifest.xml">
+      <Link>Resources\OD\spreadsheetmanifest.xml</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\AODL\Resources\OD\spreadsheetsettings.xml">
+      <Link>Resources\OD\spreadsheetsettings.xml</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\AODL\Resources\OD\spreadsheetstyles.xml">
+      <Link>Resources\OD\spreadsheetstyles.xml</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\AODL\Resources\OD\styles.xml">
+      <Link>Resources\OD\styles.xml</Link>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Silverlight\v3.0\Microsoft.Silverlight.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{A1591282-1198-4647-A2B1-27E5FF5F6F3B}">
+        <SilverlightProjectProperties />
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

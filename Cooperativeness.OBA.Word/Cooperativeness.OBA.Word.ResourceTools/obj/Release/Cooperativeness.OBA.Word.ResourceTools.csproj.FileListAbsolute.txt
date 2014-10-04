@@ -1,0 +1,15 @@
+D:\U8Zhaoyin\OBA\Cooperativeness.OBA.Word\Cooperativeness.OBA.Word.ResourceTools\bin\Release\Cooperativeness.OBA.Word.ResourceTools.exe
+D:\U8Zhaoyin\OBA\Cooperativeness.OBA.Word\Cooperativeness.OBA.Word.ResourceTools\bin\Release\Cooperativeness.OBA.Word.ResourceTools.pdb
+D:\U8Zhaoyin\OBA\Cooperativeness.OBA.Word\Cooperativeness.OBA.Word.ResourceTools\bin\Release\Cooperativeness.OBA.Word.ResourceGenerator.dll
+D:\U8Zhaoyin\OBA\Cooperativeness.OBA.Word\Cooperativeness.OBA.Word.ResourceTools\bin\Release\Cooperativeness.OBA.Word.Tools.dll
+D:\U8Zhaoyin\OBA\Cooperativeness.OBA.Word\Cooperativeness.OBA.Word.ResourceTools\bin\Release\Cooperativeness.OBA.Word.ResourceGenerator.pdb
+D:\U8Zhaoyin\OBA\Cooperativeness.OBA.Word\Cooperativeness.OBA.Word.ResourceTools\bin\Release\Cooperativeness.OBA.Word.Tools.pdb
+D:\U8Zhaoyin\OBA\Cooperativeness.OBA.Word\Bin\Cooperativeness.OBA.Word.ResourceTools.exe.config
+D:\U8Zhaoyin\OBA\Cooperativeness.OBA.Word\Bin\Cooperativeness.OBA.Word.ResourceTools.exe
+D:\U8Zhaoyin\OBA\Cooperativeness.OBA.Word\Bin\Cooperativeness.OBA.Word.ResourceTools.pdb
+D:\U8Zhaoyin\OBA\Cooperativeness.OBA.Word\Cooperativeness.OBA.Word.ResourceTools\obj\Release\ResolveAssemblyReference.cache
+D:\U8Zhaoyin\OBA\Cooperativeness.OBA.Word\Cooperativeness.OBA.Word.ResourceTools\obj\Release\Cooperativeness.OBA.Word.ResourceTools.FormResource.resources
+D:\U8Zhaoyin\OBA\Cooperativeness.OBA.Word\Cooperativeness.OBA.Word.ResourceTools\obj\Release\Cooperativeness.OBA.Word.ResourceTools.FormResourceDir.resources
+D:\U8Zhaoyin\OBA\Cooperativeness.OBA.Word\Cooperativeness.OBA.Word.ResourceTools\obj\Release\Cooperativeness.OBA.Word.ResourceTools.csproj.GenerateResource.Cache
+D:\U8Zhaoyin\OBA\Cooperativeness.OBA.Word\Cooperativeness.OBA.Word.ResourceTools\obj\Release\Cooperativeness.OBA.Word.ResourceTools.exe
+D:\U8Zhaoyin\OBA\Cooperativeness.OBA.Word\Cooperativeness.OBA.Word.ResourceTools\obj\Release\Cooperativeness.OBA.Word.ResourceTools.pdb

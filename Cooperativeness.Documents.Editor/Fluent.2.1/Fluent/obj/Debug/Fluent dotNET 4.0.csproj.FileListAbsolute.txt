@@ -1,0 +1,20 @@
+D:\U8Zhaoyin\OBA\Cooperativeness\Cooperativeness.Documents.Editor\Fluent.2.1\Fluent\bin\NET 4.0\Debug\Fluent.dll
+D:\U8Zhaoyin\OBA\Cooperativeness\Cooperativeness.Documents.Editor\Fluent.2.1\Fluent\bin\NET 4.0\Debug\Fluent.pdb
+D:\U8Zhaoyin\OBA\Cooperativeness\Cooperativeness.Documents.Editor\Fluent.2.1\Fluent\bin\NET 4.0\Debug\System.Windows.Interactivity.dll
+D:\U8Zhaoyin\OBA\Cooperativeness\Cooperativeness.Documents.Editor\Fluent.2.1\Fluent\obj\Debug\ResolveAssemblyReference.cache
+D:\U8Zhaoyin\OBA\Cooperativeness\Cooperativeness.Documents.Editor\Fluent.2.1\Fluent\obj\Debug\Themes\Office2013\Controls\RibbonSeparator.baml
+D:\U8Zhaoyin\OBA\Cooperativeness\Cooperativeness.Documents.Editor\Fluent.2.1\Fluent\obj\Debug\Themes\Office2010\Colors\ColorsSilver.baml
+D:\U8Zhaoyin\OBA\Cooperativeness\Cooperativeness.Documents.Editor\Fluent.2.1\Fluent\obj\Debug\Themes\Office2010\Colors\ColorsBlue.baml
+D:\U8Zhaoyin\OBA\Cooperativeness\Cooperativeness.Documents.Editor\Fluent.2.1\Fluent\obj\Debug\Themes\Office2010\Colors\ColorsBlack.baml
+D:\U8Zhaoyin\OBA\Cooperativeness\Cooperativeness.Documents.Editor\Fluent.2.1\Fluent\obj\Debug\Themes\Office2010\Blue.baml
+D:\U8Zhaoyin\OBA\Cooperativeness\Cooperativeness.Documents.Editor\Fluent.2.1\Fluent\obj\Debug\Themes\Office2010\Black.baml
+D:\U8Zhaoyin\OBA\Cooperativeness\Cooperativeness.Documents.Editor\Fluent.2.1\Fluent\obj\Debug\Themes\Office2010\Silver.baml
+D:\U8Zhaoyin\OBA\Cooperativeness\Cooperativeness.Documents.Editor\Fluent.2.1\Fluent\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\U8Zhaoyin\OBA\Cooperativeness\Cooperativeness.Documents.Editor\Fluent.2.1\Fluent\obj\Debug\Fluent_MarkupCompile.cache
+D:\U8Zhaoyin\OBA\Cooperativeness\Cooperativeness.Documents.Editor\Fluent.2.1\Fluent\obj\Debug\Fluent_MarkupCompile.lref
+D:\U8Zhaoyin\OBA\Cooperativeness\Cooperativeness.Documents.Editor\Fluent.2.1\Fluent\obj\Debug\Themes\Generic.baml
+D:\U8Zhaoyin\OBA\Cooperativeness\Cooperativeness.Documents.Editor\Fluent.2.1\Fluent\obj\Debug\Themes\Office2013\Generic.baml
+D:\U8Zhaoyin\OBA\Cooperativeness\Cooperativeness.Documents.Editor\Fluent.2.1\Fluent\obj\Debug\Themes\Office2013\Controls\RibbonToolBar.baml
+D:\U8Zhaoyin\OBA\Cooperativeness\Cooperativeness.Documents.Editor\Fluent.2.1\Fluent\obj\Debug\Fluent.g.resources
+D:\U8Zhaoyin\OBA\Cooperativeness\Cooperativeness.Documents.Editor\Fluent.2.1\Fluent\obj\Debug\Fluent.dll
+D:\U8Zhaoyin\OBA\Cooperativeness\Cooperativeness.Documents.Editor\Fluent.2.1\Fluent\obj\Debug\Fluent.pdb

@@ -1,0 +1,7 @@
+F:\OBA\Cooperativeness\Cooperativeness.OBA.Word\Cooperativeness.OBA.Word.Tools\bin\x86\Release\Cooperativeness.OBA.Word.Tools.dll
+F:\OBA\Cooperativeness\Cooperativeness.OBA.Word\Cooperativeness.OBA.Word.Tools\bin\x86\Release\Cooperativeness.OBA.Word.Tools.pdb
+F:\OBA\Cooperativeness\Cooperativeness.OBA.Word\Cooperativeness.OBA.Word.Tools\bin\x86\Release\DocumentFormat.OpenXml.dll
+F:\OBA\Cooperativeness\Cooperativeness.OBA.Word\Cooperativeness.OBA.Word.Tools\bin\x86\Release\Microsoft.Office.Interop.Word.dll
+F:\OBA\Cooperativeness\Cooperativeness.OBA.Word\Cooperativeness.OBA.Word.Tools\obj\x86\Release\ResolveAssemblyReference.cache
+F:\OBA\Cooperativeness\Cooperativeness.OBA.Word\Cooperativeness.OBA.Word.Tools\obj\x86\Release\Cooperativeness.OBA.Word.Tools.dll
+F:\OBA\Cooperativeness\Cooperativeness.OBA.Word\Cooperativeness.OBA.Word.Tools\obj\x86\Release\Cooperativeness.OBA.Word.Tools.pdb

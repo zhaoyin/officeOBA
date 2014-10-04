@@ -1,0 +1,8 @@
+F:\OBA\Cooperativeness\Cooperativeness.OBA.Word\AddIns\Cooperativeness.OBA.Word.Extension\bin\x86\Release\META-INF\MANIFEST.MF
+F:\OBA\Cooperativeness\Cooperativeness.OBA.Word\AddIns\Cooperativeness.OBA.Word.Extension\bin\x86\Release\Cooperativeness.OBA.Word.Extension.dll
+F:\OBA\Cooperativeness\Cooperativeness.OBA.Word\AddIns\Cooperativeness.OBA.Word.Extension\bin\x86\Release\Cooperativeness.OBA.Word.Extension.pdb
+F:\OBA\Cooperativeness\Cooperativeness.OBA.Word\AddIns\Cooperativeness.OBA.Word.Extension\bin\x86\Release\Cooperativeness.OBA.Word.Ribbon.dll
+F:\OBA\Cooperativeness\Cooperativeness.OBA.Word\AddIns\Cooperativeness.OBA.Word.Extension\bin\x86\Release\Cooperativeness.OBA.Word.Ribbon.pdb
+F:\OBA\Cooperativeness\Cooperativeness.OBA.Word\AddIns\Cooperativeness.OBA.Word.Extension\obj\x86\Release\ResolveAssemblyReference.cache
+F:\OBA\Cooperativeness\Cooperativeness.OBA.Word\AddIns\Cooperativeness.OBA.Word.Extension\obj\x86\Release\Cooperativeness.OBA.Word.Extension.dll
+F:\OBA\Cooperativeness\Cooperativeness.OBA.Word\AddIns\Cooperativeness.OBA.Word.Extension\obj\x86\Release\Cooperativeness.OBA.Word.Extension.pdb

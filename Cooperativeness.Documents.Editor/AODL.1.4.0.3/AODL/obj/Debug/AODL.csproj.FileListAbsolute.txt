@@ -1,0 +1,14 @@
+D:\U8Zhaoyin\OBA\Cooperativeness\Cooperativeness.Documents.Editor\AODL\AODL\bin\Debug\AODL.dll
+D:\U8Zhaoyin\OBA\Cooperativeness\Cooperativeness.Documents.Editor\AODL\AODL\bin\Debug\AODL.pdb
+D:\U8Zhaoyin\OBA\Cooperativeness\Cooperativeness.Documents.Editor\AODL\AODL\bin\Debug\ICSharpCode.SharpZipLib.dll
+D:\U8Zhaoyin\OBA\Cooperativeness\Cooperativeness.Documents.Editor\AODL\AODL\bin\Debug\ICSharpCode.SharpZipLib.xml
+D:\U8Zhaoyin\OBA\Cooperativeness\Cooperativeness.Documents.Editor\AODL\AODL\obj\Debug\ResolveAssemblyReference.cache
+D:\U8Zhaoyin\OBA\Cooperativeness\Cooperativeness.Documents.Editor\AODL\AODL\obj\Debug\AODL.dll
+D:\U8Zhaoyin\OBA\Cooperativeness\Cooperativeness.Documents.Editor\AODL\AODL\obj\Debug\AODL.pdb
+D:\U8Zhaoyin\OBA\Cooperativeness\Cooperativeness.Documents.Editor\AODL.1.4.0.3\AODL\bin\Debug\AODL.dll
+D:\U8Zhaoyin\OBA\Cooperativeness\Cooperativeness.Documents.Editor\AODL.1.4.0.3\AODL\bin\Debug\AODL.pdb
+D:\U8Zhaoyin\OBA\Cooperativeness\Cooperativeness.Documents.Editor\AODL.1.4.0.3\AODL\bin\Debug\ICSharpCode.SharpZipLib.dll
+D:\U8Zhaoyin\OBA\Cooperativeness\Cooperativeness.Documents.Editor\AODL.1.4.0.3\AODL\bin\Debug\ICSharpCode.SharpZipLib.xml
+D:\U8Zhaoyin\OBA\Cooperativeness\Cooperativeness.Documents.Editor\AODL.1.4.0.3\AODL\obj\Debug\ResolveAssemblyReference.cache
+D:\U8Zhaoyin\OBA\Cooperativeness\Cooperativeness.Documents.Editor\AODL.1.4.0.3\AODL\obj\Debug\AODL.dll
+D:\U8Zhaoyin\OBA\Cooperativeness\Cooperativeness.Documents.Editor\AODL.1.4.0.3\AODL\obj\Debug\AODL.pdb

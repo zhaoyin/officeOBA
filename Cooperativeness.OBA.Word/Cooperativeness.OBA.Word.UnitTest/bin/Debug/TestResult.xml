@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="F:\OBA\Cooperativeness.OBA.Word\Cooperativeness.OBA.Word.UnitTest\bin\Debug\Cooperativeness.OBA.Word.UnitTest.dll" total="1" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2014-08-17" time="15:19:04">
+  <environment nunit-version="2.6.3.13283" clr-version="2.0.50727.8009" os-version="Microsoft Windows NT 6.2.9200.0" platform="Win32NT" cwd="F:\OBA\Cooperativeness.OBA.Word\Cooperativeness.OBA.Word.UnitTest\bin\Debug" machine-name="CODING" user="ZHAOYIN" user-domain="CODING" />
+  <culture-info current-culture="zh-CN" current-uiculture="zh-CN" />
+  <test-suite type="Assembly" name="F:\OBA\Cooperativeness.OBA.Word\Cooperativeness.OBA.Word.UnitTest\bin\Debug\Cooperativeness.OBA.Word.UnitTest.dll" executed="True" result="Success" success="True" time="6.534" asserts="0">
+    <results>
+      <test-suite type="Namespace" name="Cooperativeness" executed="True" result="Success" success="True" time="6.508" asserts="0">
+        <results>
+          <test-suite type="Namespace" name="OBA" executed="True" result="Success" success="True" time="6.507" asserts="0">
+            <results>
+              <test-suite type="Namespace" name="Word" executed="True" result="Success" success="True" time="6.506" asserts="0">
+                <results>
+                  <test-suite type="Namespace" name="UnitTest" executed="True" result="Success" success="True" time="6.506" asserts="0">
+                    <results>
+                      <test-suite type="TestFixture" name="Install" executed="True" result="Success" success="True" time="6.503" asserts="0">
+                        <results>
+                          <test-case name="Cooperativeness.OBA.Word.UnitTest.Install.InstallTest" executed="True" result="Success" success="True" time="6.458" asserts="1" />
+                        </results>
+                      </test-suite>
+                    </results>
+                  </test-suite>
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>

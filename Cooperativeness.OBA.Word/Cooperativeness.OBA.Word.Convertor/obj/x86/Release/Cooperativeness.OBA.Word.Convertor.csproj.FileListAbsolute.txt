@@ -1,0 +1,8 @@
+F:\OBA\Cooperativeness\Cooperativeness.OBA.Word\Cooperativeness.OBA.Word.Convertor\bin\x86\Release\Cooperativeness.OBA.Word.Convertor.dll
+F:\OBA\Cooperativeness\Cooperativeness.OBA.Word\Cooperativeness.OBA.Word.Convertor\bin\x86\Release\Cooperativeness.OBA.Word.Convertor.pdb
+F:\OBA\Cooperativeness\Cooperativeness.OBA.Word\Cooperativeness.OBA.Word.Convertor\bin\x86\Release\Cooperativeness.OBA.Word.Tools.dll
+F:\OBA\Cooperativeness\Cooperativeness.OBA.Word\Cooperativeness.OBA.Word.Convertor\bin\x86\Release\DocumentFormat.OpenXml.dll
+F:\OBA\Cooperativeness\Cooperativeness.OBA.Word\Cooperativeness.OBA.Word.Convertor\bin\x86\Release\Cooperativeness.OBA.Word.Tools.pdb
+F:\OBA\Cooperativeness\Cooperativeness.OBA.Word\Cooperativeness.OBA.Word.Convertor\obj\x86\Release\ResolveAssemblyReference.cache
+F:\OBA\Cooperativeness\Cooperativeness.OBA.Word\Cooperativeness.OBA.Word.Convertor\obj\x86\Release\Cooperativeness.OBA.Word.Convertor.dll
+F:\OBA\Cooperativeness\Cooperativeness.OBA.Word\Cooperativeness.OBA.Word.Convertor\obj\x86\Release\Cooperativeness.OBA.Word.Convertor.pdb

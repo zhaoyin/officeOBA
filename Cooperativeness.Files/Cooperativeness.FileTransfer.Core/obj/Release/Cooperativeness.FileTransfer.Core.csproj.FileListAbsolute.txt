@@ -1,0 +1,10 @@
+D:\U8Zhaoyin\OBA\Cooperativeness\Cooperativeness.Files\Cooperativeness.FileTransfer.Core\bin\Release\Cooperativeness.FileTransfer.Core.dll
+D:\U8Zhaoyin\OBA\Cooperativeness\Cooperativeness.Files\Cooperativeness.FileTransfer.Core\bin\Release\Cooperativeness.FileTransfer.Core.pdb
+D:\U8Zhaoyin\OBA\Cooperativeness\Cooperativeness.Files\Cooperativeness.FileTransfer.Core\obj\Release\ResolveAssemblyReference.cache
+D:\U8Zhaoyin\OBA\Cooperativeness\Cooperativeness.Files\Cooperativeness.FileTransfer.Core\obj\Release\Cooperativeness.FileTransfer.Core.dll
+D:\U8Zhaoyin\OBA\Cooperativeness\Cooperativeness.Files\Cooperativeness.FileTransfer.Core\obj\Release\Cooperativeness.FileTransfer.Core.pdb
+F:\OBA\Cooperativeness\Cooperativeness.Files\Cooperativeness.FileTransfer.Core\bin\Release\Cooperativeness.FileTransfer.Core.dll
+F:\OBA\Cooperativeness\Cooperativeness.Files\Cooperativeness.FileTransfer.Core\bin\Release\Cooperativeness.FileTransfer.Core.pdb
+F:\OBA\Cooperativeness\Cooperativeness.Files\Cooperativeness.FileTransfer.Core\obj\Release\ResolveAssemblyReference.cache
+F:\OBA\Cooperativeness\Cooperativeness.Files\Cooperativeness.FileTransfer.Core\obj\Release\Cooperativeness.FileTransfer.Core.dll
+F:\OBA\Cooperativeness\Cooperativeness.Files\Cooperativeness.FileTransfer.Core\obj\Release\Cooperativeness.FileTransfer.Core.pdb

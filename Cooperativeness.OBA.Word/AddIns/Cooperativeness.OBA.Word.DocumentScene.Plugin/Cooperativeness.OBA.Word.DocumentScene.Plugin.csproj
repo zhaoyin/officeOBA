@@ -1,0 +1,216 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{643F7B24-DA88-43AF-85D8-C73C2201E9FA}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Cooperativeness.OBA.Word.DocumentScene.Plugin</RootNamespace>
+    <AssemblyName>Cooperativeness.OBA.Word.DocumentScene.Plugin</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkSubset>Client</TargetFrameworkSubset>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\Plugins\SceneDesigner\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>
+    </DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\Plugins\SceneDesigner\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Office.Interop.Word, Version=12.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c" />
+    <Reference Include="Microsoft.Office.Tools.Common.v9.0, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="PresentationCore">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="PresentationFramework">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml" />
+    <Reference Include="UIAutomationProvider">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsFormsIntegration">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Activator.cs" />
+    <Compile Include="Commands\Login\LoginAdminGroupCommand.cs" />
+    <Compile Include="Commands\Login\LoginCommand.cs" />
+    <Compile Include="Commands\Login\LogoutCommand.cs" />
+    <Compile Include="Commands\DocumentSceneTabCommand.cs" />
+    <Compile Include="Commands\Document\DocumentAdminGroupCommand.cs" />
+    <Compile Include="Commands\Document\ListCommand.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SceneContext.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Forms\FilesForm.resx">
+      <DependentUpon>FilesForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\LoginForm.resx">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="META-INF\MANIFEST.MF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="FileServer.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <Content Include="Resources\Resources.en-US.xml" />
+    <Content Include="Resources\Resources.zh-CN.xml" />
+    <Content Include="Resources\Resources.zh-TW.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Cooperativeness.Files\Cooperativeness.FileTransfer.Client\Cooperativeness.FileTransfer.Client.csproj">
+      <Project>{81899043-3B34-4B35-8204-EE977600D5EF}</Project>
+      <Name>Cooperativeness.FileTransfer.Client</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Cooperativeness.OBA.Word.Addins.FrameWork\Cooperativeness.OBA.Word.AddIns.FrameWork.csproj">
+      <Project>{5C0B9DB9-D89C-4327-B7A3-93142FDFE5A7}</Project>
+      <Name>Cooperativeness.OBA.Word.AddIns.FrameWork</Name>
+      <Private>False</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Cooperativeness.OBA.Word.Convertor\Cooperativeness.OBA.Word.Convertor.csproj">
+      <Project>{9ED0AC5E-0CBE-4175-9192-FCA4C42B9900}</Project>
+      <Name>Cooperativeness.OBA.Word.Convertor</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Cooperativeness.OBA.Word.Ribbon\Cooperativeness.OBA.Word.Ribbon.csproj">
+      <Project>{70B1F294-52A5-4106-93B5-CC968C0B165B}</Project>
+      <Name>Cooperativeness.OBA.Word.Ribbon</Name>
+      <Private>False</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Cooperativeness.OBA.Word.Tools\Cooperativeness.OBA.Word.Tools.csproj">
+      <Project>{C91605DB-13BC-44B2-A8BD-E1334474CC67}</Project>
+      <Name>Cooperativeness.OBA.Word.Tools</Name>
+      <Private>False</Private>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Commands\Document\VersionCommand.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Commands\Document\AddCommand.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Commands\Document\DownloadCommand.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Commands\Document\RenameCommand.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Commands\Document\DeleteCommand.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AbstractSceneContext.cs" />
+    <Compile Include="Async\AsyncWorker.cs" />
+    <Compile Include="Async\AsyncWorkerEventArgs.cs" />
+    <Compile Include="Commands\Document\CloseCommand.cs" />
+    <Compile Include="Commands\Document\OpenCommand.cs" />
+    <Compile Include="Commands\Document\SaveCommand.cs" />
+    <Compile Include="Commands\Login\ConfigCommand.cs" />
+    <Compile Include="Commands\Test\TestCommand.cs" />
+    <Compile Include="Commands\Test\TestGroupCommand.cs" />
+    <Compile Include="Commands\Test\TestMenuCommand.cs" />
+    <Compile Include="Control\CustomPane.xaml.cs">
+      <DependentUpon>CustomPane.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Control\PaneDecorator.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Control\PaneDecorator.Designer.cs">
+      <DependentUpon>PaneDecorator.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FilesForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FilesForm.Designer.cs">
+      <DependentUpon>FilesForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\LoginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\LoginForm.Designer.cs">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Framework\SecretDataAdmin.cs" />
+    <Compile Include="Framework\SecretEntry.cs" />
+    <Compile Include="Framework\CustomTaskPanesAdmin.cs" />
+    <Compile Include="Framework\WordApplicationAdmin.cs" />
+    <Compile Include="Hook\AssemblyResolverHook.cs" />
+    <Compile Include="ISceneContext.cs" />
+    <Compile Include="ITip.cs" />
+    <Compile Include="Model\IDbServer.cs" />
+    <Compile Include="Model\IFileServer.cs" />
+    <Compile Include="Model\IUser.cs" />
+    <Compile Include="Model\LoginEntity.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="Control\CustomPane.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

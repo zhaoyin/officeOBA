@@ -1,0 +1,6 @@
+D:\U8Zhaoyin\OBA\Cooperativeness\Cooperativeness.Files\Cooperativeness.Files.Server.Install\bin\Debug\Cooperativeness.Files.Server.Install.dll
+D:\U8Zhaoyin\OBA\Cooperativeness\Cooperativeness.Files\Cooperativeness.Files.Server.Install\bin\Debug\Cooperativeness.Files.Server.Install.pdb
+D:\U8Zhaoyin\OBA\Cooperativeness\Cooperativeness.Files\Cooperativeness.Files.Server.Install\bin\Debug\Microsoft.Web.Administration.dll
+D:\U8Zhaoyin\OBA\Cooperativeness\Cooperativeness.Files\Cooperativeness.Files.Server.Install\obj\Debug\ResolveAssemblyReference.cache
+D:\U8Zhaoyin\OBA\Cooperativeness\Cooperativeness.Files\Cooperativeness.Files.Server.Install\obj\Debug\Cooperativeness.Files.Server.Install.dll
+D:\U8Zhaoyin\OBA\Cooperativeness\Cooperativeness.Files\Cooperativeness.Files.Server.Install\obj\Debug\Cooperativeness.Files.Server.Install.pdb

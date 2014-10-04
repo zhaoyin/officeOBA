@@ -1,0 +1,17 @@
+D:\U8Zhaoyin\OBA\Cooperativeness.OBA.Word\Cooperativeness.OBA.Word.Addins.FrameWork\bin\Debug\META-INF\MANIFEST.MF
+D:\U8Zhaoyin\OBA\Cooperativeness.OBA.Word\Cooperativeness.OBA.Word.Addins.FrameWork\bin\Debug\Cooperativeness.OBA.Word.AddIns.FrameWork.dll
+D:\U8Zhaoyin\OBA\Cooperativeness.OBA.Word\Cooperativeness.OBA.Word.Addins.FrameWork\bin\Debug\Cooperativeness.OBA.Word.AddIns.FrameWork.pdb
+D:\U8Zhaoyin\OBA\Cooperativeness.OBA.Word\Cooperativeness.OBA.Word.Addins.FrameWork\bin\Debug\Cooperativeness.OBA.Word.Tools.dll
+D:\U8Zhaoyin\OBA\Cooperativeness.OBA.Word\Cooperativeness.OBA.Word.Addins.FrameWork\bin\Debug\Cooperativeness.OBA.Word.Tools.pdb
+D:\U8Zhaoyin\OBA\Cooperativeness.OBA.Word\Bin\META-INF\MANIFEST.MF
+D:\U8Zhaoyin\OBA\Cooperativeness.OBA.Word\Bin\Cooperativeness.OBA.Word.AddIns.FrameWork.dll
+D:\U8Zhaoyin\OBA\Cooperativeness.OBA.Word\Bin\Cooperativeness.OBA.Word.AddIns.FrameWork.pdb
+D:\U8Zhaoyin\OBA\Cooperativeness.OBA.Word\Cooperativeness.OBA.Word.Addins.FrameWork\obj\Debug\ResolveAssemblyReference.cache
+D:\U8Zhaoyin\OBA\Cooperativeness.OBA.Word\Cooperativeness.OBA.Word.Addins.FrameWork\obj\Debug\Cooperativeness.OBA.Word.AddIns.FrameWork.dll
+D:\U8Zhaoyin\OBA\Cooperativeness.OBA.Word\Cooperativeness.OBA.Word.Addins.FrameWork\obj\Debug\Cooperativeness.OBA.Word.AddIns.FrameWork.pdb
+D:\U8Zhaoyin\OBA\Cooperativeness\Cooperativeness.OBA.Word\Bin\META-INF\MANIFEST.MF
+D:\U8Zhaoyin\OBA\Cooperativeness\Cooperativeness.OBA.Word\Bin\Cooperativeness.OBA.Word.AddIns.FrameWork.dll
+D:\U8Zhaoyin\OBA\Cooperativeness\Cooperativeness.OBA.Word\Bin\Cooperativeness.OBA.Word.AddIns.FrameWork.pdb
+D:\U8Zhaoyin\OBA\Cooperativeness\Cooperativeness.OBA.Word\Cooperativeness.OBA.Word.Addins.FrameWork\obj\Debug\ResolveAssemblyReference.cache
+D:\U8Zhaoyin\OBA\Cooperativeness\Cooperativeness.OBA.Word\Cooperativeness.OBA.Word.Addins.FrameWork\obj\Debug\Cooperativeness.OBA.Word.AddIns.FrameWork.dll
+D:\U8Zhaoyin\OBA\Cooperativeness\Cooperativeness.OBA.Word\Cooperativeness.OBA.Word.Addins.FrameWork\obj\Debug\Cooperativeness.OBA.Word.AddIns.FrameWork.pdb

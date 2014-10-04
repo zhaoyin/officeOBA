@@ -1,0 +1,42 @@
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.0\.NET 4.5\Samples\Binaries\Fluent.Sample.Foundation.exe.config
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.0\.NET 4.5\Samples\Binaries\Fluent.Sample.Foundation.exe
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.0\.NET 4.5\Samples\Binaries\Fluent.Sample.Foundation.pdb
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.0\.NET 4.5\Samples\Foundation\obj\Debug\Fluent.Sample.Foundation.csprojResolveAssemblyReference.cache
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.0\.NET 4.5\Samples\Foundation\obj\Debug\Window.baml
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.0\.NET 4.5\Samples\Foundation\obj\Debug\Application.baml
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.0\.NET 4.5\Samples\Foundation\obj\Debug\Window.g.cs
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.0\.NET 4.5\Samples\Foundation\obj\Debug\Application.g.cs
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.0\.NET 4.5\Samples\Foundation\obj\Debug\Fluent.Sample.Foundation_MarkupCompile.cache
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.0\.NET 4.5\Samples\Foundation\obj\Debug\Fluent.Sample.Foundation.g.resources
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.0\.NET 4.5\Samples\Foundation\obj\Debug\Fluent.Sample.Foundation.Properties.Resources.resources
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.0\.NET 4.5\Samples\Foundation\obj\Debug\Fluent.Sample.Foundation.csproj.GenerateResource.Cache
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.0\.NET 4.5\Samples\Foundation\obj\Debug\Fluent.Sample.Foundation.exe
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.0\.NET 4.5\Samples\Foundation\obj\Debug\Fluent.Sample.Foundation.pdb
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.1.0 Prerelease g\.NET 4.5\Samples\Binaries\Fluent.Sample.Foundation.exe.config
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.1.0 Prerelease g\.NET 4.5\Samples\Binaries\Fluent.Sample.Foundation.exe
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.1.0 Prerelease g\.NET 4.5\Samples\Binaries\Fluent.Sample.Foundation.pdb
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.1.0 Prerelease g\.NET 4.5\Samples\Foundation\obj\Debug\Fluent.Sample.Foundation.csprojResolveAssemblyReference.cache
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.1.0 Prerelease g\.NET 4.5\Samples\Foundation\obj\Debug\Window.baml
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.1.0 Prerelease g\.NET 4.5\Samples\Foundation\obj\Debug\Application.baml
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.1.0 Prerelease g\.NET 4.5\Samples\Foundation\obj\Debug\Window.g.cs
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.1.0 Prerelease g\.NET 4.5\Samples\Foundation\obj\Debug\Application.g.cs
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.1.0 Prerelease g\.NET 4.5\Samples\Foundation\obj\Debug\Fluent.Sample.Foundation_MarkupCompile.cache
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.1.0 Prerelease g\.NET 4.5\Samples\Foundation\obj\Debug\Fluent.Sample.Foundation.g.resources
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.1.0 Prerelease g\.NET 4.5\Samples\Foundation\obj\Debug\Fluent.Sample.Foundation.Properties.Resources.resources
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.1.0 Prerelease g\.NET 4.5\Samples\Foundation\obj\Debug\Fluent.Sample.Foundation.csproj.GenerateResource.Cache
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.1.0 Prerelease g\.NET 4.5\Samples\Foundation\obj\Debug\Fluent.Sample.Foundation.exe
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.1.0 Prerelease g\.NET 4.5\Samples\Foundation\obj\Debug\Fluent.Sample.Foundation.pdb
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.1.0 Prerelease i\.NET 4.5\Samples\Binaries\Fluent.Sample.Foundation.exe.config
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.1.0 Prerelease i\.NET 4.5\Samples\Binaries\Fluent.Sample.Foundation.exe
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.1.0 Prerelease i\.NET 4.5\Samples\Binaries\Fluent.Sample.Foundation.pdb
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.1.0 Prerelease i\.NET 4.5\Samples\Foundation\obj\Debug\Fluent.Sample.Foundation.csprojResolveAssemblyReference.cache
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.1.0 Prerelease i\.NET 4.5\Samples\Foundation\obj\Debug\Window.baml
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.1.0 Prerelease i\.NET 4.5\Samples\Foundation\obj\Debug\Application.baml
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.1.0 Prerelease i\.NET 4.5\Samples\Foundation\obj\Debug\Window.g.cs
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.1.0 Prerelease i\.NET 4.5\Samples\Foundation\obj\Debug\Application.g.cs
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.1.0 Prerelease i\.NET 4.5\Samples\Foundation\obj\Debug\Fluent.Sample.Foundation_MarkupCompile.cache
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.1.0 Prerelease i\.NET 4.5\Samples\Foundation\obj\Debug\Fluent.Sample.Foundation.g.resources
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.1.0 Prerelease i\.NET 4.5\Samples\Foundation\obj\Debug\Fluent.Sample.Foundation.Properties.Resources.resources
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.1.0 Prerelease i\.NET 4.5\Samples\Foundation\obj\Debug\Fluent.Sample.Foundation.csproj.GenerateResource.Cache
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.1.0 Prerelease i\.NET 4.5\Samples\Foundation\obj\Debug\Fluent.Sample.Foundation.exe
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.1.0 Prerelease i\.NET 4.5\Samples\Foundation\obj\Debug\Fluent.Sample.Foundation.pdb

@@ -1,0 +1,17 @@
+D:\U8Zhaoyin\OBA\Cooperativeness.OBA\Cooperativeness.OBA.Word\Cooperativeness.OBA.Word.Tools\bin\Debug\Cooperativeness.OBA.Word.Tools.dll
+D:\U8Zhaoyin\OBA\Cooperativeness.OBA\Cooperativeness.OBA.Word\Cooperativeness.OBA.Word.Tools\bin\Debug\Cooperativeness.OBA.Word.Tools.pdb
+D:\U8Zhaoyin\OBA\Cooperativeness.OBA\Cooperativeness.OBA.Word\Cooperativeness.OBA.Word.Tools\obj\Debug\ResolveAssemblyReference.cache
+D:\U8Zhaoyin\OBA\Cooperativeness.OBA\Cooperativeness.OBA.Word\Cooperativeness.OBA.Word.Tools\obj\Debug\Cooperativeness.OBA.Word.Tools.dll
+D:\U8Zhaoyin\OBA\Cooperativeness.OBA\Cooperativeness.OBA.Word\Cooperativeness.OBA.Word.Tools\obj\Debug\Cooperativeness.OBA.Word.Tools.pdb
+D:\U8Zhaoyin\OBA\Cooperativeness.OBA.Word\Cooperativeness.OBA.Word.Tools\bin\Debug\Cooperativeness.OBA.Word.Tools.dll
+D:\U8Zhaoyin\OBA\Cooperativeness.OBA.Word\Cooperativeness.OBA.Word.Tools\bin\Debug\Cooperativeness.OBA.Word.Tools.pdb
+D:\U8Zhaoyin\OBA\Cooperativeness.OBA.Word\Bin\Cooperativeness.OBA.Word.Tools.dll
+D:\U8Zhaoyin\OBA\Cooperativeness.OBA.Word\Bin\Cooperativeness.OBA.Word.Tools.pdb
+D:\U8Zhaoyin\OBA\Cooperativeness.OBA.Word\Cooperativeness.OBA.Word.Tools\obj\Debug\ResolveAssemblyReference.cache
+D:\U8Zhaoyin\OBA\Cooperativeness.OBA.Word\Cooperativeness.OBA.Word.Tools\obj\Debug\Cooperativeness.OBA.Word.Tools.dll
+D:\U8Zhaoyin\OBA\Cooperativeness.OBA.Word\Cooperativeness.OBA.Word.Tools\obj\Debug\Cooperativeness.OBA.Word.Tools.pdb
+D:\U8Zhaoyin\OBA\Cooperativeness\Cooperativeness.OBA.Word\Bin\Cooperativeness.OBA.Word.Tools.dll
+D:\U8Zhaoyin\OBA\Cooperativeness\Cooperativeness.OBA.Word\Bin\Cooperativeness.OBA.Word.Tools.pdb
+D:\U8Zhaoyin\OBA\Cooperativeness\Cooperativeness.OBA.Word\Cooperativeness.OBA.Word.Tools\obj\Debug\ResolveAssemblyReference.cache
+D:\U8Zhaoyin\OBA\Cooperativeness\Cooperativeness.OBA.Word\Cooperativeness.OBA.Word.Tools\obj\Debug\Cooperativeness.OBA.Word.Tools.dll
+D:\U8Zhaoyin\OBA\Cooperativeness\Cooperativeness.OBA.Word\Cooperativeness.OBA.Word.Tools\obj\Debug\Cooperativeness.OBA.Word.Tools.pdb

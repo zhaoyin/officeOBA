@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<Bundle xmlns="urn:xplugin-bundle-manifest-2.0" 
+        SymbolicName="Cooperativeness.OBA.Word.DocumentScene.Plugin" 
+        Version="1.0.0.0"
+        StartLevel="3" 
+        Name="Document Scene">
+  <Activator Type="Cooperativeness.OBA.Word.DocumentScene.Plugin.Activator" Policy="Immediate"/>
+  <Runtime>
+	<Assembly Path="Cooperativeness.OBA.Word.DocumentScene.Plugin.dll" />
+	<Assembly Path="Cooperativeness.OBA.Word.Convertor.dll" Share="true" />
+    <Dependency BundleSymbolicName="Cooperativeness.OBA.Word.Extension" BundleVersion="1.0.0.0" />
+  </Runtime>
+  <Extension Point="Word.Robin">
+    <ribbon>
+      <tabs>
+        <tab id="SceneDesigner" type="Cooperativeness.OBA.Word.DocumentScene.Plugin.Commands.DocumentSceneTabCommand">
+          <group id="SceneDesigner.LoginAdmin" type="Cooperativeness.OBA.Word.DocumentScene.Plugin.Commands.Login.LoginAdminGroupCommand">
+            <button id="SceneDesigner.LoginAdmin.Login" iconName="icons/login.png" loadMode="Local" type="Cooperativeness.OBA.Word.DocumentScene.Plugin.Commands.Login.LoginCommand" />
+            <button id="SceneDesigner.LoginAdmin.Logout" iconName="icons/logout.png" loadMode="Local" type="Cooperativeness.OBA.Word.DocumentScene.Plugin.Commands.Login.LogoutCommand" />
+          </group>
+			<group id="SceneDesigner.DocumentAdmin" type="Cooperativeness.OBA.Word.DocumentScene.Plugin.Commands.Document.DocumentAdminGroupCommand">
+				<button id="SceneDesigner.DocumentAdmin.List" iconName="icons/list.png" loadMode="Local" type="Cooperativeness.OBA.Word.DocumentScene.Plugin.Commands.Document.ListCommand" />
+				<button id="SceneDesigner.DocumentAdmin.Version" iconName="icons/version.png" loadMode="Local" type="Cooperativeness.OBA.Word.DocumentScene.Plugin.Commands.Document.VersionCommand" />
+				<button id="SceneDesigner.DocumentAdmin.Open" iconName="icons/open.png" loadMode="Local" type="Cooperativeness.OBA.Word.DocumentScene.Plugin.Commands.Document.OpenCommand" />
+				<button id="SceneDesigner.DocumentAdmin.Add" iconName="icons/Add.png" loadMode="Local" type="Cooperativeness.OBA.Word.DocumentScene.Plugin.Commands.Document.AddCommand" />
+				<button id="SceneDesigner.DocumentAdmin.Download" iconName="icons/Download.png" loadMode="Local" type="Cooperativeness.OBA.Word.DocumentScene.Plugin.Commands.Document.DownloadCommand" />
+				<button id="SceneDesigner.DocumentAdmin.Rename" iconName="icons/Rename.png" loadMode="Local" type="Cooperativeness.OBA.Word.DocumentScene.Plugin.Commands.Document.RenameCommand" />
+				<button id="SceneDesigner.DocumentAdmin.Delete" iconName="icons/delete.png" loadMode="Local" type="Cooperativeness.OBA.Word.DocumentScene.Plugin.Commands.Document.DeleteCommand" />
+				<button id="SceneDesigner.DocumentAdmin.Save" iconName="icons/save.png" loadMode="Local" type="Cooperativeness.OBA.Word.DocumentScene.Plugin.Commands.Document.SaveCommand" />
+				<button id="SceneDesigner.DocumentAdmin.Close" iconName="icons/close.png" loadMode="Local" type="Cooperativeness.OBA.Word.DocumentScene.Plugin.Commands.Document.CloseCommand" />
+			</group>
+			<group id="SceneDesigner.Other" type="Cooperativeness.OBA.Word.DocumentScene.Plugin.Commands.Test.TestGroupCommand">
+				<menu id="SceneDesigner.Other.TestButton" iconName="icons/preview.png" loadMode="Local" type="Cooperativeness.OBA.Word.DocumentScene.Plugin.Commands.Test.TestMenuCommand" >
+					<button id="SceneDesigner.Other.TestMenu1" iconName="icons/split_preview.png" loadMode="Local" type="Cooperativeness.OBA.Word.DocumentScene.Plugin.Commands.Test.TestCommand" />
+					<button id="SceneDesigner.Other.TestMenu2" iconName="icons/integral_preview.png" loadMode="Local" type="Cooperativeness.OBA.Word.DocumentScene.Plugin.Commands.Test.TestCommand" />
+				</menu>
+			</group>
+		</tab>
+      </tabs>
+    </ribbon>
+  </Extension>
+
+</Bundle>

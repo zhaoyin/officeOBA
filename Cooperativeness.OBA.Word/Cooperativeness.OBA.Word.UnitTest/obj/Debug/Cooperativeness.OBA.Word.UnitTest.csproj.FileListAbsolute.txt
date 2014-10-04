@@ -1,0 +1,10 @@
+F:\OBA\Cooperativeness.OBA.Word\Cooperativeness.OBA.Word.UnitTest\obj\Debug\ResolveAssemblyReference.cache
+F:\OBA\Cooperativeness.OBA.Word\Cooperativeness.OBA.Word.UnitTest\bin\Debug\addins.reg
+F:\OBA\Cooperativeness.OBA.Word\Cooperativeness.OBA.Word.UnitTest\bin\Debug\Cooperativeness.OBA.Word.UnitTest.dll
+F:\OBA\Cooperativeness.OBA.Word\Cooperativeness.OBA.Word.UnitTest\bin\Debug\Cooperativeness.OBA.Word.UnitTest.pdb
+F:\OBA\Cooperativeness.OBA.Word\Cooperativeness.OBA.Word.UnitTest\bin\Debug\Cooperativeness.OBA.Word.Install.dll
+F:\OBA\Cooperativeness.OBA.Word\Cooperativeness.OBA.Word.UnitTest\bin\Debug\nunit.framework.dll
+F:\OBA\Cooperativeness.OBA.Word\Cooperativeness.OBA.Word.UnitTest\bin\Debug\nunit.framework.xml
+F:\OBA\Cooperativeness.OBA.Word\Cooperativeness.OBA.Word.UnitTest\bin\Debug\Cooperativeness.OBA.Word.Install.pdb
+F:\OBA\Cooperativeness.OBA.Word\Cooperativeness.OBA.Word.UnitTest\obj\Debug\Cooperativeness.OBA.Word.UnitTest.dll
+F:\OBA\Cooperativeness.OBA.Word\Cooperativeness.OBA.Word.UnitTest\obj\Debug\Cooperativeness.OBA.Word.UnitTest.pdb

@@ -1,0 +1,5 @@
+D:\U8Zhaoyin\OBA\Cooperativeness\Cooperativeness.Documents.Editor\xml-rpc.net.3.0.0\bin\CookComputing.XmlRpcV2.dll
+D:\U8Zhaoyin\OBA\Cooperativeness\Cooperativeness.Documents.Editor\xml-rpc.net.3.0.0\bin\CookComputing.XmlRpcV2.pdb
+D:\U8Zhaoyin\OBA\Cooperativeness\Cooperativeness.Documents.Editor\xml-rpc.net.3.0.0\src\obj\Debug\ResolveAssemblyReference.cache
+D:\U8Zhaoyin\OBA\Cooperativeness\Cooperativeness.Documents.Editor\xml-rpc.net.3.0.0\src\obj\Debug\CookComputing.XmlRpcV2.dll
+D:\U8Zhaoyin\OBA\Cooperativeness\Cooperativeness.Documents.Editor\xml-rpc.net.3.0.0\src\obj\Debug\CookComputing.XmlRpcV2.pdb

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VisualState xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ShowCheckBoxes="false">
+  <TopNode>[0-1009]D:\源代码\U8V12.0\FileManager\yonyou.U8.Pub.FileTransfer\yonyou.U8.Pub.FileTransfer.Test\bin\Debug\yonyou.U8.Pub.FileTransfer.Test.dll</TopNode>
+  <SelectedNode>[0-1005]yonyou.U8.Pub.FileTransfer.Test.ClientServiceTest.BackUpFiles</SelectedNode>
+  <ExcludeCategories>false</ExcludeCategories>
+  <Nodes>
+    <Node UniqueName="[0-1009]D:\源代码\U8V12.0\FileManager\yonyou.U8.Pub.FileTransfer\yonyou.U8.Pub.FileTransfer.Test\bin\Debug\yonyou.U8.Pub.FileTransfer.Test.dll" Expanded="true" />
+    <Node UniqueName="[0-1010]yonyou" Expanded="true" />
+    <Node UniqueName="[0-1011]yonyou.U8" Expanded="true" />
+    <Node UniqueName="[0-1012]yonyou.U8.Pub" Expanded="true" />
+    <Node UniqueName="[0-1013]yonyou.U8.Pub.FileTransfer" Expanded="true" />
+    <Node UniqueName="[0-1014]yonyou.U8.Pub.FileTransfer.Test" Expanded="true" />
+    <Node UniqueName="[0-1000]yonyou.U8.Pub.FileTransfer.Test.ClientServiceTest" Expanded="true" />
+  </Nodes>
+</VisualState>

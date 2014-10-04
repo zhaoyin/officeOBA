@@ -1,0 +1,5 @@
+D:\U8Zhaoyin\OBA\Cooperativeness\Cooperativeness.Documents.Management\Bin\Cooperativeness.Documents.Forms.dll
+D:\U8Zhaoyin\OBA\Cooperativeness\Cooperativeness.Documents.Management\Bin\Cooperativeness.Documents.Forms.pdb
+D:\U8Zhaoyin\OBA\Cooperativeness\Cooperativeness.Documents.Management\Cooperativeness.Documents.Windows.Forms\obj\Debug\ResolveAssemblyReference.cache
+D:\U8Zhaoyin\OBA\Cooperativeness\Cooperativeness.Documents.Management\Cooperativeness.Documents.Windows.Forms\obj\Debug\Cooperativeness.Documents.Forms.dll
+D:\U8Zhaoyin\OBA\Cooperativeness\Cooperativeness.Documents.Management\Cooperativeness.Documents.Windows.Forms\obj\Debug\Cooperativeness.Documents.Forms.pdb

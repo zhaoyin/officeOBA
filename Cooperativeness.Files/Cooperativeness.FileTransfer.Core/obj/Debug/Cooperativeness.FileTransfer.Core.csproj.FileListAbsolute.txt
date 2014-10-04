@@ -1,0 +1,5 @@
+D:\U8Zhaoyin\OBA\Cooperativeness\Cooperativeness.Files\Cooperativeness.FileTransfer.Core\bin\Debug\Cooperativeness.FileTransfer.Core.dll
+D:\U8Zhaoyin\OBA\Cooperativeness\Cooperativeness.Files\Cooperativeness.FileTransfer.Core\bin\Debug\Cooperativeness.FileTransfer.Core.pdb
+D:\U8Zhaoyin\OBA\Cooperativeness\Cooperativeness.Files\Cooperativeness.FileTransfer.Core\obj\Debug\ResolveAssemblyReference.cache
+D:\U8Zhaoyin\OBA\Cooperativeness\Cooperativeness.Files\Cooperativeness.FileTransfer.Core\obj\Debug\Cooperativeness.FileTransfer.Core.dll
+D:\U8Zhaoyin\OBA\Cooperativeness\Cooperativeness.Files\Cooperativeness.FileTransfer.Core\obj\Debug\Cooperativeness.FileTransfer.Core.pdb

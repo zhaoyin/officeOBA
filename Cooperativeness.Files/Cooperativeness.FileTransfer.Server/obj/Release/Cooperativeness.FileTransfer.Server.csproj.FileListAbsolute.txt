@@ -1,0 +1,8 @@
+D:\U8Zhaoyin\OBA\Cooperativeness\Cooperativeness.Files\Cooperativeness.FileTransfer.Server\bin\Cooperativeness.FileTransfer.Server.dll
+D:\U8Zhaoyin\OBA\Cooperativeness\Cooperativeness.Files\Cooperativeness.FileTransfer.Server\bin\Cooperativeness.FileTransfer.Server.pdb
+D:\U8Zhaoyin\OBA\Cooperativeness\Cooperativeness.Files\Cooperativeness.FileTransfer.Server\bin\Cooperativeness.FileTransfer.Core.dll
+D:\U8Zhaoyin\OBA\Cooperativeness\Cooperativeness.Files\Cooperativeness.FileTransfer.Server\bin\ICSharpCode.SharpZipLib.dll
+D:\U8Zhaoyin\OBA\Cooperativeness\Cooperativeness.Files\Cooperativeness.FileTransfer.Server\bin\Cooperativeness.FileTransfer.Core.pdb
+D:\U8Zhaoyin\OBA\Cooperativeness\Cooperativeness.Files\Cooperativeness.FileTransfer.Server\obj\Release\ResolveAssemblyReference.cache
+D:\U8Zhaoyin\OBA\Cooperativeness\Cooperativeness.Files\Cooperativeness.FileTransfer.Server\obj\Release\Cooperativeness.FileTransfer.Server.dll
+D:\U8Zhaoyin\OBA\Cooperativeness\Cooperativeness.Files\Cooperativeness.FileTransfer.Server\obj\Release\Cooperativeness.FileTransfer.Server.pdb

@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!--http://182.92.70.78:1020/TransferWebServices.asmx-->
+<transferinfo>
+	<fileserverinfo hostname='182.92.70.78' port='1020' connect='HTTP' virtualdirectory='' filedirectory=''  uploadposturl='WebUploaderPages.aspx'  brokenresume='true' debug='true'  />
+	<fileserverproxy isused='' uriaddress='' port='' />
+	<fileserverauth isused='' username='' password='' />
+</transferinfo>

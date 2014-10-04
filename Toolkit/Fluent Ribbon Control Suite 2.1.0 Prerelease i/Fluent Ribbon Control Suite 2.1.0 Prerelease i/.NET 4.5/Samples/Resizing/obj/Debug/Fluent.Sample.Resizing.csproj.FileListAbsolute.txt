@@ -1,0 +1,42 @@
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.0\.NET 4.5\Samples\Binaries\Fluent.Sample.Resizing.exe.config
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.0\.NET 4.5\Samples\Binaries\Fluent.Sample.Resizing.exe
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.0\.NET 4.5\Samples\Binaries\Fluent.Sample.Resizing.pdb
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.0\.NET 4.5\Samples\Resizing\obj\Debug\Fluent.Sample.Resizing.csprojResolveAssemblyReference.cache
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.0\.NET 4.5\Samples\Resizing\obj\Debug\Window.baml
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.0\.NET 4.5\Samples\Resizing\obj\Debug\Application.baml
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.0\.NET 4.5\Samples\Resizing\obj\Debug\Window.g.cs
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.0\.NET 4.5\Samples\Resizing\obj\Debug\Application.g.cs
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.0\.NET 4.5\Samples\Resizing\obj\Debug\Fluent.Sample.Resizing_MarkupCompile.cache
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.0\.NET 4.5\Samples\Resizing\obj\Debug\Fluent.Sample.Resizing.g.resources
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.0\.NET 4.5\Samples\Resizing\obj\Debug\Fluent.Sample.Resizing.Properties.Resources.resources
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.0\.NET 4.5\Samples\Resizing\obj\Debug\Fluent.Sample.Resizing.csproj.GenerateResource.Cache
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.0\.NET 4.5\Samples\Resizing\obj\Debug\Fluent.Sample.Resizing.exe
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.0\.NET 4.5\Samples\Resizing\obj\Debug\Fluent.Sample.Resizing.pdb
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.1.0 Prerelease g\.NET 4.5\Samples\Resizing\obj\Debug\Fluent.Sample.Resizing.csprojResolveAssemblyReference.cache
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.1.0 Prerelease g\.NET 4.5\Samples\Resizing\obj\Debug\Application.baml
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.1.0 Prerelease g\.NET 4.5\Samples\Resizing\obj\Debug\Application.g.cs
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.1.0 Prerelease g\.NET 4.5\Samples\Resizing\obj\Debug\Fluent.Sample.Resizing_MarkupCompile.cache
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.1.0 Prerelease g\.NET 4.5\Samples\Resizing\obj\Debug\Fluent.Sample.Resizing.exe
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.1.0 Prerelease g\.NET 4.5\Samples\Resizing\obj\Debug\Fluent.Sample.Resizing.pdb
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.1.0 Prerelease g\.NET 4.5\Samples\Binaries\Fluent.Sample.Resizing.exe.config
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.1.0 Prerelease g\.NET 4.5\Samples\Binaries\Fluent.Sample.Resizing.exe
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.1.0 Prerelease g\.NET 4.5\Samples\Binaries\Fluent.Sample.Resizing.pdb
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.1.0 Prerelease g\.NET 4.5\Samples\Resizing\obj\Debug\Window.baml
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.1.0 Prerelease g\.NET 4.5\Samples\Resizing\obj\Debug\Window.g.cs
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.1.0 Prerelease g\.NET 4.5\Samples\Resizing\obj\Debug\Fluent.Sample.Resizing.g.resources
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.1.0 Prerelease g\.NET 4.5\Samples\Resizing\obj\Debug\Fluent.Sample.Resizing.Properties.Resources.resources
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.1.0 Prerelease g\.NET 4.5\Samples\Resizing\obj\Debug\Fluent.Sample.Resizing.csproj.GenerateResource.Cache
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.1.0 Prerelease i\.NET 4.5\Samples\Binaries\Fluent.Sample.Resizing.exe.config
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.1.0 Prerelease i\.NET 4.5\Samples\Binaries\Fluent.Sample.Resizing.exe
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.1.0 Prerelease i\.NET 4.5\Samples\Binaries\Fluent.Sample.Resizing.pdb
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.1.0 Prerelease i\.NET 4.5\Samples\Resizing\obj\Debug\Fluent.Sample.Resizing.csprojResolveAssemblyReference.cache
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.1.0 Prerelease i\.NET 4.5\Samples\Resizing\obj\Debug\Window.baml
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.1.0 Prerelease i\.NET 4.5\Samples\Resizing\obj\Debug\Application.baml
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.1.0 Prerelease i\.NET 4.5\Samples\Resizing\obj\Debug\Window.g.cs
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.1.0 Prerelease i\.NET 4.5\Samples\Resizing\obj\Debug\Application.g.cs
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.1.0 Prerelease i\.NET 4.5\Samples\Resizing\obj\Debug\Fluent.Sample.Resizing_MarkupCompile.cache
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.1.0 Prerelease i\.NET 4.5\Samples\Resizing\obj\Debug\Fluent.Sample.Resizing.g.resources
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.1.0 Prerelease i\.NET 4.5\Samples\Resizing\obj\Debug\Fluent.Sample.Resizing.Properties.Resources.resources
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.1.0 Prerelease i\.NET 4.5\Samples\Resizing\obj\Debug\Fluent.Sample.Resizing.csproj.GenerateResource.Cache
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.1.0 Prerelease i\.NET 4.5\Samples\Resizing\obj\Debug\Fluent.Sample.Resizing.exe
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.1.0 Prerelease i\.NET 4.5\Samples\Resizing\obj\Debug\Fluent.Sample.Resizing.pdb

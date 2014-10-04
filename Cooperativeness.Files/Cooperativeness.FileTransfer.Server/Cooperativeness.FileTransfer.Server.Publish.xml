@@ -1,0 +1,17 @@
+<publishData>
+  <publishTarget publishUrl="D:\U8Zhaoyin\OBA\Cooperativeness\Cooperativeness.Files\WebPublish\">
+    <file relUrl="Global.asax" publishTime="08/25/2014 15:44:08" />
+    <file relUrl="bin/Cooperativeness.FileTransfer.Core.dll" publishTime="09/02/2014 09:59:31" />
+    <file relUrl="bin/Cooperativeness.FileTransfer.Server.pdb" publishTime="09/02/2014 09:59:32" />
+    <file relUrl="TransferWebServices.asmx" publishTime="08/25/2014 15:44:08" />
+    <file relUrl="bin/Cooperativeness.FileTransfer.Core.pdb" publishTime="09/02/2014 09:59:31" />
+    <file relUrl="WebUploaderPages.aspx" publishTime="08/25/2014 15:44:08" />
+    <file relUrl="Web.config" publishTime="07/31/2014 18:23:22" />
+    <file relUrl="bin/yonyou.U8.Pub.FileTransfer.Core.pdb" publishTime="08/01/2014 17:17:14" />
+    <file relUrl="bin/yonyou.U8.Pub.FileTransfer.Server.dll" publishTime="08/01/2014 17:17:14" />
+    <file relUrl="bin/yonyou.U8.Pub.FileTransfer.Server.pdb" publishTime="08/01/2014 17:17:14" />
+    <file relUrl="bin/Cooperativeness.FileTransfer.Server.dll" publishTime="09/02/2014 09:59:32" />
+    <file relUrl="bin/yonyou.U8.Pub.FileTransfer.Core.dll" publishTime="08/01/2014 17:17:14" />
+    <file relUrl="bin/ICSharpCode.SharpZipLib.dll" publishTime="07/14/2014 18:23:22" />
+  </publishTarget>
+</publishData>

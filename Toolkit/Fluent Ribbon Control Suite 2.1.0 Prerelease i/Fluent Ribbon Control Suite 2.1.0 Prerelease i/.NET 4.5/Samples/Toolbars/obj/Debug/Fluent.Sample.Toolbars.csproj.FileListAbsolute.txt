@@ -1,0 +1,42 @@
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.0\.NET 4.5\Samples\Binaries\Fluent.Sample.Toolbars.exe.config
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.0\.NET 4.5\Samples\Binaries\Fluent.Sample.Toolbars.exe
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.0\.NET 4.5\Samples\Binaries\Fluent.Sample.Toolbars.pdb
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.0\.NET 4.5\Samples\Toolbars\obj\Debug\Fluent.Sample.Toolbars.csprojResolveAssemblyReference.cache
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.0\.NET 4.5\Samples\Toolbars\obj\Debug\Window.baml
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.0\.NET 4.5\Samples\Toolbars\obj\Debug\Application.baml
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.0\.NET 4.5\Samples\Toolbars\obj\Debug\Window.g.cs
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.0\.NET 4.5\Samples\Toolbars\obj\Debug\Application.g.cs
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.0\.NET 4.5\Samples\Toolbars\obj\Debug\Fluent.Sample.Toolbars_MarkupCompile.cache
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.0\.NET 4.5\Samples\Toolbars\obj\Debug\Fluent.Sample.Toolbars.g.resources
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.0\.NET 4.5\Samples\Toolbars\obj\Debug\Fluent.Sample.Toolbars.Properties.Resources.resources
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.0\.NET 4.5\Samples\Toolbars\obj\Debug\Fluent.Sample.Toolbars.csproj.GenerateResource.Cache
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.0\.NET 4.5\Samples\Toolbars\obj\Debug\Fluent.Sample.Toolbars.exe
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.0\.NET 4.5\Samples\Toolbars\obj\Debug\Fluent.Sample.Toolbars.pdb
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.1.0 Prerelease g\.NET 4.5\Samples\Toolbars\obj\Debug\Fluent.Sample.Toolbars.csprojResolveAssemblyReference.cache
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.1.0 Prerelease g\.NET 4.5\Samples\Toolbars\obj\Debug\Application.baml
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.1.0 Prerelease g\.NET 4.5\Samples\Toolbars\obj\Debug\Application.g.cs
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.1.0 Prerelease g\.NET 4.5\Samples\Toolbars\obj\Debug\Fluent.Sample.Toolbars_MarkupCompile.cache
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.1.0 Prerelease g\.NET 4.5\Samples\Toolbars\obj\Debug\Fluent.Sample.Toolbars.exe
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.1.0 Prerelease g\.NET 4.5\Samples\Toolbars\obj\Debug\Fluent.Sample.Toolbars.pdb
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.1.0 Prerelease g\.NET 4.5\Samples\Binaries\Fluent.Sample.Toolbars.exe.config
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.1.0 Prerelease g\.NET 4.5\Samples\Binaries\Fluent.Sample.Toolbars.exe
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.1.0 Prerelease g\.NET 4.5\Samples\Binaries\Fluent.Sample.Toolbars.pdb
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.1.0 Prerelease g\.NET 4.5\Samples\Toolbars\obj\Debug\Window.baml
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.1.0 Prerelease g\.NET 4.5\Samples\Toolbars\obj\Debug\Window.g.cs
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.1.0 Prerelease g\.NET 4.5\Samples\Toolbars\obj\Debug\Fluent.Sample.Toolbars.g.resources
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.1.0 Prerelease g\.NET 4.5\Samples\Toolbars\obj\Debug\Fluent.Sample.Toolbars.Properties.Resources.resources
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.1.0 Prerelease g\.NET 4.5\Samples\Toolbars\obj\Debug\Fluent.Sample.Toolbars.csproj.GenerateResource.Cache
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.1.0 Prerelease i\.NET 4.5\Samples\Binaries\Fluent.Sample.Toolbars.exe.config
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.1.0 Prerelease i\.NET 4.5\Samples\Binaries\Fluent.Sample.Toolbars.exe
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.1.0 Prerelease i\.NET 4.5\Samples\Binaries\Fluent.Sample.Toolbars.pdb
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.1.0 Prerelease i\.NET 4.5\Samples\Toolbars\obj\Debug\Fluent.Sample.Toolbars.csprojResolveAssemblyReference.cache
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.1.0 Prerelease i\.NET 4.5\Samples\Toolbars\obj\Debug\Window.baml
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.1.0 Prerelease i\.NET 4.5\Samples\Toolbars\obj\Debug\Application.baml
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.1.0 Prerelease i\.NET 4.5\Samples\Toolbars\obj\Debug\Window.g.cs
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.1.0 Prerelease i\.NET 4.5\Samples\Toolbars\obj\Debug\Application.g.cs
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.1.0 Prerelease i\.NET 4.5\Samples\Toolbars\obj\Debug\Fluent.Sample.Toolbars_MarkupCompile.cache
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.1.0 Prerelease i\.NET 4.5\Samples\Toolbars\obj\Debug\Fluent.Sample.Toolbars.g.resources
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.1.0 Prerelease i\.NET 4.5\Samples\Toolbars\obj\Debug\Fluent.Sample.Toolbars.Properties.Resources.resources
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.1.0 Prerelease i\.NET 4.5\Samples\Toolbars\obj\Debug\Fluent.Sample.Toolbars.csproj.GenerateResource.Cache
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.1.0 Prerelease i\.NET 4.5\Samples\Toolbars\obj\Debug\Fluent.Sample.Toolbars.exe
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.1.0 Prerelease i\.NET 4.5\Samples\Toolbars\obj\Debug\Fluent.Sample.Toolbars.pdb

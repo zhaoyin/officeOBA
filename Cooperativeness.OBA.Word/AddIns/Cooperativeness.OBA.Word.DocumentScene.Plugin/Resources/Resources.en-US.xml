@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<ResourceList>
+	<Resource Id="SceneDesigner" Value="協同文檔管理" Type="string" />
+	<Resource Id="SceneDesigner.LoginAdmin" Value="登錄管理" Type="string" />
+	<Resource Id="SceneDesigner.LoginAdmin.Login" Value="登錄        " Type="string" />
+	<Resource Id="SceneDesigner.LoginAdmin.Logout" Value="註銷        " Type="string" />
+	<Resource Id="SceneDesigner.DocumentAdmin" Value="文檔管理" Type="string" />
+	<Resource Id="SceneDesigner.DocumentAdmin.List" Value="文檔列表" Type="string" />
+	<Resource Id="SceneDesigner.DocumentAdmin.Version" Value="版本資訊" Type="string" />
+	<Resource Id="SceneDesigner.DocumentAdmin.Add" Value="新增        " Type="string" />
+	<Resource Id="SceneDesigner.DocumentAdmin.Download" Value="下載        " Type="string" />
+	<Resource Id="SceneDesigner.DocumentAdmin.Rename" Value="重命名    " Type="string" />
+	<Resource Id="SceneDesigner.DocumentAdmin.Delete" Value="刪除        " Type="string" />
+	<Resource Id="SceneDesigner.DocumentAdmin.Save" Value="保存" Type="string" />
+</ResourceList>

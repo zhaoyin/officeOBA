@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{62AABAC1-5136-4671-83F2-156CE7D06B0A}</ProjectGuid>
+    <ProjectTypeGuids>{786C830F-07A1-408B-BD7F-6EE04809D6DB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <RootNamespace>xmlrpc.PCL</RootNamespace>
+    <AssemblyName>xmlrpc.PCL</AssemblyName>
+    <TargetFrameworkProfile>Profile136</TargetFrameworkProfile>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\xmlrpc\AssemblyInfo.cs">
+      <Link>AssemblyInfo.cs</Link>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="..\xmlrpc\DateTime8601.cs">
+      <Link>DateTime8601.cs</Link>
+    </Compile>
+    <Compile Include="..\xmlrpc\GuidEx.cs">
+      <Link>GuidEx.cs</Link>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="..\xmlrpc\IXmlRpcProxy.cs">
+      <Link>IXmlRpcProxy.cs</Link>
+    </Compile>
+    <Compile Include="..\xmlrpc\util.cs">
+      <Link>util.cs</Link>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="..\xmlrpc\XmlRpcAsyncResult.cs">
+      <Link>XmlRpcAsyncResult.cs</Link>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="..\xmlrpc\XmlRpcBeginAttribute.cs">
+      <Link>XmlRpcBeginAttribute.cs</Link>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="..\xmlrpc\XmlRpcBoolean.cs">
+      <Link>XmlRpcBoolean.cs</Link>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="..\xmlrpc\XmlRpcClientProtocol.cs">
+      <Link>XmlRpcClientProtocol.cs</Link>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="..\xmlrpc\XmlRpcDateTime.cs">
+      <Link>XmlRpcDateTime.cs</Link>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="..\xmlrpc\XmlRpcDouble.cs">
+      <Link>XmlRpcDouble.cs</Link>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="..\xmlrpc\XmlRpcEndAttribute.cs">
+      <Link>XmlRpcEndAttribute.cs</Link>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="..\xmlrpc\XmlRpcException.cs">
+      <Link>XmlRpcException.cs</Link>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="..\xmlrpc\XmlRpcFaultException.cs">
+      <Link>XmlRpcFaultException.cs</Link>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="..\xmlrpc\XmlRpcInt.cs">
+      <Link>XmlRpcInt.cs</Link>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="..\xmlrpc\XmlRpcLogger.cs">
+      <Link>XmlRpcLogger.cs</Link>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="..\xmlrpc\XmlRpcMemberAttribute.cs">
+      <Link>XmlRpcMemberAttribute.cs</Link>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="..\xmlrpc\XmlRpcMethodAttribute.cs">
+      <Link>XmlRpcMethodAttribute.cs</Link>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="..\xmlrpc\XmlRpcMethodInfo.cs">
+      <Link>XmlRpcMethodInfo.cs</Link>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="..\xmlrpc\XmlRpcMissingMappingAttribute.cs">
+      <Link>XmlRpcMissingMappingAttribute.cs</Link>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="..\xmlrpc\XmlRpcNonStandard.cs">
+      <Link>XmlRpcNonStandard.cs</Link>
+    </Compile>
+    <Compile Include="..\xmlrpc\XmlRpcParameterAttribute.cs">
+      <Link>XmlRpcParameterAttribute.cs</Link>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="..\xmlrpc\XmlRpcParameterInfo.cs">
+      <Link>XmlRpcParameterInfo.cs</Link>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="..\xmlrpc\XmlRpcRequest.cs">
+      <Link>XmlRpcRequest.cs</Link>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="..\xmlrpc\XmlRpcRequestEventArgs.cs">
+      <Link>XmlRpcRequestEventArgs.cs</Link>
+    </Compile>
+    <Compile Include="..\xmlrpc\XmlRpcResponse.cs">
+      <Link>XmlRpcResponse.cs</Link>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="..\xmlrpc\XmlRpcResponseEventArgs.cs">
+      <Link>XmlRpcResponseEventArgs.cs</Link>
+    </Compile>
+    <Compile Include="..\xmlrpc\XmlRpcReturnValueAttribute.cs">
+      <Link>XmlRpcReturnValueAttribute.cs</Link>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="..\xmlrpc\XmlRpcSerializer.cs">
+      <Link>XmlRpcSerializer.cs</Link>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="..\xmlrpc\XmlRpcServiceAttribute.cs">
+      <Link>XmlRpcServiceAttribute.cs</Link>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="..\xmlrpc\XmlRpcServiceInfo.cs">
+      <Link>XmlRpcServiceInfo.cs</Link>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="..\xmlrpc\XmlRpcStruct.cs">
+      <Link>XmlRpcStruct.cs</Link>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="..\xmlrpc\XmlRpcUrlAttribute.cs">
+      <Link>XmlRpcUrlAttribute.cs</Link>
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
+</Project>

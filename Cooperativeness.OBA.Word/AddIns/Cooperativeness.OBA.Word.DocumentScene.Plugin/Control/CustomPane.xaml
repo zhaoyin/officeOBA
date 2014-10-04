@@ -1,0 +1,8 @@
+﻿<UserControl x:Class="Cooperativeness.OBA.Word.DocumentScene.Plugin.Control.CustomPane"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Height="406" Width="283">
+    <Grid>
+      <TextBlock Margin="30,10" x:Name="testText" Foreground="Blue" FontWeight="Bold" Text="版本信息展示区域" />      
+    </Grid>
+</UserControl>

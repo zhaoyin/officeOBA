@@ -1,0 +1,13 @@
+D:\U8Zhaoyin\OBA\Cooperativeness\Cooperativeness.Files\Cooperativeness.FileTransfer.Test\bin\Debug\Cooperativeness.FileTransfer.Client.dll
+D:\U8Zhaoyin\OBA\Cooperativeness\Cooperativeness.Files\Cooperativeness.FileTransfer.Test\bin\Debug\Cooperativeness.FileTransfer.Core.dll
+D:\U8Zhaoyin\OBA\Cooperativeness\Cooperativeness.Files\Cooperativeness.FileTransfer.Test\bin\Debug\nunit.framework.dll
+D:\U8Zhaoyin\OBA\Cooperativeness\Cooperativeness.Files\Cooperativeness.FileTransfer.Test\bin\Debug\ICSharpCode.SharpZipLib.dll
+D:\U8Zhaoyin\OBA\Cooperativeness\Cooperativeness.Files\Cooperativeness.FileTransfer.Test\bin\Debug\Cooperativeness.FileTransfer.Client.pdb
+D:\U8Zhaoyin\OBA\Cooperativeness\Cooperativeness.Files\Cooperativeness.FileTransfer.Test\bin\Debug\Cooperativeness.FileTransfer.Core.pdb
+D:\U8Zhaoyin\OBA\Cooperativeness\Cooperativeness.Files\Cooperativeness.FileTransfer.Test\obj\Debug\ResolveAssemblyReference.cache
+D:\U8Zhaoyin\OBA\Cooperativeness\Cooperativeness.Files\Cooperativeness.FileTransfer.Test\bin\Debug\Cooperativeness.FileTransfer.Test.dll
+D:\U8Zhaoyin\OBA\Cooperativeness\Cooperativeness.Files\Cooperativeness.FileTransfer.Test\bin\Debug\Cooperativeness.FileTransfer.Test.pdb
+D:\U8Zhaoyin\OBA\Cooperativeness\Cooperativeness.Files\Cooperativeness.FileTransfer.Test\obj\Debug\Cooperativeness.FileTransfer.Test.dll
+D:\U8Zhaoyin\OBA\Cooperativeness\Cooperativeness.Files\Cooperativeness.FileTransfer.Test\obj\Debug\Cooperativeness.FileTransfer.Test.pdb
+D:\U8Zhaoyin\OBA\Cooperativeness\Cooperativeness.Files\Cooperativeness.FileTransfer.Test\bin\Debug\Cooperativeness.Files.Server.Install.dll
+D:\U8Zhaoyin\OBA\Cooperativeness\Cooperativeness.Files\Cooperativeness.FileTransfer.Test\bin\Debug\Cooperativeness.Files.Server.Install.pdb

@@ -1,0 +1,5 @@
+D:\U8Zhaoyin\OBA\Cooperativeness\Cooperativeness.Documents.Editor\Cooperativeness.Documents.Editor.Convert\obj\Debug\ResolveAssemblyReference.cache
+D:\U8Zhaoyin\OBA\Cooperativeness\Cooperativeness.Documents.Editor\Cooperativeness.Documents.Editor.Convert\bin\Debug\Cooperativeness.Documents.Editor.Converter.dll
+D:\U8Zhaoyin\OBA\Cooperativeness\Cooperativeness.Documents.Editor\Cooperativeness.Documents.Editor.Convert\bin\Debug\Cooperativeness.Documents.Editor.Converter.pdb
+D:\U8Zhaoyin\OBA\Cooperativeness\Cooperativeness.Documents.Editor\Cooperativeness.Documents.Editor.Convert\obj\Debug\Cooperativeness.Documents.Editor.Converter.dll
+D:\U8Zhaoyin\OBA\Cooperativeness\Cooperativeness.Documents.Editor\Cooperativeness.Documents.Editor.Convert\obj\Debug\Cooperativeness.Documents.Editor.Converter.pdb

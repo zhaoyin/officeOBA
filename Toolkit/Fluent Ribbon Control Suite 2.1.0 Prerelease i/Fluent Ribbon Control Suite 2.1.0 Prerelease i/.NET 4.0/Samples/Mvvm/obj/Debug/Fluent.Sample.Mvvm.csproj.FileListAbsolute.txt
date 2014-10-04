@@ -1,0 +1,42 @@
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.0\.NET 4.0\Samples\Binaries\Fluent.Sample.Mvvm.exe
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.0\.NET 4.0\Samples\Binaries\Fluent.Sample.Mvvm.pdb
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.0\.NET 4.0\Samples\Mvvm\obj\Debug\Fluent.Sample.Mvvm.csprojResolveAssemblyReference.cache
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.0\.NET 4.0\Samples\Mvvm\obj\Debug\PersonTemplate.baml
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.0\.NET 4.0\Samples\Mvvm\obj\Debug\Window.baml
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.0\.NET 4.0\Samples\Mvvm\obj\Debug\Application.baml
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.0\.NET 4.0\Samples\Mvvm\obj\Debug\Window.g.cs
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.0\.NET 4.0\Samples\Mvvm\obj\Debug\Application.g.cs
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.0\.NET 4.0\Samples\Mvvm\obj\Debug\Fluent.Sample.Mvvm_MarkupCompile.cache
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.0\.NET 4.0\Samples\Mvvm\obj\Debug\Fluent.Sample.Mvvm.g.resources
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.0\.NET 4.0\Samples\Mvvm\obj\Debug\Fluent.Sample.Mvvm.Properties.Resources.resources
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.0\.NET 4.0\Samples\Mvvm\obj\Debug\Fluent.Sample.Mvvm.csproj.GenerateResource.Cache
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.0\.NET 4.0\Samples\Mvvm\obj\Debug\Fluent.Sample.Mvvm.exe
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.0\.NET 4.0\Samples\Mvvm\obj\Debug\Fluent.Sample.Mvvm.pdb
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.1.0 Prerelease g\.NET 4.0\Samples\Binaries\Fluent.Sample.Mvvm.exe
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.1.0 Prerelease g\.NET 4.0\Samples\Binaries\Fluent.Sample.Mvvm.pdb
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.1.0 Prerelease g\.NET 4.0\Samples\Mvvm\obj\Debug\Fluent.Sample.Mvvm.csprojResolveAssemblyReference.cache
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.1.0 Prerelease g\.NET 4.0\Samples\Mvvm\obj\Debug\PersonTemplate.baml
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.1.0 Prerelease g\.NET 4.0\Samples\Mvvm\obj\Debug\Window.baml
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.1.0 Prerelease g\.NET 4.0\Samples\Mvvm\obj\Debug\Application.baml
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.1.0 Prerelease g\.NET 4.0\Samples\Mvvm\obj\Debug\Window.g.cs
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.1.0 Prerelease g\.NET 4.0\Samples\Mvvm\obj\Debug\Application.g.cs
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.1.0 Prerelease g\.NET 4.0\Samples\Mvvm\obj\Debug\Fluent.Sample.Mvvm_MarkupCompile.cache
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.1.0 Prerelease g\.NET 4.0\Samples\Mvvm\obj\Debug\Fluent.Sample.Mvvm.g.resources
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.1.0 Prerelease g\.NET 4.0\Samples\Mvvm\obj\Debug\Fluent.Sample.Mvvm.Properties.Resources.resources
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.1.0 Prerelease g\.NET 4.0\Samples\Mvvm\obj\Debug\Fluent.Sample.Mvvm.csproj.GenerateResource.Cache
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.1.0 Prerelease g\.NET 4.0\Samples\Mvvm\obj\Debug\Fluent.Sample.Mvvm.exe
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.1.0 Prerelease g\.NET 4.0\Samples\Mvvm\obj\Debug\Fluent.Sample.Mvvm.pdb
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.1.0 Prerelease i\.NET 4.0\Samples\Mvvm\obj\Debug\Fluent.Sample.Mvvm.csprojResolveAssemblyReference.cache
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.1.0 Prerelease i\.NET 4.0\Samples\Mvvm\obj\Debug\PersonTemplate.baml
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.1.0 Prerelease i\.NET 4.0\Samples\Mvvm\obj\Debug\Window.baml
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.1.0 Prerelease i\.NET 4.0\Samples\Mvvm\obj\Debug\Application.baml
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.1.0 Prerelease i\.NET 4.0\Samples\Mvvm\obj\Debug\Window.g.cs
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.1.0 Prerelease i\.NET 4.0\Samples\Mvvm\obj\Debug\Application.g.cs
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.1.0 Prerelease i\.NET 4.0\Samples\Mvvm\obj\Debug\Fluent.Sample.Mvvm_MarkupCompile.cache
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.1.0 Prerelease i\.NET 4.0\Samples\Mvvm\obj\Debug\Fluent.Sample.Mvvm.g.resources
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.1.0 Prerelease i\.NET 4.0\Samples\Mvvm\obj\Debug\Fluent.Sample.Mvvm.Properties.Resources.resources
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.1.0 Prerelease i\.NET 4.0\Samples\Mvvm\obj\Debug\Fluent.Sample.Mvvm.csproj.GenerateResource.Cache
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.1.0 Prerelease i\.NET 4.0\Samples\Mvvm\obj\Debug\Fluent.Sample.Mvvm.exe
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.1.0 Prerelease i\.NET 4.0\Samples\Binaries\Fluent.Sample.Mvvm.exe
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.1.0 Prerelease i\.NET 4.0\Samples\Binaries\Fluent.Sample.Mvvm.pdb
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.1.0 Prerelease i\.NET 4.0\Samples\Mvvm\obj\Debug\Fluent.Sample.Mvvm.pdb

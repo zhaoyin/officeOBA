@@ -1,0 +1,1 @@
+C:\Program Files\Microsoft Visual Studio 8\SDK\v2.0\Bin>wsdl /language:c# /n:Cooperativeness.FileTransfer /out:D:\U8Zhaoyin\OBA\Cooperativeness\Cooperativeness.Files\Cooperativeness.FileTransfer.Client\TransferService.cs  D:\U8Zhaoyin\OBA\Cooperativeness\Cooperativeness.Files\Cooperativeness.FileTransfer.Server\TransferWebServices.wsdl

@@ -1,0 +1,5 @@
+F:\OBA\Cooperativeness\Cooperativeness.OBA.Word\Cooperativeness.OBA.Word.Ribbon\bin\x86\Release\Cooperativeness.OBA.Word.Ribbon.dll
+F:\OBA\Cooperativeness\Cooperativeness.OBA.Word\Cooperativeness.OBA.Word.Ribbon\bin\x86\Release\Cooperativeness.OBA.Word.Ribbon.pdb
+F:\OBA\Cooperativeness\Cooperativeness.OBA.Word\Cooperativeness.OBA.Word.Ribbon\obj\x86\Release\ResolveAssemblyReference.cache
+F:\OBA\Cooperativeness\Cooperativeness.OBA.Word\Cooperativeness.OBA.Word.Ribbon\obj\x86\Release\Cooperativeness.OBA.Word.Ribbon.dll
+F:\OBA\Cooperativeness\Cooperativeness.OBA.Word\Cooperativeness.OBA.Word.Ribbon\obj\x86\Release\Cooperativeness.OBA.Word.Ribbon.pdb

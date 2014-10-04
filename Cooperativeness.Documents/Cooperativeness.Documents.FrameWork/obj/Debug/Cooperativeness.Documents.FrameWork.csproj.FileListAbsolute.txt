@@ -1,0 +1,5 @@
+D:\U8Zhaoyin\OBA\Cooperativeness\Cooperativeness.Documents.Management\Bin\Cooperativeness.Documents.FrameWork.dll
+D:\U8Zhaoyin\OBA\Cooperativeness\Cooperativeness.Documents.Management\Bin\Cooperativeness.Documents.FrameWork.pdb
+D:\U8Zhaoyin\OBA\Cooperativeness\Cooperativeness.Documents.Management\Cooperativeness.Documents.FrameWork\obj\Debug\ResolveAssemblyReference.cache
+D:\U8Zhaoyin\OBA\Cooperativeness\Cooperativeness.Documents.Management\Cooperativeness.Documents.FrameWork\obj\Debug\Cooperativeness.Documents.FrameWork.dll
+D:\U8Zhaoyin\OBA\Cooperativeness\Cooperativeness.Documents.Management\Cooperativeness.Documents.FrameWork\obj\Debug\Cooperativeness.Documents.FrameWork.pdb

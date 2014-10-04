@@ -1,0 +1,39 @@
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.0\.NET 4.0\Samples\Binaries\Fluent.Sample.ScreenTips.exe
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.0\.NET 4.0\Samples\Binaries\Fluent.Sample.ScreenTips.pdb
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.0\.NET 4.0\Samples\ScreenTips\obj\Debug\Fluent.Sample.ScreenTips.csprojResolveAssemblyReference.cache
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.0\.NET 4.0\Samples\ScreenTips\obj\Debug\Window.baml
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.0\.NET 4.0\Samples\ScreenTips\obj\Debug\Application.baml
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.0\.NET 4.0\Samples\ScreenTips\obj\Debug\Window.g.cs
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.0\.NET 4.0\Samples\ScreenTips\obj\Debug\Application.g.cs
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.0\.NET 4.0\Samples\ScreenTips\obj\Debug\Fluent.Sample.ScreenTips_MarkupCompile.cache
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.0\.NET 4.0\Samples\ScreenTips\obj\Debug\Fluent.Sample.ScreenTips.g.resources
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.0\.NET 4.0\Samples\ScreenTips\obj\Debug\Fluent.Sample.ScreenTips.Properties.Resources.resources
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.0\.NET 4.0\Samples\ScreenTips\obj\Debug\Fluent.Sample.ScreenTips.csproj.GenerateResource.Cache
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.0\.NET 4.0\Samples\ScreenTips\obj\Debug\Fluent.Sample.ScreenTips.exe
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.0\.NET 4.0\Samples\ScreenTips\obj\Debug\Fluent.Sample.ScreenTips.pdb
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.1.0 Prerelease g\.NET 4.0\Samples\ScreenTips\obj\Debug\Fluent.Sample.ScreenTips.csprojResolveAssemblyReference.cache
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.1.0 Prerelease g\.NET 4.0\Samples\ScreenTips\obj\Debug\Application.baml
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.1.0 Prerelease g\.NET 4.0\Samples\ScreenTips\obj\Debug\Application.g.cs
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.1.0 Prerelease g\.NET 4.0\Samples\ScreenTips\obj\Debug\Fluent.Sample.ScreenTips_MarkupCompile.cache
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.1.0 Prerelease g\.NET 4.0\Samples\ScreenTips\obj\Debug\Fluent.Sample.ScreenTips.exe
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.1.0 Prerelease g\.NET 4.0\Samples\ScreenTips\obj\Debug\Fluent.Sample.ScreenTips.pdb
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.1.0 Prerelease g\.NET 4.0\Samples\Binaries\Fluent.Sample.ScreenTips.exe
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.1.0 Prerelease g\.NET 4.0\Samples\Binaries\Fluent.Sample.ScreenTips.pdb
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.1.0 Prerelease g\.NET 4.0\Samples\ScreenTips\obj\Debug\Window.baml
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.1.0 Prerelease g\.NET 4.0\Samples\ScreenTips\obj\Debug\Window.g.cs
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.1.0 Prerelease g\.NET 4.0\Samples\ScreenTips\obj\Debug\Fluent.Sample.ScreenTips.g.resources
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.1.0 Prerelease g\.NET 4.0\Samples\ScreenTips\obj\Debug\Fluent.Sample.ScreenTips.Properties.Resources.resources
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.1.0 Prerelease g\.NET 4.0\Samples\ScreenTips\obj\Debug\Fluent.Sample.ScreenTips.csproj.GenerateResource.Cache
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.1.0 Prerelease i\.NET 4.0\Samples\Binaries\Fluent.Sample.ScreenTips.exe
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.1.0 Prerelease i\.NET 4.0\Samples\Binaries\Fluent.Sample.ScreenTips.pdb
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.1.0 Prerelease i\.NET 4.0\Samples\ScreenTips\obj\Debug\Fluent.Sample.ScreenTips.csprojResolveAssemblyReference.cache
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.1.0 Prerelease i\.NET 4.0\Samples\ScreenTips\obj\Debug\Window.baml
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.1.0 Prerelease i\.NET 4.0\Samples\ScreenTips\obj\Debug\Application.baml
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.1.0 Prerelease i\.NET 4.0\Samples\ScreenTips\obj\Debug\Window.g.cs
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.1.0 Prerelease i\.NET 4.0\Samples\ScreenTips\obj\Debug\Application.g.cs
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.1.0 Prerelease i\.NET 4.0\Samples\ScreenTips\obj\Debug\Fluent.Sample.ScreenTips_MarkupCompile.cache
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.1.0 Prerelease i\.NET 4.0\Samples\ScreenTips\obj\Debug\Fluent.Sample.ScreenTips.g.resources
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.1.0 Prerelease i\.NET 4.0\Samples\ScreenTips\obj\Debug\Fluent.Sample.ScreenTips.Properties.Resources.resources
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.1.0 Prerelease i\.NET 4.0\Samples\ScreenTips\obj\Debug\Fluent.Sample.ScreenTips.csproj.GenerateResource.Cache
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.1.0 Prerelease i\.NET 4.0\Samples\ScreenTips\obj\Debug\Fluent.Sample.ScreenTips.exe
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.1.0 Prerelease i\.NET 4.0\Samples\ScreenTips\obj\Debug\Fluent.Sample.ScreenTips.pdb

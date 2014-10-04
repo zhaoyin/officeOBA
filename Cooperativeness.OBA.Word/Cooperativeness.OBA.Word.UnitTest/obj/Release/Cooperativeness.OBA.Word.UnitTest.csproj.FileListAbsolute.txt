@@ -1,0 +1,17 @@
+F:\OBA\Cooperativeness.OBA.Word\Cooperativeness.OBA.Word.UnitTest\bin\Release\addins.reg
+F:\OBA\Cooperativeness.OBA.Word\Cooperativeness.OBA.Word.UnitTest\bin\Release\Cooperativeness.OBA.Word.UnitTest.dll
+F:\OBA\Cooperativeness.OBA.Word\Cooperativeness.OBA.Word.UnitTest\bin\Release\Cooperativeness.OBA.Word.UnitTest.pdb
+F:\OBA\Cooperativeness.OBA.Word\Cooperativeness.OBA.Word.UnitTest\bin\Release\Cooperativeness.OBA.Word.Install.dll
+F:\OBA\Cooperativeness.OBA.Word\Cooperativeness.OBA.Word.UnitTest\bin\Release\nunit.framework.dll
+F:\OBA\Cooperativeness.OBA.Word\Cooperativeness.OBA.Word.UnitTest\bin\Release\nunit.framework.xml
+F:\OBA\Cooperativeness.OBA.Word\Cooperativeness.OBA.Word.UnitTest\bin\Release\Cooperativeness.OBA.Word.Install.pdb
+F:\OBA\Cooperativeness.OBA.Word\Cooperativeness.OBA.Word.UnitTest\obj\Release\ResolveAssemblyReference.cache
+F:\OBA\Cooperativeness.OBA.Word\Cooperativeness.OBA.Word.UnitTest\obj\Release\Cooperativeness.OBA.Word.UnitTest.dll
+F:\OBA\Cooperativeness.OBA.Word\Cooperativeness.OBA.Word.UnitTest\obj\Release\Cooperativeness.OBA.Word.UnitTest.pdb
+D:\U8Zhaoyin\OBA\Cooperativeness.OBA.Word\Cooperativeness.OBA.Word.UnitTest\bin\Release\Cooperativeness.OBA.Word.UnitTest.dll
+D:\U8Zhaoyin\OBA\Cooperativeness.OBA.Word\Cooperativeness.OBA.Word.UnitTest\bin\Release\Cooperativeness.OBA.Word.UnitTest.pdb
+D:\U8Zhaoyin\OBA\Cooperativeness.OBA.Word\Cooperativeness.OBA.Word.UnitTest\bin\Release\Cooperativeness.OBA.Word.Install.dll
+D:\U8Zhaoyin\OBA\Cooperativeness.OBA.Word\Cooperativeness.OBA.Word.UnitTest\bin\Release\Cooperativeness.OBA.Word.Install.pdb
+D:\U8Zhaoyin\OBA\Cooperativeness.OBA.Word\Cooperativeness.OBA.Word.UnitTest\obj\Release\ResolveAssemblyReference.cache
+D:\U8Zhaoyin\OBA\Cooperativeness.OBA.Word\Cooperativeness.OBA.Word.UnitTest\obj\Release\Cooperativeness.OBA.Word.UnitTest.dll
+D:\U8Zhaoyin\OBA\Cooperativeness.OBA.Word\Cooperativeness.OBA.Word.UnitTest\obj\Release\Cooperativeness.OBA.Word.UnitTest.pdb

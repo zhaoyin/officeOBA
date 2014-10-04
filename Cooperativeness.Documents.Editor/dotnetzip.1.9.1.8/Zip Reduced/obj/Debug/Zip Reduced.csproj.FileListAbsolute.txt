@@ -1,0 +1,6 @@
+D:\U8Zhaoyin\OBA\Cooperativeness\Cooperativeness.Documents.Editor\dotnetzip.1.9.1.8\Zip Reduced\obj\Debug\ResolveAssemblyReference.cache
+D:\U8Zhaoyin\OBA\Cooperativeness\Cooperativeness.Documents.Editor\dotnetzip.1.9.1.8\Zip Reduced\bin\Debug\Ionic.Zip.Reduced.XML
+D:\U8Zhaoyin\OBA\Cooperativeness\Cooperativeness.Documents.Editor\dotnetzip.1.9.1.8\Zip Reduced\bin\Debug\Ionic.Zip.Reduced.dll
+D:\U8Zhaoyin\OBA\Cooperativeness\Cooperativeness.Documents.Editor\dotnetzip.1.9.1.8\Zip Reduced\bin\Debug\Ionic.Zip.Reduced.pdb
+D:\U8Zhaoyin\OBA\Cooperativeness\Cooperativeness.Documents.Editor\dotnetzip.1.9.1.8\Zip Reduced\obj\Debug\Ionic.Zip.Reduced.dll
+D:\U8Zhaoyin\OBA\Cooperativeness\Cooperativeness.Documents.Editor\dotnetzip.1.9.1.8\Zip Reduced\obj\Debug\Ionic.Zip.Reduced.pdb

@@ -1,0 +1,5 @@
+F:\OBA\Cooperativeness\Cooperativeness.OBA.Word\Cooperativeness.OBA.Word.Install\bin\x86\Release\Cooperativeness.OBA.Word.Install.dll
+F:\OBA\Cooperativeness\Cooperativeness.OBA.Word\Cooperativeness.OBA.Word.Install\bin\x86\Release\Cooperativeness.OBA.Word.Install.pdb
+F:\OBA\Cooperativeness\Cooperativeness.OBA.Word\Cooperativeness.OBA.Word.Install\obj\x86\Release\ResolveAssemblyReference.cache
+F:\OBA\Cooperativeness\Cooperativeness.OBA.Word\Cooperativeness.OBA.Word.Install\obj\x86\Release\Cooperativeness.OBA.Word.Install.dll
+F:\OBA\Cooperativeness\Cooperativeness.OBA.Word\Cooperativeness.OBA.Word.Install\obj\x86\Release\Cooperativeness.OBA.Word.Install.pdb

@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{5C0B9DB9-D89C-4327-B7A3-93142FDFE5A7}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Cooperativeness.OBA.Word.AddIns.FrameWork</RootNamespace>
+    <AssemblyName>Cooperativeness.OBA.Word.AddIns.FrameWork</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkSubset>Client</TargetFrameworkSubset>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\Bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>
+    </DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\Bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>Cooperativeness.OBA.Word.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Adaptor\IFrameworkAdaptor.cs" />
+    <Compile Include="Core\AbstractBundle.cs" />
+    <Compile Include="Core\BaseAdaptor.cs" />
+    <Compile Include="Core\BaseData.cs" />
+    <Compile Include="Core\BaseStorage.cs" />
+    <Compile Include="Core\BundleContextImpl.cs" />
+    <Compile Include="Core\BundleFragment.cs" />
+    <Compile Include="Core\BundleHost.cs" />
+    <Compile Include="Core\BundleRepository.cs" />
+    <Compile Include="Core\ExtensionAdmin.cs" />
+    <Compile Include="Core\ExtensionImpl.cs" />
+    <Compile Include="Core\ExtensionPointImpl.cs" />
+    <Compile Include="Core\FilterImpl.cs" />
+    <Compile Include="Core\Framework.cs" />
+    <Compile Include="Core\SystemBundle.cs" />
+    <Compile Include="Core\LocationManager.cs" />
+    <Compile Include="Core\StartLevelManager.cs" />
+    <Compile Include="Core\SystemBundleActivator.cs" />
+    <Compile Include="Core\SystemBundleData.cs" />
+    <Compile Include="Events\ExtensionEventArgs.cs" />
+    <Compile Include="Events\ExtensionPointEventArgs.cs" />
+    <Compile Include="Loader\AbstractClassLoader.cs" />
+    <Compile Include="Loader\AssemblyResolvingImpl.cs" />
+    <Compile Include="Loader\BundleLoaderImpl.cs" />
+    <Compile Include="Loader\SystemBundleLoader.cs" />
+    <Compile Include="Package\ExportedPackageAdmin.cs" />
+    <Compile Include="Package\ExportedPackageImpl.cs" />
+    <Compile Include="Package\IExportedPackage.cs" />
+    <Compile Include="Package\IImportBundle.cs" />
+    <Compile Include="Package\IImportPackage.cs" />
+    <Compile Include="Package\ImportBundleImpl.cs" />
+    <Compile Include="Package\ImportPackageImpl.cs" />
+    <Compile Include="Package\IServicePackage.cs" />
+    <Compile Include="Package\PrivilegedPackage.cs" />
+    <Compile Include="Package\ServicePackageImpl.cs" />
+    <Compile Include="Package\IBundleSpecification.cs" />
+    <Compile Include="Resolver\IResolver.cs" />
+    <Compile Include="Resolver\BaseResolver.cs" />
+    <Compile Include="Package\BundleSpecificationImpl.cs" />
+    <Compile Include="Resolver\ResolverImpl.cs" />
+    <Compile Include="Resolver\ResolverNodeCollection.cs" />
+    <Compile Include="AssemblyDescriptor.cs" />
+    <Compile Include="Resolver\ResolverTree.cs" />
+    <Compile Include="Resolver\ResolverNode.cs" />
+    <Compile Include="CollectionChangedAction.cs" />
+    <Compile Include="BundleUtil.cs" />
+    <Compile Include="Loader\BundleLoaderProxy.cs" />
+    <Compile Include="Loader\IAssemblyResolving.cs" />
+    <Compile Include="Loader\IBundleLoader.cs" />
+    <Compile Include="Loader\IClassLoader.cs" />
+    <Compile Include="Loader\IRuntimeService.cs" />
+    <Compile Include="MetaData\BoolValue.cs" />
+    <Compile Include="MetaData\ChildElements.cs" />
+    <Compile Include="MetaData\EmptyElementCollection.cs" />
+    <Compile Include="MetaData\EmptyEnumerator.cs" />
+    <Compile Include="MetaData\EnumValue.cs" />
+    <Compile Include="MetaData\IntValue.cs" />
+    <Compile Include="MetaData\LongValue.cs" />
+    <Compile Include="MetaData\MetaCompositeElement.cs" />
+    <Compile Include="MetaData\MetaElement.cs" />
+    <Compile Include="MetaData\MetaElementCollection.cs" />
+    <Compile Include="MetaData\MetaLeafElement.cs" />
+    <Compile Include="MetaData\SimpleType.cs" />
+    <Compile Include="MetaData\StringValue.cs" />
+    <Compile Include="MetaData\XActivator.cs" />
+    <Compile Include="MetaData\XAssembly.cs" />
+    <Compile Include="MetaData\XBundle.cs" />
+    <Compile Include="MetaData\XDependency.cs" />
+    <Compile Include="MetaData\XExtension.cs" />
+    <Compile Include="MetaData\XExtensionPoint.cs" />
+    <Compile Include="MetaData\XRuntime.cs" />
+    <Compile Include="MetaData\XService.cs" />
+    <Compile Include="MetaData\XServices.cs" />
+    <Compile Include="Package\IPackageAdmin.cs" />
+    <Compile Include="Package\PackageAdminImpl.cs" />
+    <Compile Include="Service\IServiceFactory.cs" />
+    <Compile Include="Service\IServiceReference.cs" />
+    <Compile Include="Service\IServiceRegistration.cs" />
+    <Compile Include="Service\ServiceProperties.cs" />
+    <Compile Include="Service\ServiceReferenceImpl.cs" />
+    <Compile Include="Service\ServiceRegistrationImpl.cs" />
+    <Compile Include="Service\ServiceRegistry.cs" />
+    <Compile Include="Service\ServiceUse.cs" />
+    <Compile Include="ActivatorPolicy.cs" />
+    <Compile Include="AssemblyEntry.cs" />
+    <Compile Include="BundleException.cs" />
+    <Compile Include="BundleExceptionType.cs" />
+    <Compile Include="BundleOptions.cs" />
+    <Compile Include="BundleProperty.cs" />
+    <Compile Include="BundleStarter.cs" />
+    <Compile Include="BundleState.cs" />
+    <Compile Include="BundleType.cs" />
+    <Compile Include="ConfigConstant.cs" />
+    <Compile Include="DependentBundle.cs" />
+    <Compile Include="EnumStringAttribute.cs" />
+    <Compile Include="IAssemblyResolverHook.cs" />
+    <Compile Include="IBundle.cs" />
+    <Compile Include="IBundleActivator.cs" />
+    <Compile Include="IBundleContext.cs" />
+    <Compile Include="IBundleData.cs" />
+    <Compile Include="IBundleReference.cs" />
+    <Compile Include="IEnumeration.cs" />
+    <Compile Include="IExtension.cs" />
+    <Compile Include="IExtensionPoint.cs" />
+    <Compile Include="IFilter.cs" />
+    <Compile Include="IFramework.cs" />
+    <Compile Include="IllegalStateException.cs" />
+    <Compile Include="IStartLevel.cs" />
+    <Compile Include="IStatusExpception.cs" />
+    <Compile Include="LoaderState.cs" />
+    <Compile Include="NoSuchElementException.cs" />
+    <Compile Include="ResolutionMode.cs" />
+    <Compile Include="ResolveState.cs" />
+    <Compile Include="ResourceLoadMode.cs" />
+    <Compile Include="StatusCode.cs" />
+    <Compile Include="StringExtension.cs" />
+    <Compile Include="StringTokenizer.cs" />
+    <Compile Include="VersionRange.cs" />
+    <Compile Include="XElementExtend.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ServiceEntry.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="META-INF\MANIFEST.MF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Cooperativeness.OBA.Word.Tools\Cooperativeness.OBA.Word.Tools.csproj">
+      <Project>{C91605DB-13BC-44B2-A8BD-E1334474CC67}</Project>
+      <Name>Cooperativeness.OBA.Word.Tools</Name>
+      <Private>False</Private>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Cooperativeness.OBA.Word.snk" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

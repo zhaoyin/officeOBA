@@ -1,0 +1,13 @@
+D:\U8Zhaoyin\OBA\Cooperativeness\Cooperativeness.Documents.Management\Cooperativeness.Documents.Startup\bin\Debug\Cooperativeness.Documents.Startup.exe.config
+D:\U8Zhaoyin\OBA\Cooperativeness\Cooperativeness.Documents.Management\Cooperativeness.Documents.Startup\bin\Debug\Cooperativeness.Documents.exe.config
+D:\U8Zhaoyin\OBA\Cooperativeness\Cooperativeness.Documents.Management\Bin\Cooperativeness.Documents.exe.config
+D:\U8Zhaoyin\OBA\Cooperativeness\Cooperativeness.Documents.Management\Cooperativeness.Documents.Startup\obj\Debug\ResolveAssemblyReference.cache
+D:\U8Zhaoyin\OBA\Cooperativeness\Cooperativeness.Documents.Management\Cooperativeness.Documents.Startup\obj\Debug\Cooperativeness.Documents.Startup.Properties.Resources.resources
+D:\U8Zhaoyin\OBA\Cooperativeness\Cooperativeness.Documents.Management\Cooperativeness.Documents.Startup\obj\Debug\Cooperativeness.Documents.Startup.csproj.GenerateResource.Cache
+D:\U8Zhaoyin\OBA\Cooperativeness\Cooperativeness.Documents.Management\Bin\Cooperativeness.Documents.exe
+D:\U8Zhaoyin\OBA\Cooperativeness\Cooperativeness.Documents.Management\Bin\Cooperativeness.Documents.pdb
+D:\U8Zhaoyin\OBA\Cooperativeness\Cooperativeness.Documents.Management\Cooperativeness.Documents.Startup\obj\Debug\Cooperativeness.Documents.exe
+D:\U8Zhaoyin\OBA\Cooperativeness\Cooperativeness.Documents.Management\Cooperativeness.Documents.Startup\obj\Debug\Cooperativeness.Documents.pdb
+D:\U8Zhaoyin\OBA\Cooperativeness\Cooperativeness.Documents\Bin\Cooperativeness.Documents.exe.config
+D:\U8Zhaoyin\OBA\Cooperativeness\Cooperativeness.Documents\Cooperativeness.Documents.Startup\obj\Debug\Cooperativeness.Documents.exe
+D:\U8Zhaoyin\OBA\Cooperativeness\Cooperativeness.Documents\Cooperativeness.Documents.Startup\obj\Debug\Cooperativeness.Documents.pdb

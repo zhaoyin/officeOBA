@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{70B1F294-52A5-4106-93B5-CC968C0B165B}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Cooperativeness.OBA.Word.Ribbon</RootNamespace>
+    <AssemblyName>Cooperativeness.OBA.Word.Ribbon</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>Cooperativeness.OBA.Word.snk</AssemblyOriginatorKeyFile>
+    <TargetFrameworkSubset>Client</TargetFrameworkSubset>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\Bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>
+    </DocumentationFile>
+    <RegisterForComInterop>false</RegisterForComInterop>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\Bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Accessibility" />
+    <Reference Include="Microsoft.Office.Interop.Word, Version=12.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c" />
+    <Reference Include="Microsoft.Office.Tools.Common.v9.0, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.Office.Tools.v9.0, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.VisualStudio.Tools.Office.Contract.v9.0, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Office, Version=12.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c" />
+    <Reference Include="stdole, Version=7.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Command\IRibbonMenuCommand.cs" />
+    <Compile Include="Command\IRibbonSeparatorCommand.cs" />
+    <Compile Include="Command\IRibbonToggleButton.cs" />
+    <Compile Include="Command\IRibbonAction.cs" />
+    <Compile Include="Command\IRibbonButtonCommand.cs" />
+    <Compile Include="Command\IRibbonGroupCommand.cs" />
+    <Compile Include="Command\RibbonButtonCommand.cs" />
+    <Compile Include="Command\RibbonGroupCommand.cs" />
+    <Compile Include="Command\RibbonMenuCommand.cs" />
+    <Compile Include="Command\RibbonSeparatorCommand.cs" />
+    <Compile Include="Command\RibbonTabCommand.cs" />
+    <Compile Include="Command\RibbonToggleButtonCommand.cs" />
+    <Compile Include="Model\RibbonElement.cs" />
+    <Compile Include="Model\ChildRibbonElements.cs" />
+    <Compile Include="Model\ElementCollection.cs" />
+    <Compile Include="Model\EmptyElementCollection.cs" />
+    <Compile Include="Model\CompositeRibbonElement.cs" />
+    <Compile Include="Model\EmptyEnumerator.cs" />
+    <Compile Include="Model\LeafRibbonElement.cs" />
+    <Compile Include="Model\XRibbon.cs" />
+    <Compile Include="Model\XRibbonButton.cs" />
+    <Compile Include="Model\XRibbonGroup.cs" />
+    <Compile Include="Model\XRibbonMenu.cs" />
+    <Compile Include="Model\XRibbonSeparator.cs" />
+    <Compile Include="Model\XRibbonTab.cs" />
+    <Compile Include="Model\XRibbonTabs.cs" />
+    <Compile Include="Model\XRibbonToggleButton.cs" />
+    <Compile Include="Resolver\BaseRibbonResolver.cs" />
+    <Compile Include="Resolver\IRibbonResolver.cs" />
+    <Compile Include="Resolver\RibbonMenuResolver.cs" />
+    <Compile Include="Resolver\RibbonSingleResolver.cs" />
+    <Compile Include="Resolver\RibbonGroupResolver.cs" />
+    <Compile Include="Resolver\RibbonResolver.cs" />
+    <Compile Include="Resolver\RibbonTabResolver.cs" />
+    <Compile Include="IRibbonAdmin.cs" />
+    <Compile Include="Command\IRibbonTabCommand.cs" />
+    <Compile Include="IRibbonElement.cs" />
+    <Compile Include="RibbonAdminImpl.cs" />
+    <Compile Include="RibbonDefaultValue.cs" />
+    <Compile Include="RibbonEventArgs.cs" />
+    <Compile Include="RibbonUi.cs" />
+    <Compile Include="RibbonRepository.cs" />
+    <Compile Include="RibbonSizeMode.cs" />
+    <Compile Include="RibbonToggleButtonEventArgs.cs" />
+    <Compile Include="RibbonUtils.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Cooperativeness.OBA.Word.Addins.FrameWork\Cooperativeness.OBA.Word.AddIns.FrameWork.csproj">
+      <Project>{5C0B9DB9-D89C-4327-B7A3-93142FDFE5A7}</Project>
+      <Name>Cooperativeness.OBA.Word.AddIns.FrameWork</Name>
+      <Private>False</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\Cooperativeness.OBA.Word.Tools\Cooperativeness.OBA.Word.Tools.csproj">
+      <Project>{C91605DB-13BC-44B2-A8BD-E1334474CC67}</Project>
+      <Name>Cooperativeness.OBA.Word.Tools</Name>
+      <Private>False</Private>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Cooperativeness.OBA.Word.snk" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <PropertyGroup>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

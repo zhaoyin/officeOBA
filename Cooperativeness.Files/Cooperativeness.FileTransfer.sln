@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cooperativeness.FileTransfer.Client", "Cooperativeness.FileTransfer.Client\Cooperativeness.FileTransfer.Client.csproj", "{81899043-3B34-4B35-8204-EE977600D5EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cooperativeness.FileTransfer.Server", "Cooperativeness.FileTransfer.Server\Cooperativeness.FileTransfer.Server.csproj", "{0223CEAC-F5E1-4E25-8CF3-FFD48BB0FA87}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cooperativeness.FileTransfer.Test", "Cooperativeness.FileTransfer.Test\Cooperativeness.FileTransfer.Test.csproj", "{48D6D22C-6689-4F8E-8890-6D172D2135D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cooperativeness.FileTransfer.Core", "Cooperativeness.FileTransfer.Core\Cooperativeness.FileTransfer.Core.csproj", "{DF57D69A-F511-448C-9E57-154F39D17BC7}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Cooperativeness.Files.Server.WebSetup", "Cooperativeness.Files.Server.WebSetup\Cooperativeness.Files.Server.WebSetup.vdproj", "{99CE8C01-8788-425D-A6B1-76E911A0E282}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cooperativeness.Files.Server.Install", "Cooperativeness.Files.Server.Install\Cooperativeness.Files.Server.Install.csproj", "{8FD4B7B5-67A9-487C-B464-1B15EB818A4D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{81899043-3B34-4B35-8204-EE977600D5EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81899043-3B34-4B35-8204-EE977600D5EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81899043-3B34-4B35-8204-EE977600D5EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81899043-3B34-4B35-8204-EE977600D5EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0223CEAC-F5E1-4E25-8CF3-FFD48BB0FA87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0223CEAC-F5E1-4E25-8CF3-FFD48BB0FA87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0223CEAC-F5E1-4E25-8CF3-FFD48BB0FA87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0223CEAC-F5E1-4E25-8CF3-FFD48BB0FA87}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48D6D22C-6689-4F8E-8890-6D172D2135D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48D6D22C-6689-4F8E-8890-6D172D2135D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48D6D22C-6689-4F8E-8890-6D172D2135D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48D6D22C-6689-4F8E-8890-6D172D2135D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF57D69A-F511-448C-9E57-154F39D17BC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF57D69A-F511-448C-9E57-154F39D17BC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF57D69A-F511-448C-9E57-154F39D17BC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF57D69A-F511-448C-9E57-154F39D17BC7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99CE8C01-8788-425D-A6B1-76E911A0E282}.Debug|Any CPU.ActiveCfg = Debug
+		{99CE8C01-8788-425D-A6B1-76E911A0E282}.Release|Any CPU.ActiveCfg = Release
+		{8FD4B7B5-67A9-487C-B464-1B15EB818A4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FD4B7B5-67A9-487C-B464-1B15EB818A4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FD4B7B5-67A9-487C-B464-1B15EB818A4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FD4B7B5-67A9-487C-B464-1B15EB818A4D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

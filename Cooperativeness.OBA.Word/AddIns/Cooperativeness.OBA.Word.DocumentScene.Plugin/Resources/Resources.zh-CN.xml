@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<ResourceList>
+	<Resource Id="SceneDesigner" Value="协同文档管理" Type="string" />
+	<Resource Id="SceneDesigner.LoginAdmin" Value="登录管理" Type="string" />
+	<Resource Id="SceneDesigner.LoginAdmin.Login" Value="登录        " Type="string" />
+	<Resource Id="SceneDesigner.LoginAdmin.Logout" Value="注销        " Type="string" />
+	<Resource Id="SceneDesigner.DocumentAdmin" Value="文档管理" Type="string" />
+	<Resource Id="SceneDesigner.DocumentAdmin.List" Value="文档列表" Type="string" />
+	<Resource Id="SceneDesigner.DocumentAdmin.Version" Value="版本信息" Type="string" />
+	<Resource Id="SceneDesigner.DocumentAdmin.Open" Value="打开        " Type="string" />
+	<Resource Id="SceneDesigner.DocumentAdmin.Add" Value="新增        " Type="string" />
+	<Resource Id="SceneDesigner.DocumentAdmin.Download" Value="下载        " Type="string" />
+	<Resource Id="SceneDesigner.DocumentAdmin.Rename" Value="重命名    " Type="string" />
+	<Resource Id="SceneDesigner.DocumentAdmin.Delete" Value="删除        " Type="string" />
+	<Resource Id="SceneDesigner.DocumentAdmin.Save" Value="保存        " Type="string" />
+	<Resource Id="SceneDesigner.DocumentAdmin.Close" Value="关闭        " Type="string" />
+	<Resource Id="SceneDesigner.Other" Value="其他设置" Type="string" />
+	<Resource Id="SceneDesigner.Other.TestButton" Value="测试        " Type="string" />
+	<Resource Id="SceneDesigner.Other.TestMenu1" Value="测试1        " Type="string" />
+	<Resource Id="SceneDesigner.Other.TestMenu2" Value="测试2        " Type="string" />
+	<Resource Id="SceneDesigner.LoginForm.lblUserName" Value="用户名" Type="string" />
+	<Resource Id="SceneDesigner.LoginForm.lblPassword" Value="密  码" Type="string" />
+	<Resource Id="SceneDesigner.LoginForm.lblVerify" Value="验证码" Type="string" />
+	<Resource Id="SceneDesigner.LoginForm.btnLogin" Value="登    录" Type="string" />
+	<Resource Id="SceneDesigner.LoginForm.btnCancel" Value="取    消" Type="string" />
+</ResourceList>

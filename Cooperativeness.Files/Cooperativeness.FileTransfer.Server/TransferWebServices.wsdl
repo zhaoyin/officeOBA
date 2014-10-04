@@ -1,0 +1,619 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://XPlugin.XX/FileTransfer/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" targetNamespace="http://XPlugin.XX/FileTransfer/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://XPlugin.XX/FileTransfer/">
+      <s:element name="GetWebServerPath">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="directoryPath" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetWebServerPathResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetWebServerPathResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SetWebServicesFileDirectory">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="directoryName" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SetWebServicesFileDirectoryResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="SetWebServicesDirectory">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="directoryName" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SetWebServicesDirectoryResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetFileSize">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="fileName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="directoryPath" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetFileSizeResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="GetFileSizeResult" type="s:long" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DeleteFile">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="remoteFile" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="directoryPath" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DeleteFileResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="DeleteFileResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DeleteDirectory">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="directoryPath" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DeleteDirectoryResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="DeleteDirectoryResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="TestConnectedness">
+        <s:complexType />
+      </s:element>
+      <s:element name="TestConnectednessResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="TestConnectednessResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="PackageFiles">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="localFileList" type="tns:ArrayOfString" />
+            <s:element minOccurs="0" maxOccurs="1" name="passWord" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfString">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="string" nillable="true" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="PackageFilesResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="PackageFilesResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="PackageFilesForDirectory">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="locaDirectoryPath" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="passWord" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="PackageFilesForDirectoryResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="PackageFilesForDirectoryResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UnpackageFiles">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="fileName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="localDirectoryPath" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="passWord" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="unPackagePath" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UnpackageFilesResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="UnpackageFilesResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SplitFiles">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="remotefile" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="directoryPath" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="chunkSize" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SplitFilesResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SplitFilesResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="MergeFiles">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="directoryPath" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="searchPattern" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="deleteOrginFile" type="s:boolean" />
+            <s:element minOccurs="0" maxOccurs="1" name="mergeFilePath" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="MergeFilesResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="MergeFilesResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetDirectories">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="dirPath" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="searchPattern" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetDirectoriesResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetDirectoriesResult" type="tns:ArrayOfString" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetFiles">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="dirPath" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="searchPattern" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="isFullPath" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetFilesResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetFilesResult" type="tns:ArrayOfString" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="GetWebServerPathSoapIn">
+    <wsdl:part name="parameters" element="tns:GetWebServerPath" />
+  </wsdl:message>
+  <wsdl:message name="GetWebServerPathSoapOut">
+    <wsdl:part name="parameters" element="tns:GetWebServerPathResponse" />
+  </wsdl:message>
+  <wsdl:message name="SetWebServicesFileDirectorySoapIn">
+    <wsdl:part name="parameters" element="tns:SetWebServicesFileDirectory" />
+  </wsdl:message>
+  <wsdl:message name="SetWebServicesFileDirectorySoapOut">
+    <wsdl:part name="parameters" element="tns:SetWebServicesFileDirectoryResponse" />
+  </wsdl:message>
+  <wsdl:message name="SetWebServicesDirectorySoapIn">
+    <wsdl:part name="parameters" element="tns:SetWebServicesDirectory" />
+  </wsdl:message>
+  <wsdl:message name="SetWebServicesDirectorySoapOut">
+    <wsdl:part name="parameters" element="tns:SetWebServicesDirectoryResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetFileSizeSoapIn">
+    <wsdl:part name="parameters" element="tns:GetFileSize" />
+  </wsdl:message>
+  <wsdl:message name="GetFileSizeSoapOut">
+    <wsdl:part name="parameters" element="tns:GetFileSizeResponse" />
+  </wsdl:message>
+  <wsdl:message name="DeleteFileSoapIn">
+    <wsdl:part name="parameters" element="tns:DeleteFile" />
+  </wsdl:message>
+  <wsdl:message name="DeleteFileSoapOut">
+    <wsdl:part name="parameters" element="tns:DeleteFileResponse" />
+  </wsdl:message>
+  <wsdl:message name="DeleteDirectorySoapIn">
+    <wsdl:part name="parameters" element="tns:DeleteDirectory" />
+  </wsdl:message>
+  <wsdl:message name="DeleteDirectorySoapOut">
+    <wsdl:part name="parameters" element="tns:DeleteDirectoryResponse" />
+  </wsdl:message>
+  <wsdl:message name="TestConnectednessSoapIn">
+    <wsdl:part name="parameters" element="tns:TestConnectedness" />
+  </wsdl:message>
+  <wsdl:message name="TestConnectednessSoapOut">
+    <wsdl:part name="parameters" element="tns:TestConnectednessResponse" />
+  </wsdl:message>
+  <wsdl:message name="PackageFilesSoapIn">
+    <wsdl:part name="parameters" element="tns:PackageFiles" />
+  </wsdl:message>
+  <wsdl:message name="PackageFilesSoapOut">
+    <wsdl:part name="parameters" element="tns:PackageFilesResponse" />
+  </wsdl:message>
+  <wsdl:message name="PackageFilesForDirectorySoapIn">
+    <wsdl:part name="parameters" element="tns:PackageFilesForDirectory" />
+  </wsdl:message>
+  <wsdl:message name="PackageFilesForDirectorySoapOut">
+    <wsdl:part name="parameters" element="tns:PackageFilesForDirectoryResponse" />
+  </wsdl:message>
+  <wsdl:message name="UnpackageFilesSoapIn">
+    <wsdl:part name="parameters" element="tns:UnpackageFiles" />
+  </wsdl:message>
+  <wsdl:message name="UnpackageFilesSoapOut">
+    <wsdl:part name="parameters" element="tns:UnpackageFilesResponse" />
+  </wsdl:message>
+  <wsdl:message name="SplitFilesSoapIn">
+    <wsdl:part name="parameters" element="tns:SplitFiles" />
+  </wsdl:message>
+  <wsdl:message name="SplitFilesSoapOut">
+    <wsdl:part name="parameters" element="tns:SplitFilesResponse" />
+  </wsdl:message>
+  <wsdl:message name="MergeFilesSoapIn">
+    <wsdl:part name="parameters" element="tns:MergeFiles" />
+  </wsdl:message>
+  <wsdl:message name="MergeFilesSoapOut">
+    <wsdl:part name="parameters" element="tns:MergeFilesResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetDirectoriesSoapIn">
+    <wsdl:part name="parameters" element="tns:GetDirectories" />
+  </wsdl:message>
+  <wsdl:message name="GetDirectoriesSoapOut">
+    <wsdl:part name="parameters" element="tns:GetDirectoriesResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetFilesSoapIn">
+    <wsdl:part name="parameters" element="tns:GetFiles" />
+  </wsdl:message>
+  <wsdl:message name="GetFilesSoapOut">
+    <wsdl:part name="parameters" element="tns:GetFilesResponse" />
+  </wsdl:message>
+  <wsdl:portType name="TransferWebServicesSoap">
+    <wsdl:operation name="GetWebServerPath">
+      <wsdl:input message="tns:GetWebServerPathSoapIn" />
+      <wsdl:output message="tns:GetWebServerPathSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SetWebServicesFileDirectory">
+      <wsdl:input message="tns:SetWebServicesFileDirectorySoapIn" />
+      <wsdl:output message="tns:SetWebServicesFileDirectorySoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SetWebServicesDirectory">
+      <wsdl:input message="tns:SetWebServicesDirectorySoapIn" />
+      <wsdl:output message="tns:SetWebServicesDirectorySoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetFileSize">
+      <wsdl:input message="tns:GetFileSizeSoapIn" />
+      <wsdl:output message="tns:GetFileSizeSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteFile">
+      <wsdl:input message="tns:DeleteFileSoapIn" />
+      <wsdl:output message="tns:DeleteFileSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteDirectory">
+      <wsdl:input message="tns:DeleteDirectorySoapIn" />
+      <wsdl:output message="tns:DeleteDirectorySoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="TestConnectedness">
+      <wsdl:input message="tns:TestConnectednessSoapIn" />
+      <wsdl:output message="tns:TestConnectednessSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="PackageFiles">
+      <wsdl:input message="tns:PackageFilesSoapIn" />
+      <wsdl:output message="tns:PackageFilesSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="PackageFilesForDirectory">
+      <wsdl:input message="tns:PackageFilesForDirectorySoapIn" />
+      <wsdl:output message="tns:PackageFilesForDirectorySoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UnpackageFiles">
+      <wsdl:input message="tns:UnpackageFilesSoapIn" />
+      <wsdl:output message="tns:UnpackageFilesSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SplitFiles">
+      <wsdl:input message="tns:SplitFilesSoapIn" />
+      <wsdl:output message="tns:SplitFilesSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="MergeFiles">
+      <wsdl:input message="tns:MergeFilesSoapIn" />
+      <wsdl:output message="tns:MergeFilesSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDirectories">
+      <wsdl:input message="tns:GetDirectoriesSoapIn" />
+      <wsdl:output message="tns:GetDirectoriesSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetFiles">
+      <wsdl:input message="tns:GetFilesSoapIn" />
+      <wsdl:output message="tns:GetFilesSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="TransferWebServicesSoap" type="tns:TransferWebServicesSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetWebServerPath">
+      <soap:operation soapAction="http://XPlugin.XX/FileTransfer/GetWebServerPath" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SetWebServicesFileDirectory">
+      <soap:operation soapAction="http://XPlugin.XX/FileTransfer/SetWebServicesFileDirectory" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SetWebServicesDirectory">
+      <soap:operation soapAction="http://XPlugin.XX/FileTransfer/SetWebServicesDirectory" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetFileSize">
+      <soap:operation soapAction="http://XPlugin.XX/FileTransfer/GetFileSize" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteFile">
+      <soap:operation soapAction="http://XPlugin.XX/FileTransfer/DeleteFile" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteDirectory">
+      <soap:operation soapAction="http://XPlugin.XX/FileTransfer/DeleteDirectory" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TestConnectedness">
+      <soap:operation soapAction="http://XPlugin.XX/FileTransfer/TestConnectedness" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PackageFiles">
+      <soap:operation soapAction="http://XPlugin.XX/FileTransfer/PackageFiles" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PackageFilesForDirectory">
+      <soap:operation soapAction="http://XPlugin.XX/FileTransfer/PackageFilesForDirectory" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UnpackageFiles">
+      <soap:operation soapAction="http://XPlugin.XX/FileTransfer/UnpackageFiles" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SplitFiles">
+      <soap:operation soapAction="http://XPlugin.XX/FileTransfer/SplitFiles" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="MergeFiles">
+      <soap:operation soapAction="http://XPlugin.XX/FileTransfer/MergeFiles" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDirectories">
+      <soap:operation soapAction="http://XPlugin.XX/FileTransfer/GetDirectories" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetFiles">
+      <soap:operation soapAction="http://XPlugin.XX/FileTransfer/GetFiles" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="TransferWebServicesSoap12" type="tns:TransferWebServicesSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetWebServerPath">
+      <soap12:operation soapAction="http://XPlugin.XX/FileTransfer/GetWebServerPath" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SetWebServicesFileDirectory">
+      <soap12:operation soapAction="http://XPlugin.XX/FileTransfer/SetWebServicesFileDirectory" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SetWebServicesDirectory">
+      <soap12:operation soapAction="http://XPlugin.XX/FileTransfer/SetWebServicesDirectory" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetFileSize">
+      <soap12:operation soapAction="http://XPlugin.XX/FileTransfer/GetFileSize" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteFile">
+      <soap12:operation soapAction="http://XPlugin.XX/FileTransfer/DeleteFile" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteDirectory">
+      <soap12:operation soapAction="http://XPlugin.XX/FileTransfer/DeleteDirectory" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TestConnectedness">
+      <soap12:operation soapAction="http://XPlugin.XX/FileTransfer/TestConnectedness" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PackageFiles">
+      <soap12:operation soapAction="http://XPlugin.XX/FileTransfer/PackageFiles" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PackageFilesForDirectory">
+      <soap12:operation soapAction="http://XPlugin.XX/FileTransfer/PackageFilesForDirectory" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UnpackageFiles">
+      <soap12:operation soapAction="http://XPlugin.XX/FileTransfer/UnpackageFiles" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SplitFiles">
+      <soap12:operation soapAction="http://XPlugin.XX/FileTransfer/SplitFiles" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="MergeFiles">
+      <soap12:operation soapAction="http://XPlugin.XX/FileTransfer/MergeFiles" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDirectories">
+      <soap12:operation soapAction="http://XPlugin.XX/FileTransfer/GetDirectories" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetFiles">
+      <soap12:operation soapAction="http://XPlugin.XX/FileTransfer/GetFiles" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="TransferWebServices">
+    <wsdl:port name="TransferWebServicesSoap" binding="tns:TransferWebServicesSoap">
+      <soap:address location="http://localhost/FileTransfer/TransferWebServices.asmx" />
+    </wsdl:port>
+    <wsdl:port name="TransferWebServicesSoap12" binding="tns:TransferWebServicesSoap12">
+      <soap12:address location="http://localhost/FileTransfer/TransferWebServices.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

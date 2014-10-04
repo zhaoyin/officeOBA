@@ -1,0 +1,15 @@
+D:\U8Zhaoyin\OBA\Cooperativeness.OBA.Word\Bin\Cooperativeness.OBA.Word.Install.dll
+D:\U8Zhaoyin\OBA\Cooperativeness.OBA.Word\Bin\Cooperativeness.OBA.Word.Install.pdb
+D:\U8Zhaoyin\OBA\Cooperativeness.OBA.Word\Cooperativeness.OBA.Word.Install\obj\Release\ResolveAssemblyReference.cache
+D:\U8Zhaoyin\OBA\Cooperativeness.OBA.Word\Cooperativeness.OBA.Word.Install\obj\Release\Cooperativeness.OBA.Word.Install.dll
+D:\U8Zhaoyin\OBA\Cooperativeness.OBA.Word\Cooperativeness.OBA.Word.Install\obj\Release\Cooperativeness.OBA.Word.Install.pdb
+D:\U8Zhaoyin\OBA\Cooperativeness\Cooperativeness.OBA.Word\Bin\Cooperativeness.OBA.Word.Install.dll
+D:\U8Zhaoyin\OBA\Cooperativeness\Cooperativeness.OBA.Word\Bin\Cooperativeness.OBA.Word.Install.pdb
+D:\U8Zhaoyin\OBA\Cooperativeness\Cooperativeness.OBA.Word\Cooperativeness.OBA.Word.Install\obj\Release\ResolveAssemblyReference.cache
+D:\U8Zhaoyin\OBA\Cooperativeness\Cooperativeness.OBA.Word\Cooperativeness.OBA.Word.Install\obj\Release\Cooperativeness.OBA.Word.Install.dll
+D:\U8Zhaoyin\OBA\Cooperativeness\Cooperativeness.OBA.Word\Cooperativeness.OBA.Word.Install\obj\Release\Cooperativeness.OBA.Word.Install.pdb
+F:\OBA\Cooperativeness\Cooperativeness.OBA.Word\Bin\Cooperativeness.OBA.Word.Install.dll
+F:\OBA\Cooperativeness\Cooperativeness.OBA.Word\Bin\Cooperativeness.OBA.Word.Install.pdb
+F:\OBA\Cooperativeness\Cooperativeness.OBA.Word\Cooperativeness.OBA.Word.Install\obj\Release\ResolveAssemblyReference.cache
+F:\OBA\Cooperativeness\Cooperativeness.OBA.Word\Cooperativeness.OBA.Word.Install\obj\Release\Cooperativeness.OBA.Word.Install.dll
+F:\OBA\Cooperativeness\Cooperativeness.OBA.Word\Cooperativeness.OBA.Word.Install\obj\Release\Cooperativeness.OBA.Word.Install.pdb

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<Bundle xmlns="urn:yonyou-bundle-manifest-2.0" 
+        SymbolicName="Cooperativeness.OBA.Word.AddIns" 
+        Version="1.0.0.0"
+        StartLevel="1" 
+        Name="systemBundle">
+  <Activator Type="Cooperativeness.AddIns.Core.SystemBundleActivator" Policy="Immediate"/>
+  <Runtime>
+    <Assembly Path="Cooperativeness.OBA.Word.AddIns.dll" Share="true"/>
+  </Runtime>
+</Bundle>

@@ -1,0 +1,42 @@
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.0\.NET 4.5\Samples\ColorGallery\obj\Debug\Fluent.Sample.ColorGallery.csprojResolveAssemblyReference.cache
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.0\.NET 4.5\Samples\ColorGallery\obj\Debug\Application.baml
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.0\.NET 4.5\Samples\ColorGallery\obj\Debug\Application.g.cs
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.0\.NET 4.5\Samples\ColorGallery\obj\Debug\Fluent.Sample.ColorGallery_MarkupCompile.cache
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.0\.NET 4.5\Samples\Binaries\Fluent.Sample.ColorGallery.exe.config
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.0\.NET 4.5\Samples\Binaries\Fluent.Sample.ColorGallery.exe
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.0\.NET 4.5\Samples\Binaries\Fluent.Sample.ColorGallery.pdb
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.0\.NET 4.5\Samples\ColorGallery\obj\Debug\Window.baml
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.0\.NET 4.5\Samples\ColorGallery\obj\Debug\Window.g.cs
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.0\.NET 4.5\Samples\ColorGallery\obj\Debug\Fluent.Sample.ColorGallery.g.resources
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.0\.NET 4.5\Samples\ColorGallery\obj\Debug\Fluent.Sample.ColorGallery.Properties.Resources.resources
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.0\.NET 4.5\Samples\ColorGallery\obj\Debug\Fluent.Sample.ColorGallery.csproj.GenerateResource.Cache
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.0\.NET 4.5\Samples\ColorGallery\obj\Debug\Fluent.Sample.ColorGallery.exe
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.0\.NET 4.5\Samples\ColorGallery\obj\Debug\Fluent.Sample.ColorGallery.pdb
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.1.0 Prerelease g\.NET 4.5\Samples\ColorGallery\obj\Debug\Fluent.Sample.ColorGallery.csprojResolveAssemblyReference.cache
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.1.0 Prerelease g\.NET 4.5\Samples\ColorGallery\obj\Debug\Application.baml
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.1.0 Prerelease g\.NET 4.5\Samples\ColorGallery\obj\Debug\Application.g.cs
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.1.0 Prerelease g\.NET 4.5\Samples\ColorGallery\obj\Debug\Fluent.Sample.ColorGallery_MarkupCompile.cache
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.1.0 Prerelease g\.NET 4.5\Samples\ColorGallery\obj\Debug\Fluent.Sample.ColorGallery.exe
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.1.0 Prerelease g\.NET 4.5\Samples\ColorGallery\obj\Debug\Fluent.Sample.ColorGallery.pdb
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.1.0 Prerelease g\.NET 4.5\Samples\Binaries\Fluent.Sample.ColorGallery.exe.config
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.1.0 Prerelease g\.NET 4.5\Samples\Binaries\Fluent.Sample.ColorGallery.exe
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.1.0 Prerelease g\.NET 4.5\Samples\Binaries\Fluent.Sample.ColorGallery.pdb
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.1.0 Prerelease g\.NET 4.5\Samples\ColorGallery\obj\Debug\Window.baml
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.1.0 Prerelease g\.NET 4.5\Samples\ColorGallery\obj\Debug\Window.g.cs
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.1.0 Prerelease g\.NET 4.5\Samples\ColorGallery\obj\Debug\Fluent.Sample.ColorGallery.g.resources
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.1.0 Prerelease g\.NET 4.5\Samples\ColorGallery\obj\Debug\Fluent.Sample.ColorGallery.Properties.Resources.resources
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.1.0 Prerelease g\.NET 4.5\Samples\ColorGallery\obj\Debug\Fluent.Sample.ColorGallery.csproj.GenerateResource.Cache
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.1.0 Prerelease i\.NET 4.5\Samples\Binaries\Fluent.Sample.ColorGallery.exe.config
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.1.0 Prerelease i\.NET 4.5\Samples\Binaries\Fluent.Sample.ColorGallery.exe
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.1.0 Prerelease i\.NET 4.5\Samples\Binaries\Fluent.Sample.ColorGallery.pdb
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.1.0 Prerelease i\.NET 4.5\Samples\ColorGallery\obj\Debug\Fluent.Sample.ColorGallery.csprojResolveAssemblyReference.cache
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.1.0 Prerelease i\.NET 4.5\Samples\ColorGallery\obj\Debug\Window.baml
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.1.0 Prerelease i\.NET 4.5\Samples\ColorGallery\obj\Debug\Application.baml
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.1.0 Prerelease i\.NET 4.5\Samples\ColorGallery\obj\Debug\Window.g.cs
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.1.0 Prerelease i\.NET 4.5\Samples\ColorGallery\obj\Debug\Application.g.cs
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.1.0 Prerelease i\.NET 4.5\Samples\ColorGallery\obj\Debug\Fluent.Sample.ColorGallery_MarkupCompile.cache
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.1.0 Prerelease i\.NET 4.5\Samples\ColorGallery\obj\Debug\Fluent.Sample.ColorGallery.g.resources
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.1.0 Prerelease i\.NET 4.5\Samples\ColorGallery\obj\Debug\Fluent.Sample.ColorGallery.Properties.Resources.resources
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.1.0 Prerelease i\.NET 4.5\Samples\ColorGallery\obj\Debug\Fluent.Sample.ColorGallery.csproj.GenerateResource.Cache
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.1.0 Prerelease i\.NET 4.5\Samples\ColorGallery\obj\Debug\Fluent.Sample.ColorGallery.exe
+C:\Code\Fluent Download\Fluent Ribbon Control Suite 2.1.0 Prerelease i\.NET 4.5\Samples\ColorGallery\obj\Debug\Fluent.Sample.ColorGallery.pdb

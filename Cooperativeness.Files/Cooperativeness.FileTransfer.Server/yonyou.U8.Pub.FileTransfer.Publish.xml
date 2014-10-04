@@ -1,0 +1,13 @@
+<publishData>
+  <publishTarget publishUrl="D:\源代码\U8V12.0\FileManager\yonyou.U8.Pub.FileTransfer\WebPublish\">
+    <file relUrl="Global.asax" publishTime="06/17/2014 16:07:34" />
+    <file relUrl="TransferWebServices.asmx" publishTime="07/14/2014 13:24:25" />
+    <file relUrl="bin/ICSharpCode.SharpZipLib.dll" publishTime="08/24/2013 16:25:16" />
+    <file relUrl="bin/yonyou.U8.Pub.FileTransfer.Core.dll" publishTime="07/14/2014 17:45:44" />
+    <file relUrl="WebUploaderPages.aspx" publishTime="06/17/2014 15:55:52" />
+    <file relUrl="Web.config" publishTime="07/10/2014 15:36:59" />
+    <file relUrl="bin/yonyou.U8.Pub.FileTransfer.Core.pdb" publishTime="07/14/2014 17:45:44" />
+    <file relUrl="bin/yonyou.U8.Pub.FileTransfer.Server.dll" publishTime="07/14/2014 17:45:44" />
+    <file relUrl="bin/yonyou.U8.Pub.FileTransfer.Server.pdb" publishTime="07/14/2014 17:45:44" />
+  </publishTarget>
+</publishData>

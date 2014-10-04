@@ -1,0 +1,649 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectGuid>{FD590BB1-6AAC-4021-8445-80F493253D60}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Cooperativeness.Documents.Editor</RootNamespace>
+    <AssemblyName>Cooperativeness.Documents.Editor</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'AnyCPU' ">
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <Optimize>False</Optimize>
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>False</DebugSymbols>
+    <DebugType>None</DebugType>
+    <Optimize>True</Optimize>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DocumentFormat.OpenXml, Version=2.5.5631.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="PresentationCore">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="PresentationFramework">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="ReachFramework">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Speech">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App.xaml.cs" />
+    <Compile Include="Dialogs\Edit\FindDialog.xaml.cs" />
+    <Compile Include="Dialogs\Edit\GoToDialog.xaml.cs" />
+    <Compile Include="Dialogs\Edit\ReplaceDialog.xaml.cs" />
+    <Compile Include="Dialogs\Format\FontDialog.xaml.cs" />
+    <Compile Include="Dialogs\Format\FontSizeDialog.xaml.cs" />
+    <Compile Include="Dialogs\Format\LineSpacingDialog.xaml.cs" />
+    <Compile Include="Dialogs\Help\AboutDialog.xaml.cs" />
+    <Compile Include="Dialogs\Insert\ChartDialog.xaml.cs" />
+    <Compile Include="Dialogs\Insert\DateDialog.xaml.cs" />
+    <Compile Include="Dialogs\Insert\InsertLineDialog.xaml.cs" />
+    <Compile Include="Dialogs\Insert\LinkDialog.xaml.cs" />
+    <Compile Include="Dialogs\Insert\ObjectDialog.xaml.cs" />
+    <Compile Include="Dialogs\Insert\ObjectPropertiesDialog.xaml.cs" />
+    <Compile Include="Dialogs\Insert\ShapeDialog.xaml.cs" />
+    <Compile Include="Dialogs\Insert\TableDialog.xaml.cs" />
+    <Compile Include="Dialogs\Insert\TimeDialog.xaml.cs" />
+    <Compile Include="Dialogs\Insert\VideoDialog.xaml.cs" />
+    <Compile Include="Dialogs\LoadFileDialog.xaml.cs" />
+    <Compile Include="Dialogs\MessageBoxDialog.xaml.cs" />
+    <Compile Include="Dialogs\SaveFileDialog.xaml.cs" />
+    <Compile Include="Dialogs\StartupDialog.xaml.cs" />
+    <Compile Include="Dialogs\Tools\OptionsDialog.xaml.cs" />
+    <Compile Include="Dialogs\Tools\SpellCheckDialog.xaml.cs" />
+    <Compile Include="Dialogs\Tools\TranslateDialog.xaml.cs" />
+    <Compile Include="DocEditor\DocumentEditor.cs" />
+    <Compile Include="DocEditor\DocumentTab.cs" />
+    <Compile Include="DocEditor\FlowDocumenttoOpenDocument.cs" />
+    <Compile Include="DocEditor\FlowDocumenttoOpenXML.cs" />
+    <Compile Include="DocEditor\OpenDocumenttoFlowDocument.cs" />
+    <Compile Include="DocEditor\OpenXMLtoFlowDocument.cs" />
+    <Compile Include="DocEditor\TabHeader.xaml.cs" />
+    <Compile Include="FTP\FTPClient.cs" />
+    <Compile Include="FTP\FTPdirectory.cs" />
+    <Compile Include="FTP\FTPInfo.cs" />
+    <Compile Include="FTP\FTPItem.cs" />
+    <Compile Include="MainWindow.xaml.cs" />
+    <Compile Include="Misc\AppHelper.cs" />
+    <Compile Include="Misc\FluentAddons\FluentEmoticonGallery.xaml.cs" />
+    <Compile Include="Misc\FluentAddons\FluentSymbolGallery.xaml.cs" />
+    <Compile Include="Misc\FluentAddons\FluentTableGrid.xaml.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\WPFAssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AODL.1.4.0.3\AODL\AODL.csproj">
+      <Project>{89E926D3-3471-47C8-8D34-01FF2AF72F71}</Project>
+      <Name>AODL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Cooperativeness.Documents.Editor.Convert\Cooperativeness.Documents.Editor.Converter.csproj">
+      <Project>{5996F6E1-E466-4525-ACC4-182082ED9615}</Project>
+      <Name>Cooperativeness.Documents.Editor.Converter</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\dotnetzip.1.9.1.8\Zip Reduced\Zip Reduced.csproj">
+      <Project>{49A128D3-C3F2-46B1-8F7A-EECD209EA860}</Project>
+      <Name>Zip Reduced</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ExtendedWPFToolkitSolution.2.2.1\Src\Xceed.Wpf.AvalonDock.Themes.Metro\Xceed.Wpf.AvalonDock.Themes.Metro.csproj">
+      <Project>{89286EB4-B4A1-418C-839A-067B00F442D8}</Project>
+      <Name>Xceed.Wpf.AvalonDock.Themes.Metro</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ExtendedWPFToolkitSolution.2.2.1\Src\Xceed.Wpf.AvalonDock\Xceed.Wpf.AvalonDock.csproj">
+      <Project>{DB81988F-E0F2-45A0-A1FD-8C37F3D35244}</Project>
+      <Name>Xceed.Wpf.AvalonDock</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ExtendedWPFToolkitSolution.2.2.1\Src\Xceed.Wpf.Toolkit\Xceed.Wpf.Toolkit.csproj">
+      <Project>{72E591D6-8F83-4D8C-8F67-9C325E623234}</Project>
+      <Name>Xceed.Wpf.Toolkit</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Fluent.2.1\Fluent\Fluent dotNET 4.0.csproj">
+      <Project>{4C92FCF4-3561-499F-BC5B-F2F089863047}</Project>
+      <Name>Fluent dotNET 4.0</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\xml-rpc.net.3.0.0\src\xmlrpc.csproj">
+      <Project>{1B4B0A58-0AFB-4090-91DD-18912CC7DE65}</Project>
+      <Name>xmlrpc</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="app.ico" />
+    <None Include="Dialogs\Edit\find16.ico" />
+    <None Include="Dialogs\Edit\findreplace16.ico" />
+    <None Include="Dialogs\Edit\goto16.ico" />
+    <None Include="Dialogs\Format\font16.ico" />
+    <None Include="Dialogs\Format\fontsize16.ico" />
+    <None Include="Dialogs\Format\linespacing16.ico" />
+    <None Include="Dialogs\Help\about.ico" />
+    <None Include="Dialogs\Insert\chart16.ico" />
+    <None Include="Dialogs\Insert\date16.ico" />
+    <None Include="Dialogs\Insert\horizontalline16.ico" />
+    <None Include="Dialogs\Insert\link.ico" />
+    <None Include="Dialogs\Insert\object.ico" />
+    <None Include="Dialogs\Insert\shape16.ico" />
+    <None Include="Dialogs\Insert\table.ico" />
+    <None Include="Dialogs\Insert\time16.ico" />
+    <None Include="Dialogs\Insert\video16.ico" />
+    <None Include="Dialogs\Tools\options.ico" />
+    <None Include="Dialogs\Tools\spellcheck16.ico" />
+    <None Include="Dialogs\Tools\translate16.ico" />
+    <None Include="Images\Common\add16.png" />
+    <None Include="Images\Common\add48.png" />
+    <None Include="Images\Common\cancel16.png" />
+    <None Include="Images\Common\cancel48.png" />
+    <None Include="Images\Common\error32.png" />
+    <None Include="Images\Common\info32.png" />
+    <None Include="Images\Common\ok16.png" />
+    <None Include="Images\Common\ok48.png" />
+    <None Include="Images\Common\question32.png" />
+    <None Include="Images\Common\remove16.png" />
+    <None Include="Images\Common\remove48.png" />
+    <None Include="Images\Contextual\color16.png" />
+    <None Include="Images\Contextual\color32.png" />
+    <None Include="Images\DocumentEditorSplash.png" />
+    <None Include="Images\Document\backgroundcolor16.png" />
+    <None Include="Images\Document\backgroundcolor48.png" />
+    <None Include="Images\Document\Close\close16.png" />
+    <None Include="Images\Document\Close\close48.png" />
+    <None Include="Images\Document\Close\closeall16.png" />
+    <None Include="Images\Document\Close\closeall48.png" />
+    <None Include="Images\Document\Close\closeallbutthis16.png" />
+    <None Include="Images\Document\Close\closeallbutthis48.png" />
+    <None Include="Images\Document\exitapp16.png" />
+    <None Include="Images\Document\exitapp48.png" />
+    <None Include="Images\Document\Export\archive16.png" />
+    <None Include="Images\Document\Export\archive48.png" />
+    <None Include="Images\Document\Export\audio16.png" />
+    <None Include="Images\Document\Export\audio48.png" />
+    <None Include="Images\Document\Export\blogger16.png" />
+    <None Include="Images\Document\Export\connect16.png" />
+    <None Include="Images\Document\Export\disconnect16.png" />
+    <None Include="Images\Document\Export\email16.png" />
+    <None Include="Images\Document\Export\email48.png" />
+    <None Include="Images\Document\Export\export16.png" />
+    <None Include="Images\Document\Export\export32.png" />
+    <None Include="Images\Document\Export\ftp16.png" />
+    <None Include="Images\Document\Export\ftp48.png" />
+    <None Include="Images\Document\Export\image16.png" />
+    <None Include="Images\Document\Export\image48.png" />
+    <None Include="Images\Document\Export\twitter16.png" />
+    <None Include="Images\Document\Export\twitter32.png" />
+    <None Include="Images\Document\Export\wordpress16.png" />
+    <None Include="Images\Document\Export\wordpress48.png" />
+    <None Include="Images\Document\Export\xps16.png" />
+    <None Include="Images\Document\Export\xps48.png" />
+    <None Include="Images\Document\import16.png" />
+    <None Include="Images\Document\import32.png" />
+    <None Include="Images\Document\new16.png" />
+    <None Include="Images\Document\new32.png" />
+    <None Include="Images\Document\new48.png" />
+    <None Include="Images\Document\open16.png" />
+    <None Include="Images\Document\open32.png" />
+    <None Include="Images\Document\open48.png" />
+    <None Include="Images\Document\pagesetup16.png" />
+    <None Include="Images\Document\pagesetup48.png" />
+    <None Include="Images\Document\print16.png" />
+    <None Include="Images\Document\print32.png" />
+    <None Include="Images\Document\print48.png" />
+    <None Include="Images\Document\printer32.png" />
+    <None Include="Images\Document\printpreview16.png" />
+    <None Include="Images\Document\printpreview48.png" />
+    <None Include="Images\Document\properties32.png" />
+    <None Include="Images\Document\readonly16.png" />
+    <None Include="Images\Document\readonly48.png" />
+    <None Include="Images\Document\recent16.png" />
+    <None Include="Images\Document\recent32.png" />
+    <None Include="Images\Document\recent48.png" />
+    <None Include="Images\Document\revert16.png" />
+    <None Include="Images\Document\revert48.png" />
+    <None Include="Images\Document\save16.png" />
+    <None Include="Images\Document\save48.png" />
+    <None Include="Images\Document\saveall16.png" />
+    <None Include="Images\Document\saveall48.png" />
+    <None Include="Images\Document\saveas16.png" />
+    <None Include="Images\Document\saveas48.png" />
+    <None Include="Images\Document\savecopy16.png" />
+    <None Include="Images\Document\savecopy48.png" />
+    <None Include="Images\Document\statistics16.png" />
+    <None Include="Images\Document\statistics48.png" />
+    <None Include="Images\editor.png" />
+    <None Include="Images\Edit\copy16.png" />
+    <None Include="Images\Edit\copy32.png" />
+    <None Include="Images\Edit\copy48.png" />
+    <None Include="Images\Edit\copyline16.png" />
+    <None Include="Images\Edit\copyline48.png" />
+    <None Include="Images\Edit\copyparagraph16.png" />
+    <None Include="Images\Edit\copyparagraph48.png" />
+    <None Include="Images\Edit\cut16.png" />
+    <None Include="Images\Edit\cut32.png" />
+    <None Include="Images\Edit\cut48.png" />
+    <None Include="Images\Edit\cutline16.png" />
+    <None Include="Images\Edit\cutline48.png" />
+    <None Include="Images\Edit\cutparagraph16.png" />
+    <None Include="Images\Edit\cutparagraph48.png" />
+    <None Include="Images\Edit\delete16.png" />
+    <None Include="Images\Edit\delete32.png" />
+    <None Include="Images\Edit\delete48.png" />
+    <None Include="Images\Edit\deleteline16.png" />
+    <None Include="Images\Edit\deleteline48.png" />
+    <None Include="Images\Edit\deleteparagraph16.png" />
+    <None Include="Images\Edit\deleteparagraph48.png" />
+    <None Include="Images\Edit\find16.png" />
+    <None Include="Images\Edit\find32.png" />
+    <None Include="Images\Edit\find48.png" />
+    <None Include="Images\Edit\findreplace16.png" />
+    <None Include="Images\Edit\findreplace32.png" />
+    <None Include="Images\Edit\findreplace48.png" />
+    <None Include="Images\Edit\goto16.png" />
+    <None Include="Images\Edit\goto32.png" />
+    <None Include="Images\Edit\goto48.png" />
+    <None Include="Images\Edit\lowercase16.png" />
+    <None Include="Images\Edit\lowercase32.png" />
+    <None Include="Images\Edit\lowercase48.png" />
+    <None Include="Images\Edit\paste16.png" />
+    <None Include="Images\Edit\paste32.png" />
+    <None Include="Images\Edit\paste48.png" />
+    <None Include="Images\Edit\pasteimage16.png" />
+    <None Include="Images\Edit\pasteimage48.png" />
+    <None Include="Images\Edit\redo16.png" />
+    <None Include="Images\Edit\redo32.png" />
+    <None Include="Images\Edit\redo48.png" />
+    <None Include="Images\Edit\selectall16.png" />
+    <None Include="Images\Edit\selectall32.png" />
+    <None Include="Images\Edit\selectall48.png" />
+    <None Include="Images\Edit\selectline16.png" />
+    <None Include="Images\Edit\selectline48.png" />
+    <None Include="Images\Edit\selectparagraph16.png" />
+    <None Include="Images\Edit\selectparagraph48.png" />
+    <None Include="Images\Edit\undo16.png" />
+    <None Include="Images\Edit\undo32.png" />
+    <None Include="Images\Edit\undo48.png" />
+    <None Include="Images\Edit\uppercase16.png" />
+    <None Include="Images\Edit\uppercase32.png" />
+    <None Include="Images\Edit\uppercase48.png" />
+    <None Include="Images\Format\bold16.png" />
+    <None Include="Images\Format\bold48.png" />
+    <None Include="Images\Format\bulletlist16.png" />
+    <None Include="Images\Format\bulletlist48.png" />
+    <None Include="Images\Format\center16.png" />
+    <None Include="Images\Format\center48.png" />
+    <None Include="Images\Format\clearformatting16.png" />
+    <None Include="Images\Format\clearformatting32.png" />
+    <None Include="Images\Format\clearformatting48.png" />
+    <None Include="Images\Format\font16.png" />
+    <None Include="Images\Format\font48.png" />
+    <None Include="Images\Format\fontcolor16.png" />
+    <None Include="Images\Format\fontcolor48.png" />
+    <None Include="Images\Format\fontfacecolor16.png" />
+    <None Include="Images\Format\fontfacecolor48.png" />
+    <None Include="Images\Format\fontsize16.png" />
+    <None Include="Images\Format\fontsize48.png" />
+    <None Include="Images\Format\indentless16.png" />
+    <None Include="Images\Format\indentless48.png" />
+    <None Include="Images\Format\indentmore16.png" />
+    <None Include="Images\Format\indentmore48.png" />
+    <None Include="Images\Format\italic16.png" />
+    <None Include="Images\Format\italic48.png" />
+    <None Include="Images\Format\justify16.png" />
+    <None Include="Images\Format\justify48.png" />
+    <None Include="Images\Format\left16.png" />
+    <None Include="Images\Format\left48.png" />
+    <None Include="Images\Format\linespacing16.png" />
+    <None Include="Images\Format\linespacing32.png" />
+    <None Include="Images\Format\linespacing48.png" />
+    <None Include="Images\Format\Lists\boxbullet32.png" />
+    <None Include="Images\Format\Lists\circlebullet32.png" />
+    <None Include="Images\Format\Lists\decimallist32.png" />
+    <None Include="Images\Format\Lists\discbullet32.png" />
+    <None Include="Images\Format\Lists\lowerlatin32.png" />
+    <None Include="Images\Format\Lists\lowerroman32.png" />
+    <None Include="Images\Format\Lists\squarebullet32.png" />
+    <None Include="Images\Format\Lists\upperlatin32.png" />
+    <None Include="Images\Format\Lists\upperroman32.png" />
+    <None Include="Images\Format\ltr.png" />
+    <None Include="Images\Format\ltr16.png" />
+    <None Include="Images\Format\ltr32.png" />
+    <None Include="Images\Format\ltr48.png" />
+    <None Include="Images\Format\numberlist16.png" />
+    <None Include="Images\Format\numberlist48.png" />
+    <None Include="Images\Format\right16.png" />
+    <None Include="Images\Format\right48.png" />
+    <None Include="Images\Format\rtl16.png" />
+    <None Include="Images\Format\rtl32.png" />
+    <None Include="Images\Format\rtl48.png" />
+    <None Include="Images\Format\strikethrough16.png" />
+    <None Include="Images\Format\strikethrough48.png" />
+    <None Include="Images\Format\subscript16.png" />
+    <None Include="Images\Format\subscript32.png" />
+    <None Include="Images\Format\subscript48.png" />
+    <None Include="Images\Format\superscript16.png" />
+    <None Include="Images\Format\superscript32.png" />
+    <None Include="Images\Format\superscript48.png" />
+    <None Include="Images\Format\underline16.png" />
+    <None Include="Images\Format\underline48.png" />
+    <None Include="Images\Help\about16.png" />
+    <None Include="Images\Help\about32.png" />
+    <None Include="Images\Help\about48.png" />
+    <None Include="Images\Help\back16.png" />
+    <None Include="Images\Help\checkforupdates16.png" />
+    <None Include="Images\Help\checkforupdates48.png" />
+    <None Include="Images\Help\donate16.png" />
+    <None Include="Images\Help\donate32.png" />
+    <None Include="Images\Help\donate48.png" />
+    <None Include="Images\Help\help16.png" />
+    <None Include="Images\Help\license16.png" />
+    <None Include="Images\Help\license48.png" />
+    <None Include="Images\Help\onlinehelp16.png" />
+    <None Include="Images\Help\onlinehelp32.png" />
+    <None Include="Images\Help\onlinehelp48.png" />
+    <None Include="Images\Help\reportbug16.png" />
+    <None Include="Images\Help\reportbug32.png" />
+    <None Include="Images\Help\reportbug48.png" />
+    <None Include="Images\Help\website16.png" />
+    <None Include="Images\Help\website32.png" />
+    <None Include="Images\Help\website48.png" />
+    <None Include="Images\Insert\chart16.png" />
+    <None Include="Images\Insert\chart32.png" />
+    <None Include="Images\Insert\chart48.png" />
+    <None Include="Images\Insert\date16.png" />
+    <None Include="Images\Insert\date32.png" />
+    <None Include="Images\Insert\date48.png" />
+    <None Include="Images\Insert\datemore16.png" />
+    <None Include="Images\Insert\datemore48.png" />
+    <None Include="Images\Insert\Emoticons\angel16.png" />
+    <None Include="Images\Insert\Emoticons\angel32.png" />
+    <None Include="Images\Insert\Emoticons\angry16.png" />
+    <None Include="Images\Insert\Emoticons\angry32.png" />
+    <None Include="Images\Insert\Emoticons\cool16.png" />
+    <None Include="Images\Insert\Emoticons\cool32.png" />
+    <None Include="Images\Insert\Emoticons\crying16.png" />
+    <None Include="Images\Insert\Emoticons\crying32.png" />
+    <None Include="Images\Insert\Emoticons\devilish16.png" />
+    <None Include="Images\Insert\Emoticons\devilish32.png" />
+    <None Include="Images\Insert\Emoticons\embarrassed16.png" />
+    <None Include="Images\Insert\Emoticons\embarrassed32.png" />
+    <None Include="Images\Insert\Emoticons\kiss16.png" />
+    <None Include="Images\Insert\Emoticons\kiss32.png" />
+    <None Include="Images\Insert\Emoticons\laugh16.png" />
+    <None Include="Images\Insert\Emoticons\laugh32.png" />
+    <None Include="Images\Insert\Emoticons\monkey16.png" />
+    <None Include="Images\Insert\Emoticons\monkey32.png" />
+    <None Include="Images\Insert\Emoticons\plain16.png" />
+    <None Include="Images\Insert\Emoticons\plain32.png" />
+    <None Include="Images\Insert\Emoticons\raspberry16.png" />
+    <None Include="Images\Insert\Emoticons\raspberry32.png" />
+    <None Include="Images\Insert\Emoticons\sad16.png" />
+    <None Include="Images\Insert\Emoticons\sad32.png" />
+    <None Include="Images\Insert\Emoticons\sick16.png" />
+    <None Include="Images\Insert\Emoticons\sick32.png" />
+    <None Include="Images\Insert\Emoticons\smile16.png" />
+    <None Include="Images\Insert\Emoticons\smile32.png" />
+    <None Include="Images\Insert\Emoticons\smile48.png" />
+    <None Include="Images\Insert\Emoticons\smilebig16.png" />
+    <None Include="Images\Insert\Emoticons\smilebig32.png" />
+    <None Include="Images\Insert\Emoticons\smirk16.png" />
+    <None Include="Images\Insert\Emoticons\smirk32.png" />
+    <None Include="Images\Insert\Emoticons\surprise16.png" />
+    <None Include="Images\Insert\Emoticons\surprise32.png" />
+    <None Include="Images\Insert\Emoticons\tired16.png" />
+    <None Include="Images\Insert\Emoticons\tired32.png" />
+    <None Include="Images\Insert\Emoticons\uncertain16.png" />
+    <None Include="Images\Insert\Emoticons\uncertain32.png" />
+    <None Include="Images\Insert\Emoticons\wink16.png" />
+    <None Include="Images\Insert\Emoticons\wink32.png" />
+    <None Include="Images\Insert\Emoticons\worried16.png" />
+    <None Include="Images\Insert\Emoticons\worried32.png" />
+    <None Include="Images\Insert\footer16.png" />
+    <None Include="Images\Insert\footer32.png" />
+    <None Include="Images\Insert\footer48.png" />
+    <None Include="Images\Insert\header16.png" />
+    <None Include="Images\Insert\header32.png" />
+    <None Include="Images\Insert\header48.png" />
+    <None Include="Images\Insert\horizontalline16.png" />
+    <None Include="Images\Insert\horizontalline32.png" />
+    <None Include="Images\Insert\horizontalline48.png" />
+    <None Include="Images\Insert\image16.png" />
+    <None Include="Images\Insert\image32.png" />
+    <None Include="Images\Insert\image48.png" />
+    <None Include="Images\Insert\link16.png" />
+    <None Include="Images\Insert\link32.png" />
+    <None Include="Images\Insert\link48.png" />
+    <None Include="Images\Insert\object16.png" />
+    <None Include="Images\Insert\object32.png" />
+    <None Include="Images\Insert\object48.png" />
+    <None Include="Images\Insert\Object\button16.png" />
+    <None Include="Images\Insert\Object\checkbox16.png" />
+    <None Include="Images\Insert\Object\properties16.png" />
+    <None Include="Images\Insert\Object\radiobutton16.png" />
+    <None Include="Images\Insert\Object\textblock16.png" />
+    <None Include="Images\Insert\shape16.png" />
+    <None Include="Images\Insert\shape32.png" />
+    <None Include="Images\Insert\shape48.png" />
+    <None Include="Images\Insert\symbol16.png" />
+    <None Include="Images\Insert\symbol32.png" />
+    <None Include="Images\Insert\symbol48.png" />
+    <None Include="Images\Insert\table16.png" />
+    <None Include="Images\Insert\table32.png" />
+    <None Include="Images\Insert\table48.png" />
+    <None Include="Images\Insert\textfile16.png" />
+    <None Include="Images\Insert\textfile32.png" />
+    <None Include="Images\Insert\textfile48.png" />
+    <None Include="Images\Insert\time16.png" />
+    <None Include="Images\Insert\time32.png" />
+    <None Include="Images\Insert\time48.png" />
+    <None Include="Images\Insert\timemore16.png" />
+    <None Include="Images\Insert\timemore48.png" />
+    <None Include="Images\Insert\video16.png" />
+    <None Include="Images\Insert\video32.png" />
+    <None Include="Images\Insert\video48.png" />
+    <None Include="Images\Navigation\linedown16.png" />
+    <None Include="Images\Navigation\linedown32.png" />
+    <None Include="Images\Navigation\linedown48.png" />
+    <None Include="Images\Navigation\lineleft16.png" />
+    <None Include="Images\Navigation\lineleft32.png" />
+    <None Include="Images\Navigation\lineleft48.png" />
+    <None Include="Images\Navigation\lineright16.png" />
+    <None Include="Images\Navigation\lineright32.png" />
+    <None Include="Images\Navigation\lineright48.png" />
+    <None Include="Images\Navigation\lineup16.png" />
+    <None Include="Images\Navigation\lineup32.png" />
+    <None Include="Images\Navigation\lineup48.png" />
+    <None Include="Images\Navigation\pagedown16.png" />
+    <None Include="Images\Navigation\pagedown32.png" />
+    <None Include="Images\Navigation\pagedown48.png" />
+    <None Include="Images\Navigation\pageleft16.png" />
+    <None Include="Images\Navigation\pageleft32.png" />
+    <None Include="Images\Navigation\pageleft48.png" />
+    <None Include="Images\Navigation\pageright16.png" />
+    <None Include="Images\Navigation\pageright32.png" />
+    <None Include="Images\Navigation\pageright48.png" />
+    <None Include="Images\Navigation\pageup16.png" />
+    <None Include="Images\Navigation\pageup32.png" />
+    <None Include="Images\Navigation\pageup48.png" />
+    <None Include="Images\PageLayout\backgroundcolor16.png" />
+    <None Include="Images\PageLayout\backgroundcolor32.png" />
+    <None Include="Images\PageLayout\backgroundcolor48.png" />
+    <None Include="Images\PageLayout\pagemargins32.png" />
+    <None Include="Images\PageLayout\pagemargins48.png" />
+    <None Include="Images\PageLayout\pagesize32.png" />
+    <None Include="Images\rtf32.ico" />
+    <None Include="Images\Tab\close8.png" />
+    <None Include="Images\Tab\edit16.png" />
+    <None Include="Images\Tab\home16.png" />
+    <None Include="Images\Tab\home48.png" />
+    <None Include="Images\Tab\html16.png" />
+    <None Include="Images\Tab\html48.png" />
+    <None Include="Images\Tab\rtf16.png" />
+    <None Include="Images\Tab\rtf32.png" />
+    <None Include="Images\Tab\rtf48.png" />
+    <None Include="Images\Tab\tools16.png" />
+    <None Include="Images\Tab\tools48.png" />
+    <None Include="Images\Tab\txt16.png" />
+    <None Include="Images\Tab\txt48.png" />
+    <None Include="Images\Tab\xaml16.png" />
+    <None Include="Images\Tab\xaml32.png" />
+    <None Include="Images\Tab\xaml48.png" />
+    <None Include="Images\Tools\clear16.png" />
+    <None Include="Images\Tools\clear48.png" />
+    <None Include="Images\Tools\correctall16.png" />
+    <None Include="Images\Tools\correctall48.png" />
+    <None Include="Images\Tools\definitions16.png" />
+    <None Include="Images\Tools\definitions32.png" />
+    <None Include="Images\Tools\definitions48.png" />
+    <None Include="Images\Tools\ignorespellingerror16.png" />
+    <None Include="Images\Tools\ignorespellingerror48.png" />
+    <None Include="Images\Tools\nextspellingerror16.png" />
+    <None Include="Images\Tools\nextspellingerror48.png" />
+    <None Include="Images\Tools\openfolder16.png" />
+    <None Include="Images\Tools\openfolder48.png" />
+    <None Include="Images\Tools\options16.png" />
+    <None Include="Images\Tools\options32.png" />
+    <None Include="Images\Tools\options48.png" />
+    <None Include="Images\Tools\plugins16.png" />
+    <None Include="Images\Tools\plugins32.png" />
+    <None Include="Images\Tools\plugins48.png" />
+    <None Include="Images\Tools\previousspellingerror16.png" />
+    <None Include="Images\Tools\previousspellingerror48.png" />
+    <None Include="Images\Tools\reset16.png" />
+    <None Include="Images\Tools\reset48.png" />
+    <None Include="Images\Tools\speech16.png" />
+    <None Include="Images\Tools\speech32.png" />
+    <None Include="Images\Tools\speech48.png" />
+    <None Include="Images\Tools\spellcheck16.png" />
+    <None Include="Images\Tools\spellcheck32.png" />
+    <None Include="Images\Tools\spellcheck48.png" />
+    <None Include="Images\Tools\startup16.png" />
+    <None Include="Images\Tools\templates32.png" />
+    <None Include="Images\Tools\templates48.png" />
+    <None Include="Images\Tools\theme16.png" />
+    <None Include="Images\Tools\translate16.png" />
+    <None Include="Images\Tools\translate32.png" />
+    <None Include="Images\Tools\translate48.png" />
+    <None Include="Images\txt32.ico" />
+    <None Include="Images\View\fullscreen16.png" />
+    <None Include="Images\View\fullscreen32.png" />
+    <None Include="Images\View\fullscreen48.png" />
+    <None Include="Images\View\resetzoom16.png" />
+    <None Include="Images\View\resetzoom32.png" />
+    <None Include="Images\View\resetzoom48.png" />
+    <None Include="Images\View\ruler16.png" />
+    <None Include="Images\View\ruler32.png" />
+    <None Include="Images\View\ruler48.png" />
+    <None Include="Images\View\statusbar16.png" />
+    <None Include="Images\View\statusbar32.png" />
+    <None Include="Images\View\statusbar48.png" />
+    <None Include="Images\View\verticalruler32.png" />
+    <None Include="Images\View\zoomin16.png" />
+    <None Include="Images\View\zoomin32.png" />
+    <None Include="Images\View\zoomin48.png" />
+    <None Include="Images\View\zoomout16.png" />
+    <None Include="Images\View\zoomout32.png" />
+    <None Include="Images\View\zoomout48.png" />
+    <None Include="Images\xaml32.ico" />
+    <None Include="Templates\Basic Document %288.5 x 11%29.png" />
+    <None Include="Templates\Business card %283.5 x 2%29.png" />
+    <None Include="Templates\Postcard %285 x 3.5%29.png" />
+    <None Include="Templates\Wide Page %2811 x 8.5%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="App.xaml" />
+    <Page Include="Dialogs\Edit\FindDialog.xaml" />
+    <Page Include="Dialogs\Edit\GoToDialog.xaml" />
+    <Page Include="Dialogs\Edit\ReplaceDialog.xaml" />
+    <Page Include="Dialogs\Format\FontDialog.xaml" />
+    <Page Include="Dialogs\Format\FontSizeDialog.xaml" />
+    <Page Include="Dialogs\Format\LineSpacingDialog.xaml" />
+    <Page Include="Dialogs\Help\AboutDialog.xaml" />
+    <Page Include="Dialogs\Insert\ChartDialog.xaml" />
+    <Page Include="Dialogs\Insert\DateDialog.xaml" />
+    <Page Include="Dialogs\Insert\InsertLineDialog.xaml" />
+    <Page Include="Dialogs\Insert\LinkDialog.xaml" />
+    <Page Include="Dialogs\Insert\ObjectDialog.xaml" />
+    <Page Include="Dialogs\Insert\ObjectPropertiesDialog.xaml" />
+    <Page Include="Dialogs\Insert\ShapeDialog.xaml" />
+    <Page Include="Dialogs\Insert\TableDialog.xaml" />
+    <Page Include="Dialogs\Insert\TimeDialog.xaml" />
+    <Page Include="Dialogs\Insert\VideoDialog.xaml" />
+    <Page Include="Dialogs\LoadFileDialog.xaml" />
+    <Page Include="Dialogs\MessageBoxDialog.xaml" />
+    <Page Include="Dialogs\SaveFileDialog.xaml" />
+    <Page Include="Dialogs\StartupDialog.xaml" />
+    <Page Include="Dialogs\Tools\OptionsDialog.xaml" />
+    <Page Include="Dialogs\Tools\SpellCheckDialog.xaml" />
+    <Page Include="Dialogs\Tools\TranslateDialog.xaml" />
+    <Page Include="DocEditor\TabHeader.xaml" />
+    <Page Include="MainWindow.xaml" />
+    <Page Include="Misc\FluentAddons\FluentEmoticonGallery.xaml" />
+    <Page Include="Misc\FluentAddons\FluentSymbolGallery.xaml" />
+    <Page Include="Misc\FluentAddons\FluentTableGrid.xaml" />
+    <Page Include="Templates\Basic Document %288.5 x 11%29.xaml" />
+    <Page Include="Templates\Business card %283.5 x 2%29.xaml" />
+    <Page Include="Templates\Postcard %285 x 3.5%29.xaml" />
+    <Page Include="Templates\Wide Page %2811 x 8.5%29.xaml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Dialogs" />
+    <Folder Include="Dialogs\Edit" />
+    <Folder Include="Dialogs\Format" />
+    <Folder Include="Dialogs\Help" />
+    <Folder Include="Dialogs\Insert" />
+    <Folder Include="Dialogs\Tools" />
+    <Folder Include="DocEditor" />
+    <Folder Include="Images" />
+    <Folder Include="Images\Common" />
+    <Folder Include="Images\Contextual" />
+    <Folder Include="Images\Document" />
+    <Folder Include="Images\Document\Close" />
+    <Folder Include="Images\Document\Export" />
+    <Folder Include="Images\Edit" />
+    <Folder Include="Images\Format" />
+    <Folder Include="Images\Format\Lists" />
+    <Folder Include="Images\Help" />
+    <Folder Include="Images\Insert" />
+    <Folder Include="Images\Insert\Emoticons" />
+    <Folder Include="Images\Insert\Object" />
+    <Folder Include="Images\Navigation" />
+    <Folder Include="Images\PageLayout" />
+    <Folder Include="Images\Tab" />
+    <Folder Include="Images\Tools" />
+    <Folder Include="Images\View" />
+    <Folder Include="Misc" />
+    <Folder Include="Misc\FluentAddons" />
+    <Folder Include="Templates" />
+    <Folder Include="FTP" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
